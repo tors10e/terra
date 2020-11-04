@@ -1,1 +1,1 @@
-scp -r terra/* torsten@terraincognitavineyard.com:/home/www/terraincognitavineyard.com
+scp -r ../../terra/* torsten@terraincognitavineyard.com:/home/www/terraincognitavineyard.com
