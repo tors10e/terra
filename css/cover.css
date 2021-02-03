@@ -51,7 +51,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 100%;
 }
 
 
@@ -65,7 +65,16 @@ body {
 .masthead-brand {
   margin-bottom: 0;
 }
-
+.navbar-fixed-top,
+.navbar-normal .navigation-sections{
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-normal{
+      height: 65px;
+  }
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -125,4 +134,3 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
-
