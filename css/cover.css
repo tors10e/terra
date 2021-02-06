@@ -35,8 +35,11 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
+p {
+  text-align: left;
+}
 .wrapper {
-    background: url('../images/DJI_0443_1500.JPG')
+    background: url('../images/aerial_west_view.jpg')
 }
 
 .page-holder {
@@ -125,8 +128,8 @@ body {
 .card {
     background-color: #808080;
     text-align: left;
+    width: 20rem;
     }
-
 
 /*
  * Footer
