@@ -39,7 +39,7 @@ p {
   text-align: left;
 }
 .wrapper {
-    background: url('../images/aerial_west_view.jpg')
+
 }
 
 .page-holder {
@@ -114,7 +114,6 @@ p {
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
