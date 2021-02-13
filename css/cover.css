@@ -39,7 +39,7 @@ p {
   text-align: left;
 }
 .wrapper {
-    background: url('../images/aerial_west_view.jpg')
+
 }
 
 .page-holder {
@@ -54,7 +54,7 @@ p {
 }
 
 .cover-container {
-  max-width: 50em;
+  max-width: 100%;
 }
 
 
@@ -68,7 +68,16 @@ p {
 .masthead-brand {
   margin-bottom: 0;
 }
-
+.navbar-fixed-top,
+.navbar-normal .navigation-sections{
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-normal{
+      height: 65px;
+  }
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -105,7 +114,6 @@ p {
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -128,4 +136,3 @@ p {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
-
