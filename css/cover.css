@@ -20,11 +20,6 @@ a:hover {
 }
 
 
-/*
- * Base structure
- */
-
-
 body {
   height: 100%;
   background-color: #333;
@@ -37,11 +32,12 @@ body {
 
 p {
   text-align: left;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .wrapper {
 
 }
-
 .page-holder {
   min-height: 100vh;
 }
@@ -56,7 +52,6 @@ p {
 .cover-container {
   max-width: 100%;
 }
-
 
 /*
  * Header
@@ -104,11 +99,11 @@ p {
   .masthead-brand {
     float: left;
   }
+
   .nav-masthead {
     float: right;
   }
 }
-
 
 /*
  * Cover
@@ -123,7 +118,12 @@ p {
 /*
  * Body
  */
-
+ .topic {
+   margin-bottom: 3rem;
+ }
+ .topic-even {
+   background-color: DimGrey;
+ }
 .card {
     background-color: #808080;
     text-align: left;
