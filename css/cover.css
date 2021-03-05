@@ -119,11 +119,15 @@ p {
  * Body
  */
  .topic {
+   margin-top: 3rem;
    margin-bottom: 3rem;
+   padding-top: 3rem;
  }
+
  .topic-even {
-   background-color: DimGrey;
+   background-color: #546D54;
  }
+
 .card {
     background-color: #808080;
     text-align: left;
