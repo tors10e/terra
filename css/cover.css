@@ -53,6 +53,18 @@ p {
   max-width: 100%;
 }
 
+.list-unordered {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 1.0em;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+#event-group {
+  color: black;
+}
+
 /*
  * Header
  */
@@ -121,11 +133,12 @@ p {
  .topic {
    margin-top: 3rem;
    margin-bottom: 3rem;
-   padding-top: 3rem;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
  }
 
  .topic-even {
-   background-color: #546D54;
+   background-color: rgb(65, 95, 75);
  }
 
 .card {
