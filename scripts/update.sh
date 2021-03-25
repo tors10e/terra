@@ -1,1 +1,0 @@
-scp -r ../../terra/* torsten@terraincognitavineyard.com:/home/www/terraincognitavineyard.com
