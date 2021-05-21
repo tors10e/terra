@@ -27,7 +27,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: black;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+/*  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);*/
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
@@ -41,6 +41,10 @@ p {
 }
 .page-holder {
   min-height: 100vh;
+}
+
+.image {
+  margin-top: 1.5rem;
 }
 
 .bg-cover {
