@@ -37,6 +37,7 @@
       })
     });
 
+
     </script>
 
     <style>
@@ -54,6 +55,7 @@
         font-size: 3.5rem;
       }
     }
+
 
     </style>
     <!-- Custom styles for this template -->
@@ -180,223 +182,285 @@
                 <div class="container">
                     <!-- row 1 -->
                     <div class="row">
-                        <div class="col-sm text-center">s
-                            <h3>White Wines</h3>
-                        </div>
-                        <div class="col-sm">
-                            <h3>Red Wines</h3>
-                        </div>
-                        <div class="col-sm" onClick="controlModal('rose_modal', 'show')">
-                            <div class="plus-block--item-wrapper inline">
-                            <div class="plus-block--img-wrapper">
-                                <img src="./images/1000x1000/terra_wines_1000x1000.jpg"/>
-                                <h3>Compass Rose&#769;</h3>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="rose_modal" tabindex="-1" role="dialog"
-                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Compass Rose</h5>
-                                                <button type="button" class="close"
-                                                        onClick="controlModal('rose_modal', 'hide')" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>This is best wine ...</p>
+                        <!-- Chardonnay Modal -->
+                        <div class="col-sm" onClick="controlModal('chardonnay-modal', 'show')">
+                            <div class="plus-block--item-wrapper inline">
+                                <div class="plus-block--img-wrapper">
+                                    <img src="./images/1000x1000/terra_wines_1000x1000.jpg"/>
+                                    <h3>Chardonnay</h3>
+
+                                    <div class="modal fade" id="chardonnay-modal" tabindex="-1" role="dialog"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Chardonnay</h5>
+                                                    <button type="button" class="close"
+                                                            onClick="controlModal('chardonnay-modal', 'hide')"
+                                                            aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>chardonnay is best wine ...</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
+ <!-- Cabernet Modal -->
+                        <div class="col-sm" onClick="controlModal('cabernet-modal', 'show')">
+                            <div class="plus-block--item-wrapper inline">
+                                <div class="plus-block--img-wrapper">
+                                    <img src="./images/1000x1000/terra_wines_1000x1000.jpg"/>
+                                    <h3>Cabernet Sauvignon</h3>
+
+                                    <div class="modal fade" id="cabernet-modal" tabindex="-1" role="dialog" 
+                                         aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Cabernet Sauvignon</h5>
+                                                    <button type="button" class="close"
+                                                            onClick="controlModal('cabernet-modal', 'hide')"
+                                                            aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Cabernet is best wine ...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Compass Rose Modal -->
+                        <div class="col-sm" onClick="controlModal('rose-modal', 'show')">
+                            <div class="plus-block--item-wrapper inline">
+                                <div class="plus-block--img-wrapper">
+                                    <img src="./images/1000x1000/terra_wines_1000x1000.jpg"/>
+                                    <h3>Compass Rose&#769;</h3>
+
+                                    <div class="modal fade" id="rose-modal" tabindex="-1" role="dialog"
+                                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Compass Rose</h5>
+                                                    <button type="button" class="close"
+                                                            onClick="controlModal('rose-modal', 'hide')"
+                                                            aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>This is best wine ...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <!-- row 2 -->
+                    <div class="row">
+                        <div class="col-sm">
+                            Chardonnay
+                        </div>
+                    </div>
+
+                    <!-- row 3 -->
+                    <div class="row">
+                        <div class="col-sm">
+                            True North
+                        </div>
+                        <div class="col-sm">
+                            Cardinal Direction
+                        </div>
+                        <div class="col-sm"></div>
+                    </div>
+
+                    <!-- row 4 -->
+                    <div class="row">
+                        <div class="col-sm">
+                            White Meridian
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                    </div>
+
+                    <!-- spacer -->
+                    <div class="row">
+                        <div class="col-sm text-center">
+                            <h3></h3>
+                        </div>
+                        <div class="col-sm">
+                            <h3></h3>
+                        </div>
+                        <div class="col-sm">
+                            <h3></h3>
+                        </div>
+                    </div>
+
+                    <!-- Header 2 -->
+                    <div class="row">
+                        <div class="col-sm text-center">
+                            <h3>Sparkling Wines</h3>
+                        </div>
+                        <div class="col-sm">
+                            <h3>Meade</h3>
+                        </div>
+                        <div class="col-sm">
+                            <h3>Fruit Wines</h3>
+                        </div>
+                    </div>
+
+                    <img src="./images/terra_wines.jpg" class="rounded mx-auto d-block image" alt="...">
+
                 </div>
 
-                <!-- row 2 -->
-                <div class="row">
-                    <div class="col-sm">
-                        Chardonnay
-                    </div>
-                    <div class="col-sm">
-                        Cabernet Sauvignon
-                    </div>
-                </div>
-
-                <!-- row 3 -->
-                <div class="row">
-                    <div class="col-sm">
-                        True North
-                    </div>
-                    <div class="col-sm">
-                        Cardinal Direction
-                    </div>
-                    <div class="col-sm"></div>
-                </div>
-
-                <!-- row 4 -->
-                <div class="row">
-                    <div class="col-sm">
-                        White Meridian
-                    </div>
-                    <div class="col-sm">
-                    </div>
-                    <div class="col-sm">
-                    </div>
-                </div>
-
-                <!-- spacer -->
-                <div class="row">
-                    <div class="col-sm text-center">
-                        <h3></h3>
-                    </div>
-                    <div class="col-sm">
-                        <h3></h3>
-                    </div>
-                    <div class="col-sm">
-                        <h3></h3>
-                    </div>
-                </div>
-
-                <!-- Header 2 -->
-                <div class="row">
-                    <div class="col-sm text-center">
-                        <h3>Sparkling Wines</h3>
-                    </div>
-                    <div class="col-sm">
-                        <h3>Meade</h3>
-                    </div>
-                    <div class="col-sm">
-                        <h3>Fruit Wines</h3>
-                    </div>
-                </div>
-
-                <img src="./images/terra_wines.jpg" class="rounded mx-auto d-block image" alt="...">
-
+                <!--end grid -->
             </div>
 
-            <!--end grid -->
-    </div>
-    <div class="topic section-heading">
-        <h2 id="directions">Directions</h2>
-        <div class="container">
-            <div class="row">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">From Clarkesville (13 mi)</h5>
-                        <p class="card-text">
-                        <ol>
-                            <li>Follow Historic 441 for 2 mi.</li>
-                            <li>Turn left on New Liberty Rd. for 7 mi.</li>
-                            <li>Turn right on Low Gap Rd. for 3.6 mi.</li>
-                            <li>Turn right on Vandiver Mtn. Rd. for 1.2 mi</li>
-                        </ol>
-                        </p>
-                        <a target="_blank" class="btn btn-primary"
-                           href="https://www.google.com/maps/dir/34.6158277,-83.5270574/Vandiver+Mountain+Rd,+Georgia@34.6742687,-83.5846048,12z/@34.6724925,-83.5182853,12.5z/data=!4m14!4m13!1m5!3m4!1m2!1d-83.4974312!2d34.6235221!3s0x8858b69879b9084f:0x2fbd47d20b3016de!1m5!1m1!1s0x8858c982f82186f5:0xaa8cd4c722afaf3f!2m2!1d-83.4992099!2d34.731045!3e0">Chart
-                            on Google Maps</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">From Clayton (19 mi)</h5>
-                        <p class="card-text">
-                        <ol>
-                            <li>Follow US-76 West for 16.9 mi.</li>
-                            <li> Turn left on Charlie Mountain Rd. for 3.6 mi.</li>
-                            <li> Turn right on Bridge Creek Rd. for 2 mi.</li>
-                            <li> Turn left on Seed Lake Rd. for 4.4 mi.</li>
-                            <li> Turn right on Low Gap Rd. 4.2 mi.</li>
-                            <li> Turn left on Vandiver Mtn. Rd. for 1.2 mi</li>
-                        </ol>
-                        </p>
-                        <a class="btn btn-primary" target="_blank"
-                           href="https://www.google.com/maps/dir/Clayton,+Georgia+30525/Vandiver+Mountain+Rd,+Georgia/@34.807062,-83.5383547,12z/am=t/data=!4m13!4m12!1m5!1m1!1s0x8858dabf68ad91b7:0xc7f40afdec4f498d!2m2!1d-83.4009933!2d34.8781479!1m5!1m1!1s0x8858c982f82186f5:0xaa8cd4c722afaf3f!2m2!1d-83.4992099!2d34.731045">Chart
-                            on Google Maps</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">From Helen, Cleveland, Sautee (22 mi)</h5>
-                        <p class="card-text">
-                        <ol>
-                            <li>Follow GA-17 East for 2.2 mi.</li>
-                            <li>Turn left on to GA-255 at Sautee for 7.7 mi.</li>
-                            <li>Turn right on to GA-197 for 2.3 mi.</li>
-                            <li>Turn left on to Watts Mill Rd. for 1.2 mi.</li>
-                            <li>Turn right on Oakey Mtn. Rd. for 4.3 mi.</li>
-                            <li>Turn left on Low Gap Rd. 4.2 mi.</li>
-                            <li>Turn left on Vandiver Mtn. Rd. for 1.2 mi</li>
-                        </ol>
-                        </p>
-                        <a class="btn btn-primary" target="_blank"
-                           href="https://www.google.com/maps/dir/34.6848302,-83.709846/Terra+Incognita+Vineyard,+Vandiver+Mountain+Road,+Clarkesville,+GA/@34.7164852,-83.6417451,12.75z/data=!4m19!4m18!1m10!3m4!1m2!1d-83.6743233!2d34.683858!3s0x885f4a1dba398ca1:0x95b80e1fb8a54480!3m4!1m2!1d-83.5240395!2d34.708332!3s0x8858ca144d8be38b:0xbe605d406e621734!1m5!1m1!1s0x8858c915d77b42fd:0x4c7a8c1b7677a54d!2m2!1d-83.4976891!2d34.7295813!3e0">Chart
-                            on Google Maps</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">From Tallulah Gorge (15 mi)</h5>
-                        <p class="card-text">
-                        <ol>
-                            <li>Follow 441 for 1.2 mi.</li>
-                            <li>Turn left on to Old 441 for 2.6 mi.</li>
-                            <li>Turn left on to Lake Rabun Rd. for 6.3 mi.</li>
-                            <li>Turn left on to Low Gap Rd. for 4.5 mi.</li>
-                            <li>Turn left on Vandiver Mtn. Rd. for 1.2 mi</li>
-                        </ol>
-                        </p>
-                        <a class="btn btn-primary" target="_blank"
-                           href="https://www.google.com/maps/dir/Tallulah+Gorge+State+Park,+338+Jane+Hurt+Yarn+Rd,+Tallulah+Falls,+GA+30573/Terra+Incognita+Vineyard,+Vandiver+Mountain+Road,+Clarkesville,+GA/@34.7545624,-83.4935558,13z/am=t/data=!3m1!4b1!4m19!4m18!1m10!1m1!1s0x8858c6fec0b2e6a1:0x121373585bc0f494!2m2!1d-83.3964755!2d34.7427244!3m4!1m2!1d-83.3986342!2d34.7646381!3s0x8858c67316d99ce3:0x6eede083255604b7!1m5!1m1!1s0x8858c915d77b42fd:0x4c7a8c1b7677a54d!2m2!1d83.4976891!2d34.7295813!3e0">Chart
-                            on Google Maps</a>
+            <div class="topic section-heading">
+                <h2 id="directions">Directions</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">From Clarkesville (13 mi)</h5>
+                                <p class="card-text">
+                                <ol>
+                                    <li>Follow Historic 441 for 2 mi.</li>
+                                    <li>Turn left on New Liberty Rd. for 7 mi.</li>
+                                    <li>Turn right on Low Gap Rd. for 3.6 mi.</li>
+                                    <li>Turn right on Vandiver Mtn. Rd. for 1.2 mi</li>
+                                </ol>
+                                </p>
+                                <a target="_blank" class="btn btn-primary"
+                                   href="https://www.google.com/maps/dir/34.6158277,-83.5270574/Vandiver+Mountain+Rd,+Georgia@34.6742687,-83.5846048,12z/@34.6724925,-83.5182853,12.5z/data=!4m14!4m13!1m5!3m4!1m2!1d-83.4974312!2d34.6235221!3s0x8858b69879b9084f:0x2fbd47d20b3016de!1m5!1m1!1s0x8858c982f82186f5:0xaa8cd4c722afaf3f!2m2!1d-83.4992099!2d34.731045!3e0">Chart
+                                    on Google Maps</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">From Clayton (19 mi)</h5>
+                                <p class="card-text">
+                                <ol>
+                                    <li>Follow US-76 West for 16.9 mi.</li>
+                                    <li> Turn left on Charlie Mountain Rd. for 3.6 mi.</li>
+                                    <li> Turn right on Bridge Creek Rd. for 2 mi.</li>
+                                    <li> Turn left on Seed Lake Rd. for 4.4 mi.</li>
+                                    <li> Turn right on Low Gap Rd. 4.2 mi.</li>
+                                    <li> Turn left on Vandiver Mtn. Rd. for 1.2 mi</li>
+                                </ol>
+                                </p>
+                                <a class="btn btn-primary" target="_blank"
+                                   href="https://www.google.com/maps/dir/Clayton,+Georgia+30525/Vandiver+Mountain+Rd,+Georgia/@34.807062,-83.5383547,12z/am=t/data=!4m13!4m12!1m5!1m1!1s0x8858dabf68ad91b7:0xc7f40afdec4f498d!2m2!1d-83.4009933!2d34.8781479!1m5!1m1!1s0x8858c982f82186f5:0xaa8cd4c722afaf3f!2m2!1d-83.4992099!2d34.731045">Chart
+                                    on Google Maps</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">From Helen, Cleveland, Sautee (22 mi)</h5>
+                                <p class="card-text">
+                                <ol>
+                                    <li>Follow GA-17 East for 2.2 mi.</li>
+                                    <li>Turn left on to GA-255 at Sautee for 7.7 mi.</li>
+                                    <li>Turn right on to GA-197 for 2.3 mi.</li>
+                                    <li>Turn left on to Watts Mill Rd. for 1.2 mi.</li>
+                                    <li>Turn right on Oakey Mtn. Rd. for 4.3 mi.</li>
+                                    <li>Turn left on Low Gap Rd. 4.2 mi.</li>
+                                    <li>Turn left on Vandiver Mtn. Rd. for 1.2 mi</li>
+                                </ol>
+                                </p>
+                                <a class="btn btn-primary" target="_blank"
+                                   href="https://www.google.com/maps/dir/34.6848302,-83.709846/Terra+Incognita+Vineyard,+Vandiver+Mountain+Road,+Clarkesville,+GA/@34.7164852,-83.6417451,12.75z/data=!4m19!4m18!1m10!3m4!1m2!1d-83.6743233!2d34.683858!3s0x885f4a1dba398ca1:0x95b80e1fb8a54480!3m4!1m2!1d-83.5240395!2d34.708332!3s0x8858ca144d8be38b:0xbe605d406e621734!1m5!1m1!1s0x8858c915d77b42fd:0x4c7a8c1b7677a54d!2m2!1d-83.4976891!2d34.7295813!3e0">Chart
+                                    on Google Maps</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">From Tallulah Gorge (15 mi)</h5>
+                                <p class="card-text">
+                                <ol>
+                                    <li>Follow 441 for 1.2 mi.</li>
+                                    <li>Turn left on to Old 441 for 2.6 mi.</li>
+                                    <li>Turn left on to Lake Rabun Rd. for 6.3 mi.</li>
+                                    <li>Turn left on to Low Gap Rd. for 4.5 mi.</li>
+                                    <li>Turn left on Vandiver Mtn. Rd. for 1.2 mi</li>
+                                </ol>
+                                </p>
+                                <a class="btn btn-primary" target="_blank"
+                                   href="https://www.google.com/maps/dir/Tallulah+Gorge+State+Park,+338+Jane+Hurt+Yarn+Rd,+Tallulah+Falls,+GA+30573/Terra+Incognita+Vineyard,+Vandiver+Mountain+Road,+Clarkesville,+GA/@34.7545624,-83.4935558,13z/am=t/data=!3m1!4b1!4m19!4m18!1m10!1m1!1s0x8858c6fec0b2e6a1:0x121373585bc0f494!2m2!1d-83.3964755!2d34.7427244!3m4!1m2!1d-83.3986342!2d34.7646381!3s0x8858c67316d99ce3:0x6eede083255604b7!1m5!1m1!1s0x8858c915d77b42fd:0x4c7a8c1b7677a54d!2m2!1d83.4976891!2d34.7295813!3e0">Chart
+                                    on Google Maps</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="topic topic-even section-heading">
-        <h2 id="trails">Trails</h2>
-        <p>Get out and enjoy these beautiful mountains. We have a few trails that make for easy walking or spend some
-            time walking
-            through the vineyard. We have two basic loops that are fit for general use, the Eastern Creek Loop and
-            the Spring House Loop.</p>
-        <p>The creek trail starts at the pavilion and works its way down to Falls Branch and follows
-            it up to the gravel road. Visitors can then follow the road back to the start or contour along the
-            bottom of the vineyard and back up. On the Western hillside, the Spring House loop takes you along the
-            edge of our hybrid grapes and then to an old dry-stack, spring house.
-        </p>
-        <p>
-            Although you can spend some time hiking at Terra, you can also use us as a base-of-operations and explore
-            other nearby
-            hiking and mountain biking trails. Have a look at this list on <a
-                href="https://www.alltrails.com/lists/near-terra" target="_blank">AllTrails Near Terra</a> for better
-            information
-        <h4><a href="./images/on_property_trails.jpg" target="_blank" class="btn btn-primary">Click here to see the
-            trail
-            map</a></h4>
-    </div>
-    <div class="topic topic-odd section-heading">
-        <h2 id="camping">Camping</h2>
-        <p>Unimproved camping is available on the western hillside overlooking the vineyard. Since we limit camping to
-            one group, you'll have
-            the place to yourself. To reserve a spot go to <a
-                    href="https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard"
-                    target="_blank"> https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard</a>.
+            <div class="topic topic-even section-heading">
+                <h2 id="trails">Trails</h2>
+                <p>Get out and enjoy these beautiful mountains. We have a few trails that make for easy walking or spend
+                    some
+                    time walking
+                    through the vineyard. We have two basic loops that are fit for general use, the Eastern Creek Loop
+                    and
+                    the Spring House Loop.</p>
+                <p>The creek trail starts at the pavilion and works its way down to Falls Branch and follows
+                    it up to the gravel road. Visitors can then follow the road back to the start or contour along the
+                    bottom of the vineyard and back up. On the Western hillside, the Spring House loop takes you along
+                    the
+                    edge of our hybrid grapes and then to an old dry-stack, spring house.
+                </p>
+                <p>
+                    Although you can spend some time hiking at Terra, you can also use us as a base-of-operations and
+                    explore
+                    other nearby
+                    hiking and mountain biking trails. Have a look at this list on <a
+                        href="https://www.alltrails.com/lists/near-terra" target="_blank">AllTrails Near Terra</a> for
+                    better
+                    information
+                <h4><a href="./images/on_property_trails.jpg" target="_blank" class="btn btn-primary">Click here to see
+                    the
+                    trail
+                    map</a></h4>
+            </div>
+            <div class="topic topic-odd section-heading">
+                <h2 id="camping">Camping</h2>
+                <p>Unimproved camping is available on the western hillside overlooking the vineyard. Since we limit
+                    camping to
+                    one group, you'll have
+                    the place to yourself. To reserve a spot go to <a
+                            href="https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard"
+                            target="_blank">
+                        https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard</a>.
 
-            If you're a current camper, check out the <a href="./images/terra_orientation.pdf" target="_blank">orientation
-                sheet</a>
-            for information on what to expect and what to do.
-        </p>
+                    If you're a current camper, check out the <a href="./images/terra_orientation.pdf" target="_blank">orientation
+                        sheet</a>
+                    for information on what to expect and what to do.
+                </p>
+            </div>
+        </main>
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Terra Incognita Vineyard, LLC</p>
+            </div>
+        </footer>
     </div>
-    </main>
-    <footer class="mastfoot mt-auto">
-        <div class="inner">
-            <p>Terra Incognita Vineyard, LLC</p>
-        </div>
-    </footer>
-</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
