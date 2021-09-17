@@ -19,3 +19,7 @@ npx babel --watch src --out-dir ./js/react --presets react-app/prod
 
 - Add React Modal 
 npm install --save react-modal
+
+- Install JQuery
+- npm install jquery --save
+- 
