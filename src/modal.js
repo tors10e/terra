@@ -1,10 +1,8 @@
 'use strict';
 
-//import $ from 'jquery';
-
 function Modal(props) {
    return(
- <div class="col-sm plus-block--item" onClick={ShowModal}  >
+            <div class="col-sm plus-block--item" onClick={ShowModal}  >
                             <div class="plus-block--item-wrapper inline">
                                 <div class="plus-block--img-wrapper">
                                     <img src="./images/1000x1000/cab_sav_1000x1000.jpg"/>
@@ -60,7 +58,6 @@ function HideModal(props) {
 }
 
 const domContainer = document.querySelector('#modal_container');
-//const domContainer = document.getElementById('modal_container')
 ReactDOM.render(
     <Modal />, domContainer
 );
