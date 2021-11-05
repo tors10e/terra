@@ -1,11 +1,22 @@
 'use strict';
 
+function CabernetModal(props) {
+ data={image_source:"./images/1000x1000/cab_sav_1000x1000.jpg",
+    name:"Cabernet Sauvignon"}
+
+return (
+
+)
+ }
+
+
+
 function Modal(props) {
    return(
             <div class= onClick={ShowModal}  >
                             <div class="plus-block--item-wrapper inline">
                                 <div class="plus-block--img-wrapper">
-                                    <img src="./images/1000x1000/cab_sav_1000x1000.jpg"/>
+                                    <img src={props.image_source}/>
                                     <h3>Cabernet Sauvignon</h3>
 
                                     <div class="modal fade" id="cabernet-modal" tabindex="-1" role="dialog"
