@@ -90,13 +90,7 @@ f
         </header>
         <main class="inner cover bd-content" role="main">
             <div id="intro-pictures" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="alert alert-primary" role="alert">
-                        <div class="cover-heading">Nov. 19th, Music by Ryan Little Eagle 5 pm to 8 pm</div>
-                    </div>
-                    <div class="alert alert-danger" role="alert">
-                        <div class="cover-heading">Nov. 28th, Last day of the season. See you in March!</div>
-                    </div>
+                <div id="alert_container" class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block img-fluid" src="./images/aerial_sunset_2000.jpg" alt="First slide">
                     </div>
@@ -119,7 +113,7 @@ f
                 <p class="lead">Fields of grass perched above vineyard rows surrounded
                     by thousands of acres of protected forest land with unparalleled
                     views of the Southern Blueridge Mountains is the home of Terra
-                    Incognita Vineyard. Taking the meanadering gravel road, following the
+                    Incognita Vineyard. Taking the meandering gravel road, following the
                     backbone of Tallulah Ridge for a mile and a half, leads you up the mountain
                     and to the entrance.
                     Interested? If so, join us for wine sampling, plan an event
@@ -131,7 +125,7 @@ f
                 <div class="container">
                     <div class="row">
                         <div class="p-3 col-sm bg-light">
-                           March - November
+                           March - November (Currently closed for the season)
                         </div>
                     </div>
                     <div class="row">
@@ -584,11 +578,12 @@ f
 
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
 
   <!-- Load React components. -->
  <script src="./js/react/modal.js"></script>
+<script src="./js/react/alert.js"></script>
 </body>
 
 </html>
