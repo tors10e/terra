@@ -37,9 +37,6 @@
         interval: 3000
       })
     });
-
-
-
     </script>
 
     <style>
@@ -52,9 +49,6 @@
       user-select: none;
     }
 
-f
-
-
     </style>
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
@@ -64,29 +58,7 @@ f
 <div id="root" class="wrapper page-holder bg-cover">
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
         <header class="mb-auto">
-            <div class=nav-left">
-                <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
-                    <a class="navbar-brand alpha" href="#" style="color:darkslategrey;">Terra Incognita Vineyard</a>
-                    <a class="nav-link active" href="index.html">Home</a>
-                    <a class="nav-link" href="index.html#hours">Hours</a>
-                    <div class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">Events</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="events_public.html">Public Events</a>
-                            <a class="dropdown-item" href="events_private.html">Book your private event</a>
-                            <a class="dropdown-item" href="events_private.html">Weddings</a>
-                        </div>
-                    </div>
-                    <a class="nav-link" href="index.html#directions">Directions</a>
-                    <a class="nav-link" href="index.html#camping">Camping</a>
-                    <a class="nav-link" href="index.html#trails">Trails</a>
-                    <a class="nav-link" href="index.html#contact">Contact</a>
-                    <div class="nav-right ml-auto">
-                        <a href="https://www.facebook.com/TerraIncognitaVineyard" target="_blank"> <i
-                                class="bi bi-facebook icon-blue"></i></a>
-                    </div>
-                </nav>
+            <div id="nav_container" class=nav"></div>
         </header>
         <main class="inner cover bd-content" role="main">
             <div id="intro-pictures" class="carousel slide" data-ride="carousel">
@@ -578,12 +550,17 @@ f
 
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+
+<!--  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>-->
+<!--  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>-->
 
   <!-- Load React components. -->
- <script src="./js/react/modal.js"></script>
-<script src="./js/react/alert.js"></script>
+    <script src="./js/react/modal.js"></script>
+    <script src="./js/react/alert.js"></script>
+    <script src="./js/react/navbar.js"></script>
 </body>
 
 </html>
