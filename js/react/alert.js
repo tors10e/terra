@@ -26,6 +26,7 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
+        React.createElement(PrimaryAlert, { text: "Winter Wonderland popup scheduled for January 15th, 2022, get your tickets now!" }),
         React.createElement(DangerAlert, { text: "Closed for the season except for special events, stayed tuned!" })
     );
 }
