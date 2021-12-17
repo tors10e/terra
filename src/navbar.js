@@ -2,7 +2,7 @@ function NavBar(props) {
   return (
   <div>
         <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link" href="index.html#hours">Hours</a>
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -14,6 +14,7 @@ function NavBar(props) {
                         </div>
                     </div>
                     <a class="nav-link" href="index.html#directions">Directions</a>
+                    <a class="nav-link" href="food.html">Food</a>
                     <a class="nav-link" href="index.html#camping">Camping</a>
                     <a class="nav-link" href="index.html#trails">Trails</a>
                     <a class="nav-link" href="index.html#contact">Contact</a>

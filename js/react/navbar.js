@@ -7,7 +7,7 @@ function NavBar(props) {
             { "class": "navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light" },
             React.createElement(
                 "a",
-                { "class": "nav-link active", href: "index.html" },
+                { "class": "nav-link", href: "index.html" },
                 "Home"
             ),
             React.createElement(
@@ -48,6 +48,11 @@ function NavBar(props) {
                 "a",
                 { "class": "nav-link", href: "index.html#directions" },
                 "Directions"
+            ),
+            React.createElement(
+                "a",
+                { "class": "nav-link", href: "food.html" },
+                "Food"
             ),
             React.createElement(
                 "a",

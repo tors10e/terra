@@ -62,51 +62,16 @@
 <div class="wrapper page-holder bg-cover">
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
         <header class="mb-auto">
-            <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
-                <a class="navbar-brand alpha" href="#" style="color:darkslategrey;">Terra Incognita Vineyard</a>
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="index.html#hours">Hours</a>
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">Events</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="events_public.html">Public Events</a>
-                        <a class="dropdown-item" href="events_private.html">Book your private event</a>
-                        <a class="dropdown-item" href="events_private.html">Weddings</a>
-                    </div>
-                </div>
-                <a class="nav-link" href="index.html#directions">Directions</a>
-                <a class="nav-link" href="index.html#contact">Contact</a>
-                <div class="nav-right ml-auto">
-                    <a href="https://www.facebook.com/TerraIncognitaVineyard" target="_blank"> <i
-                            class="bi bi-facebook icon-blue"></i></a>
-                </div>
-            </nav>
+            <div id="nav_container" class=nav"></div>
         </header>
         <main class="inner cover bd-content" role="main">
             <div class="topic">
-                <h1 class="cover-heading"><u>Events Open to the Public</u></h1>
-                <p class="lead">Below is a calendar of events and notices to help you plan your trip to Terra.
-                </p>
-            </div>
-            <div class="topic">
-                <div class="alert alert-secondary" role="alert">
-                    <h2 class="cover-heading">Nov. 19th, Music by Ryan Little Eagle</h2>
-                </div>
-                <p class="lead">
-                    This Saturday we have a new artist, Ryan Little Eagle, a Native American singer-songwriter. He plays
-                    a "NDN Country" (say it out loud to understand that it's not an acronym) which is a mix of country
-                    and First Nations music. Check out his bio at his <a
-                        href="https://www.ryanlittleeaglemusic.com/biography" target="_blank">website</a>.
-                </p>
-            </div>
-            <div class="topic">
                 <div class="alert alert-primary" role="alert">
 
-                    <h2 class="cover-heading">Nov 27th, 2021 - Music by Jake Hicks</h2>
+                    <h2 class="cover-heading">January 15th, 2021 - Winter Wonderland Dinner</h2>
                 </div>
                 <p class="lead">
-                    Jake Hicks will be playing for us on the 27th of Nov. Come join us for some great music!
+                    Eric
                 </p>
             </div>
             <div class="alert alert-secondary" role="alert">
@@ -128,5 +93,17 @@
     </footer>
 </div>
 </div>
+
+<!--    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>-->
+
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+  <!-- Load React components. -->
+    <script src="./js/react/modal.js"></script>
+    <script src="./js/react/alert.js"></script>
+    <script src="./js/react/navbar.js"></script>
+
 </body>
 </html>
