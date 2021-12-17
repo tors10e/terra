@@ -2,6 +2,8 @@ function PrimaryAlert(props) {
   return (
     <div class="alert alert-primary" role="alert">
         <div class="cover-heading">{props.text}</div>
+        <img src={props.image_url} class="rounded"
+        alt={props.image_alt}></img>
     </div>);
     }
 
@@ -16,7 +18,11 @@ function PrimaryAlert(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!</a> } />
+        <PrimaryAlert
+            text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!</a> }
+            image_url='./images/winter_wonderland_flyer.png'
+            image_alt='winter wonderland flyer'
+        />
         <DangerAlert text="Closed for the season except for special events, stayed tuned!" />
         </div>
   );
