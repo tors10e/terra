@@ -50,9 +50,23 @@ function NavBar(props) {
                 "Directions"
             ),
             React.createElement(
-                "a",
-                { "class": "nav-link", href: "food.html" },
-                "Food"
+                "div",
+                { "class": "nav-item dropdown" },
+                React.createElement(
+                    "a",
+                    { "class": "nav-link dropdown-toggle", href: "#", id: "navbarDropdown", role: "button",
+                        "data-bs-toggle": "dropdown", "aria-expanded": "false" },
+                    "Food"
+                ),
+                React.createElement(
+                    "div",
+                    { "class": "dropdown-menu", "aria-labelledby": "navbarDropdown" },
+                    React.createElement(
+                        "a",
+                        { "class": "dropdown-item", href: "chefs_dinner.html" },
+                        "Chefs Dinner Events"
+                    )
+                )
             ),
             React.createElement(
                 "a",

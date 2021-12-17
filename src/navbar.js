@@ -14,7 +14,13 @@ function NavBar(props) {
                         </div>
                     </div>
                     <a class="nav-link" href="index.html#directions">Directions</a>
-                    <a class="nav-link" href="food.html">Food</a>
+                   <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">Food</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="chefs_dinner.html">Chefs Dinner Events</a>
+                        </div>
+                    </div>
                     <a class="nav-link" href="index.html#camping">Camping</a>
                     <a class="nav-link" href="index.html#trails">Trails</a>
                     <a class="nav-link" href="index.html#contact">Contact</a>
