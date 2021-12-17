@@ -28,8 +28,8 @@ function Alerts() {
         null,
         React.createElement(PrimaryAlert, { text: React.createElement(
                 "a",
-                { href: "./food.html" },
-                "Winter Wonderland popup scheduled for January 15th, 2022 - get your tickets now!"
+                { href: "./chefs_dinner.html" },
+                "Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!"
             ) }),
         React.createElement(DangerAlert, { text: "Closed for the season except for special events, stayed tuned!" })
     );

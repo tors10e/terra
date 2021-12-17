@@ -16,7 +16,7 @@ function PrimaryAlert(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert text={<a href="./food.html">Winter Wonderland popup scheduled for January 15th, 2022 - get your tickets now!</a> } />
+        <PrimaryAlert text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!</a> } />
         <DangerAlert text="Closed for the season except for special events, stayed tuned!" />
         </div>
   );
