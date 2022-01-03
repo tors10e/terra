@@ -16,7 +16,7 @@ function CabernetModal(props) {
 
 function Modal(props) {
    return(
-            <div class="plus-block--item-wrapper inline" onClick={showModal}>
+            <div class="plus-block--item-wrapper inline" onClick={ShowModal}>
                 <div class="plus-block--img-wrapper">
                     <img src={props.image_source}></img>
                         <h3>{props.name}</h3>
@@ -24,7 +24,7 @@ function Modal(props) {
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <ModalHeader name={props.name}/>
-                                            <ModalBody text={props.modal_text} />
+                                            <ModalBody text={props.modal_text}/>
                                     </div>
                                 </div>
                             </div>
@@ -58,14 +58,14 @@ function ModalBody(props) {
 
 function ShowModal(props) {
     return(
-        $("#cabernet_modal").modal('show')
+        $("#cabernet-modal").modal('show')
     );
 }
 
 
 function HideModal(props) {
     return(
-        $('#cabernet_modal').modal('hide')
+        $('#cabernet-modal').modal('hide')
     );
 }
 
