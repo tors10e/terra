@@ -37,7 +37,7 @@ function Alerts() {
             image_url: "./images/winter_wonderland_flyer.png",
             image_alt: "winter wonderland flyer"
         }),
-        React.createElement(DangerAlert, { text: "Closed for the season except for special events, stayed tuned!" })
+        React.createElement(DangerAlert, { text: "Closed for the season except for special events." })
     );
 }
 
