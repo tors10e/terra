@@ -13,7 +13,7 @@ function CabernetModal(props) {
 function Modal(props) {
     return React.createElement(
         "div",
-        { "class": "plus-block--item-wrapper inline", onClick: ShowModal },
+        { "class": "plus-block--item-wrapper inline", onClick: showModal },
         React.createElement(
             "div",
             { "class": "plus-block--img-wrapper" },
@@ -75,11 +75,11 @@ function ModalBody(props) {
 }
 
 function ShowModal(props) {
-    return $('#cabernet-modal').modal('show');
+    return $("#cabernet_modal").modal('show');
 }
 
 function HideModal(props) {
-    return $('#cabernet-modal').modal('hide');
+    return $('#cabernet_modal').modal('hide');
 }
 
 var domContainer = document.querySelector('#modal_container');

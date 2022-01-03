@@ -36,7 +36,6 @@
       })
     });
 
-
     </script>
 
     <style>
@@ -55,79 +54,60 @@
       }
     }
 
-
     </style>
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
 </head>
-
 <body class="text-center">
 <div class="wrapper page-holder bg-cover">
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
         <header class="mb-auto">
-            <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
-                <a class="navbar-brand alpha" href="#" style="color:darkslategrey;">Terra Incognita Vineyard</a>
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="index.html#hours">Hours</a>
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">Events</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="events_public.html">Public Events</a>
-                        <a class="dropdown-item" href="events_private.html">Book your private event</a>
-                        <a class="dropdown-item" href="events_private.html">Weddings</a>
-                    </div>
-                </div>
-                <a class="nav-link" href="index.html#directions">Directions</a>
-                <a class="nav-link" href="index.html#contact">Contact</a>
-                <div class="nav-right ml-auto">
-                    <a href="https://www.facebook.com/TerraIncognitaVineyard" target="_blank"> <i
-                            class="bi bi-facebook icon-blue"></i></a>
-                </div>
-            </nav>
+            <div id="nav_container" class=nav"></div>
         </header>
         <main class="inner cover bd-content" role="main">
-           <div class="topic">
-                <div class="alert alert-primary" role="alert">
-
-                    <h1 class="cover-heading">Nov 12-14th, 2021 - Back to normal with food and music!</h1>
-                </div>
-                <p class="lead">
-                    We are back to tastings at the pavilion and this weekend we will have food by Chef Eric Pitts all weekend and
-                    music by Lisa and Philmer Kilby on Sunday. Last but not least, the weather looks great and the fall
-                    colors are killing it!
-
-                    Checkout our menu at <a href="../images/terra_bistro_fall_full_20211112.pdf" target="_blank">Terra Fall Menu</a>.
-                </p>
-            </div>
             <div class="topic">
-                <div class="alert alert-secondary" role="alert">
-
-                    <h1 class="cover-heading">Nov. 19th, Music by Ryan Little Eagle</h1>
-                </div>
-                <p class="lead">
-                    This Saturday we have a new artist, Ryan Little Eagle, a Native American singer-songwriter. He plays
-                    a "NDN Country" (say it out loud to understand that it's not an acronym) which is a mix of country
-                    and First Nations music. Check out his bio at his <a
-                        href="https://www.ryanlittleeaglemusic.com/biography" target="_blank">website</a>.
-                </p>
-            </div>
-             <div class="topic">
                 <div class="alert alert-primary" role="alert">
 
-                    <h1 class="cover-heading">Nov 22nd, 2021 - Music by Jake Hicks</h1>
+                    <h2 class="cover-heading">January 15th, 2021 - Winter Wonderland Dinner</h2>
                 </div>
                 <p class="lead">
-                    Jake Hicks will be playing for us on the 22nd of Nov. Come join us for some great music!
+                    Our first chef's dinner <a href="./chefs_dinner.html">Winter Wonderland</a>! Join us for music,
+                    fire, wine, and a four course meal.
                 </p>
-            </div>
-        </main>
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>Terra Incognita Vineyard, LLC</p>
-            </div>
-        </footer>
-    </div>
+                <div class="text-center">
+  <img src="./images/winter_wonderland_flyer.png" class="rounded" alt="...">
 </div>
+            </div>
+            <div class="alert alert-secondary" role="alert">
+
+                <h2 class="cover-heading">Closed for the Season (Dec-Feb)</h2>
+            </div>
+            <p class="lead">
+                Terra is closing for the season during the months of December, January, and February, so your last day
+                to visit
+                the vineyard will be Sunday Nov 28th. Don't forget Terra holiday swag including mugs,
+                tshirts, insulated cups and gift certificates.
+            </p>
+    </div>
+    </main>
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <p>Terra Incognita Vineyard, LLC</p>
+        </div>
+    </footer>
+</div>
+</div>
+
+<!--    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>-->
+
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+  <!-- Load React components. -->
+    <script src="./js/react/modal.js"></script>
+    <script src="./js/react/alert.js"></script>
+    <script src="./js/react/navbar.js"></script>
+
 </body>
 </html>
