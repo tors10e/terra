@@ -24,7 +24,7 @@ function Modal(props) {
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <ModalHeader name={props.name}/>
-                                            <ModalBody text={props.modal_text} />
+                                            <ModalBody text={props.modal_text}/>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ function ModalBody(props) {
 
 function ShowModal(props) {
     return(
-        $('#cabernet-modal').modal('show')
+        $("#cabernet-modal").modal('show')
     );
 }
 
