@@ -23,7 +23,7 @@ function Alerts() {
             image_url='./images/winter_wonderland_flyer.png'
             image_alt='winter wonderland flyer'
         />
-        <DangerAlert text="Closed for the season except for special events, stayed tuned!" />
+        <DangerAlert text="Closed for the season except for special events." />
         </div>
   );
 }
