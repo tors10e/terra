@@ -165,6 +165,8 @@ p {
     padding: 28px;
     margin-top: 28px;
     margin-bottom: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .checkout-p {
