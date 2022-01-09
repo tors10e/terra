@@ -44,7 +44,7 @@ function NavBar(props) {
                     ),
                     React.createElement(
                         "a",
-                        { "class": "dropdown-item", href: "events_private.html" },
+                        { "class": "dropdown-item", href: "events_private.html#weddings" },
                         "Weddings"
                     )
                 )
