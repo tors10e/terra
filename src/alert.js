@@ -19,7 +19,7 @@ function Alerts() {
     return (
     <div>
         <PrimaryAlert
-            text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!</a> }
+            text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 29th, 2022 - get your tickets now only a few left!</a> }
             image_url='./images/winter_wonderland_flyer.png'
             image_alt='winter wonderland flyer'
         />
