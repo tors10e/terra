@@ -18,12 +18,8 @@ function PrimaryAlert(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert
-            text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 29th, 2022 - get your tickets now only a few left!</a> }
-            image_url='./images/winter_wonderland_flyer.png'
-            image_alt='winter wonderland flyer'
-        />
-        <DangerAlert text="Closed for the season except for special events." />
+        <DangerAlert text="Closed for the season except for special Winter Wonderland events. We will be opening again
+        the first weekend in March, see you then!" />
         </div>
   );
 }
