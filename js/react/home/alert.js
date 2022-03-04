@@ -28,7 +28,7 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(DangerAlert, { text: "Closed for the season except for special Winter Wonderland events. We will be opening again\r the first weekend in March, see you then!" })
+        React.createElement(PrimaryAlert, { text: "We're back open starting March 4th, welcome back! Lisa and Philmer Kilby will be\r playing live music on Saturday." })
     );
 }
 

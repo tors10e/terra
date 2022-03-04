@@ -18,9 +18,9 @@ function PrimaryAlert(props) {
 function Alerts() {
     return (
     <div>
-        <DangerAlert text="Closed for the season except for special Winter Wonderland events. We will be opening again
-        the first weekend in March, see you then!" />
-        </div>
+        <PrimaryAlert text="We're back open starting March 4th, welcome back! Lisa and Philmer Kilby will be
+        playing live music on Saturday." />
+       </div>
   );
 }
 
