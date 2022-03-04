@@ -11,7 +11,7 @@ function NavBar(props) {
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="events_public.html">Public Events</a>
                             <a class="dropdown-item" href="events_private.html">Book your private event</a>
-                            <a class="dropdown-item" href="events_private.html">Weddings</a>
+                            <a class="dropdown-item" href="events_private.html#weddings">Weddings</a>
                         </div>
                     </div>
                     <a class="nav-link" href="index.html#directions">Directions</a>

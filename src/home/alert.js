@@ -18,13 +18,9 @@ function PrimaryAlert(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert
-            text={<a href="./chefs_dinner.html">Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!</a> }
-            image_url='./images/winter_wonderland_flyer.png'
-            image_alt='winter wonderland flyer'
-        />
-        <DangerAlert text="Closed for the season except for special events, stayed tuned!" />
-        </div>
+        <PrimaryAlert text="We're back open starting March 4th, welcome back! Lisa and Philmer Kilby will be
+        playing live music on Saturday." />
+       </div>
   );
 }
 

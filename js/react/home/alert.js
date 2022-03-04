@@ -28,16 +28,7 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, {
-            text: React.createElement(
-                "a",
-                { href: "./chefs_dinner.html" },
-                "Winter Wonderland chef's dinner scheduled for January 15th, 2022 - get your tickets now!"
-            ),
-            image_url: "./images/winter_wonderland_flyer.png",
-            image_alt: "winter wonderland flyer"
-        }),
-        React.createElement(DangerAlert, { text: "Closed for the season except for special events, stayed tuned!" })
+        React.createElement(PrimaryAlert, { text: "We're back open starting March 4th, welcome back! Lisa and Philmer Kilby will be\r playing live music on Saturday." })
     );
 }
 

@@ -75,7 +75,7 @@ function ModalBody(props) {
 }
 
 function ShowModal(props) {
-    return $('#cabernet-modal').modal('show');
+    return $("#cabernet-modal").modal('show');
 }
 
 function HideModal(props) {
