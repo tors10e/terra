@@ -35,12 +35,12 @@ function NavBar(props) {
                     React.createElement(
                         "a",
                         { "class": "dropdown-item", href: "events_public.html" },
-                        "Public Events"
+                        "Events"
                     ),
                     React.createElement(
                         "a",
                         { "class": "dropdown-item", href: "events_private.html" },
-                        "Book your private event"
+                        "Private Events"
                     ),
                     React.createElement(
                         "a",
