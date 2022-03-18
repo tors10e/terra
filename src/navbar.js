@@ -19,7 +19,7 @@ function NavBar(props) {
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                data-bs-toggle="dropdown" aria-expanded="false">Food</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="chefs_dinner.html">Chefs Dinner Events</a>
+                                <a class="dropdown-item" href="food.html">Food Menu</a>
                             </div>
                         </div>
                         <a class="nav-link" href="index.html#camping">Camping</a>

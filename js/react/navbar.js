@@ -68,8 +68,8 @@ function NavBar(props) {
                     { "class": "dropdown-menu", "aria-labelledby": "navbarDropdown" },
                     React.createElement(
                         "a",
-                        { "class": "dropdown-item", href: "chefs_dinner.html" },
-                        "Chefs Dinner Events"
+                        { "class": "dropdown-item", href: "food.html" },
+                        "Food Menu"
                     )
                 )
             ),
