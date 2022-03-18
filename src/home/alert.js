@@ -18,8 +18,7 @@ function PrimaryAlert(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert text="We're back open starting March 4th, welcome back! Lisa and Philmer Kilby will be
-        playing live music on Saturday." />
+        <PrimaryAlert text="Welcome back Lisa and Philmer Kilby! They will be playing live music this Saturday, March 19th." />
        </div>
   );
 }
