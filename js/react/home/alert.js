@@ -36,7 +36,7 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, { text: "Welcome back Lisa and Philmer Kilby! They will be playing live music this Saturday, March 19th." }),
+        React.createElement(PrimaryAlert, { text: "Welcome back George James and Jake Hicks! George will be playing live music this Saturday, March 19th, and Jake on Sunday." }),
         React.createElement(SecondaryAlert, { text: React.createElement(
                 "a",
                 { href: "./events_public.html" },
