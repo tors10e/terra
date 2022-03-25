@@ -2,13 +2,8 @@ function PrimaryAlert(props) {
     return React.createElement(
         "div",
         { "class": "alert alert-primary", role: "alert" },
-        React.createElement(
-            "div",
-            { "class": "cover-heading" },
-            props.text
-        ),
-        React.createElement("img", { src: props.image_url, "class": "rounded",
-            alt: props.image_alt })
+        React.createElement(AlertContent, { text: props.text }),
+        React.createElement("img", { src: props.image_url, "class": "rounded", alt: props.image_alt })
     );
 }
 
@@ -16,11 +11,24 @@ function DangerAlert(props) {
     return React.createElement(
         "div",
         { "class": "alert alert-danger", role: "alert" },
-        React.createElement(
-            "div",
-            { "class": "cover-heading" },
-            props.text
-        )
+        React.createElement(AlertContent, { text: props.text })
+    );
+}
+
+function SecondaryAlert(props) {
+    return React.createElement(
+        "div",
+        { "class": "alert alert-secondary", role: "alert" },
+        React.createElement(AlertContent, { text: props.text })
+    );
+}
+
+function AlertContent(props) {
+    return React.createElement(
+        "div",
+        { "class": "cover-heading" },
+        props.text,
+        React.createElement("img", { src: props.image_url, "class": "rounded", alt: props.image_alt })
     );
 }
 
@@ -28,7 +36,12 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, { text: "We're back open starting March 4th, welcome back! Lisa and Philmer Kilby will be\r playing live music on Saturday." })
+        React.createElement(PrimaryAlert, { text: "George James will be playing live music this Saturday, March 26th!" }),
+        React.createElement(SecondaryAlert, { text: React.createElement(
+                "a",
+                { href: "./events_public.html" },
+                "See our events page for upcoming events including when private events require us to use the western hillside for tastings."
+            ) })
     );
 }
 

@@ -35,12 +35,12 @@ function NavBar(props) {
                     React.createElement(
                         "a",
                         { "class": "dropdown-item", href: "events_public.html" },
-                        "Public Events"
+                        "Events"
                     ),
                     React.createElement(
                         "a",
                         { "class": "dropdown-item", href: "events_private.html" },
-                        "Book your private event"
+                        "Private Events"
                     ),
                     React.createElement(
                         "a",
@@ -68,8 +68,8 @@ function NavBar(props) {
                     { "class": "dropdown-menu", "aria-labelledby": "navbarDropdown" },
                     React.createElement(
                         "a",
-                        { "class": "dropdown-item", href: "chefs_dinner.html" },
-                        "Chefs Dinner Events"
+                        { "class": "dropdown-item", href: "food.html" },
+                        "Food Menu"
                     )
                 )
             ),
