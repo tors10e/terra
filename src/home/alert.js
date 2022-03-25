@@ -32,7 +32,7 @@ function AlertContent(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert text="Welcome back Lisa and Philmer Kilby! They will be playing live music this Saturday, March 19th." />
+        <PrimaryAlert text="George James will be playing live music this Saturday, March 26th!" />
         <SecondaryAlert text={<a href="./events_public.html">See our events page for upcoming events including when
         private events require us to use the western hillside for tastings.</a>} />
       </div>
