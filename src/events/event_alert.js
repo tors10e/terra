@@ -19,8 +19,7 @@ function EventAlertOdd(props) {
 function EventAlerts() {
   return (
     <div>
-      <EventAlertEven title="March 25th, 2022 - Live music from George James!" message="George James will be playing again this weekend, welcome back! He will be playing from 3-7 pm." />
-      <EventAlertOdd title="April 2nd, 2022 - Live music from the Kilbys!"  message="Lisa and Philmer will be entertaining us again! Come up and show them some support!"/>
+     <EventAlertOdd title="April 2nd, 2022 - Live music from the Kilbys's band High Lonesome!"  message="Lisa and Philmer will be entertaining us again, come up and show them some support!"/>
       <EventAlertEven title="April 9th, 2022 - Wine and Weave and Live music from George James!" message={["Learn how to craft a basket from our cab vines in our \
       first ever wine and weave! ",
       <a href='https://square.link/u/1W5veUql'>Buy your tickets here.</a>,

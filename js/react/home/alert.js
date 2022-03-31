@@ -36,7 +36,7 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, { text: "George James will be playing live music this Saturday, March 26th!" }),
+        React.createElement(PrimaryAlert, { text: "High  Lonesome will be playing live music this Saturday, April 2nd!" }),
         React.createElement(SecondaryAlert, { text: React.createElement(
                 "a",
                 { href: "./events_public.html" },
