@@ -43,7 +43,7 @@ function EventAlerts() {
     <EventAlertEven title = "June 10th - 12th - Private Event at the Pavilion and Wildcraft Kitchen Foraging Tour"
         message = "Tastings will be held in the open on the western hillside, please bear with us while we expand and are \
         building our new tasting room for additional capacity. Don't let that make you miss another one-of-a-kind foraging tour \
-        on Sunday the 12 th with Wildcraft Kitchen!" />
+        on Sunday the 12th with Wildcraft Kitchen!" />
     </div>
   );
 }

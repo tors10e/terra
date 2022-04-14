@@ -63,7 +63,7 @@ function EventAlerts() {
     React.createElement(EventAlertEven, { title: "June 4th, 2022 - Music by High Lonesome", message: "We are looking forward to Kilmer and Lisa playing their fantastic music with us at the pavilion!" }),
     React.createElement(EventAlertOdd, { title: "June 5th, 2022 - Paint and sip event", message: "Details to follow." }),
     React.createElement(EventAlertEven, { title: "June 10th - 12th - Private Event at the Pavilion and Wildcraft Kitchen Foraging Tour",
-      message: "Tastings will be held in the open on the western hillside, please bear with us while we expand and are \\\r building our new tasting room for additional capacity. Don't let that make you miss another one-of-a-kind foraging tour \\\r on Sunday the 12 th with Wildcraft Kitchen!" })
+      message: "Tastings will be held in the open on the western hillside, please bear with us while we expand and are \\\r building our new tasting room for additional capacity. Don't let that make you miss another one-of-a-kind foraging tour \\\r on Sunday the 12th with Wildcraft Kitchen!" })
   );
 }
 
