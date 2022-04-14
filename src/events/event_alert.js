@@ -1,4 +1,8 @@
 
+function Href(props){
+    return <a href={props.link} target="_blank">{props.text}</a>
+};
+
 function EventAlertEven(props) {
   return       <div class="topic">
                 <div class="alert alert-primary" role="alert">
@@ -7,6 +11,8 @@ function EventAlertEven(props) {
                 <p class="lead">{props.message}</p>
             </div>
 }
+
+
 function EventAlertOdd(props) {
   return       <div class="topic">
                 <div class="alert alert-secondary" role="alert">
@@ -16,24 +22,32 @@ function EventAlertOdd(props) {
             </div>
 }
 
+
 function EventAlerts() {
   return (
     <div>
-     <EventAlertOdd title="April 2nd, 2022 - Live music from the Kilbys's band High Lonesome!"  message="Lisa and Philmer will be entertaining us again, come up and show them some support!"/>
-      <EventAlertEven title="April 9th, 2022 - Wine and Weave and Live music from George James!" message={["Learn how to craft a basket from our cab vines in our \
-      first ever wine and weave! ",
-      <a href='https://square.link/u/1W5veUql'>Buy your tickets here.</a>,
-      " Included is a glass of wine, instruction, and all necessary materials. See our Facebook event for more information ",
-       <a href="https://fb.me/e/25c5jLffk">Wine and Weave with Cleve.</a>,
-       " Also George James will be playing from 3 -7 PM!"]}/>
-      <EventAlertOdd title="April 16th, 2022 - Egg hunt and live music from Jake Hicks!" message="Jack Hick is back and he will be playing from 3-7 pm."  />
+      <EventAlertOdd title="April 16th, 2022 - Egg hunts, foraging tours, and live music by Jake Hicks!" message={["This \
+        is an action packed weekend! At 10:00 Wildcraft Kitchen will be doing a foraging tour and Jake Hicks will be playing from 3-7 pm. \
+        At 4 pm the kids easter egg hunt begins followed by the adult hunt at 6 pm.",
+        <Href link={"https://square.link/u/FCpcEDM1"} text={"Buy your easter egg hunt tickets here"}/>,
+        ". and checkout details on all the events on our ",
+        <Href link={"https://www.facebook.com/TerraIncognitaVineyard/events"} text={"facebook page."}/>,
+      ]} />
       <EventAlertEven title="April 23rd, 2022 - Live music from Ryan Little Eagle!" message="Ryan will be back and killing it with the NDN Country genre. Unique mix of country and first nations music!"  />
       <EventAlertOdd title="May 7th, 2022 - Private Event at the Pavilion" message="This will be our first private event of the year so tastings will be held on the western hillside.
         Please bear with us while we expand and are building our new tasting room."  />
-     <EventAlertEven title="May 28th, 2022 - Private Event at the Pavilion" message="Tastings will be held in the open on the western hillside, please bear with us while we expand and are building our new tasting room."  />
+     <EventAlertEven title="May 27 - 28th, 2022 - Private Event at the Pavilion" message="Tastings will be held in the open on the western hillside, please bear with us while we expand and are building our new tasting room."  />
+    <EventAlertOdd title = "May 29th, 2022 - Music by Jake Hicks" message="Great music by Jake Hicks will be playing from 3 - 7 pm!" />
+    <EventAlertEven title = "June 4th, 2022 - Music by High Lonesome" message = "We are looking forward to Kilmer and Lisa playing their fantastic music with us at the pavilion!" />
+    <EventAlertOdd title = "June 5th, 2022 - Paint and sip event" message = 'Details to follow.' />
+    <EventAlertEven title = "June 10th - 12th - Private Event at the Pavilion and Wildcraft Kitchen Foraging Tour"
+        message = "Tastings will be held in the open on the western hillside, please bear with us while we expand and are \
+        building our new tasting room for additional capacity. Don't let that make you miss another one-of-a-kind foraging tour \
+        on Sunday the 12 th with Wildcraft Kitchen!" />
     </div>
   );
 }
+
 
 ReactDOM.render(
   <EventAlerts />,
