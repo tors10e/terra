@@ -48,7 +48,7 @@ function Menu(props) {
                     React.createElement(
                         "th",
                         { scope: "row" },
-                        "Charcuterie Box"
+                        "Charcuterie Plate"
                     ),
                     React.createElement(
                         "td",

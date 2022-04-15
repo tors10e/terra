@@ -14,7 +14,7 @@ function Menu(props) {
                         <td>A blend of white rice, onion, and mint, wrapped in tender grape leaves.</td>
                     </tr>
                     <tr>
-                        <th scope="row">Charcuterie Box</th>
+                        <th scope="row">Charcuterie Plate</th>
                             <td>Cured prosciutto and salami with gorgonzola, cranberry wensleydale, and
                             sage derby cheese, green olives, roasted almonds, dried apricots, and pita
                             chips.</td>
