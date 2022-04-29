@@ -36,7 +36,6 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, { text: ["April 16th - Child and adult egg hunts this weekend plus live music and foraging tours!"] }),
         React.createElement(SecondaryAlert, { text: React.createElement(
                 "a",
                 { href: "./events_public.html" },
