@@ -32,6 +32,8 @@ function AlertContent(props) {
 function Alerts() {
     return (
     <div>
+        <PrimaryAlert text="Private event at the pavilion this Saturday, tastings on Western Hillside for that day only!
+            We will be back at the pavilion for Mother's Day" />,
         <SecondaryAlert text={<a href="./events_public.html">See our events page for upcoming events including when
         private events require us to use the western hillside for tastings.</a>} />
       </div>
