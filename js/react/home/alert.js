@@ -2,8 +2,7 @@ function PrimaryAlert(props) {
     return React.createElement(
         "div",
         { "class": "alert alert-primary", role: "alert" },
-        React.createElement(AlertContent, { text: props.text }),
-        React.createElement("img", { src: props.image_url, "class": "rounded", alt: props.image_alt })
+        React.createElement(AlertContent, { text: props.text })
     );
 }
 
@@ -36,6 +35,12 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
+                React.createElement(PrimaryAlert, { text: React.createElement(
+                "p",
+                {},
+                "Private event at the pavilion this Saturday, tastings on Western Hillside for that day only! We will be back \
+                at the pavilion for Mother's Day."
+            ) }),
         React.createElement(SecondaryAlert, { text: React.createElement(
                 "a",
                 { href: "./events_public.html" },
