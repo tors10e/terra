@@ -36,7 +36,7 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, { text: "Private event at the pavilion this Saturday, tastings on Western Hillside for that day only!\r We will be back at the pavilion for Mother's Day" }),
+        React.createElement(PrimaryAlert, { text: "Lisa and Philmer with High Lonesome will playing this Saturday May 21st!\r We will be back at the pavilion for Mother's Day" }),
         ",",
         React.createElement(SecondaryAlert, { text: React.createElement(
                 "a",

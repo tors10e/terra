@@ -26,14 +26,8 @@ function EventAlertOdd(props) {
 function EventAlerts() {
   return (
     <div>
-     <EventAlertEven title="May 7th, 2022 - Private Event at the Pavilion"
-        message="This will be our first private event of the year so tastings will be held on the western hillside
-         (Saturday only). Please bear with us while we expand and build our new tasting room. Sunday
-         tastings  will be at the pavilion in time for Mother's Day." />
-     <EventAlertOdd title = "May 15th, 2022 - Spring Wild Mushroom Foray"
-        message="Wildcraft Kitchen is hosting another popular mushroom hunting event at Terra! See
-            https://www.wildcraftkitchenga.com/event-details/sold-out-spring-mushroom-foray-at-terra-incognita-vineyard
-            for more details." />
+     <EventAlertOdd title = "May 21st, 2022 - Live Music by High Lonesome"
+        message="High lonesome playing at the pavilion this Saturday. Welcome back Lisa and Philmer!" />
      <EventAlertEven title="May 27 - 28th, 2022 - Private Event at the Pavilion"
         message=" Tastings will be held on the western hillside. Please bear with us while we expand and build our new tasting room."/>
     <EventAlertOdd title = "May 29th, 2022 - Music by Jake Hicks" message="Great music by Jake Hicks will be playing from 3 - 7 pm!" />
