@@ -7,7 +7,7 @@
 - Photos export settings 2000pix width 50% quality
 
 
-#React.js
+# React.js
 - Install node.js https://nodejs.org/en/
 Go to your project folder in the terminal, and paste these two commands:
 Step 1: Run npm init -y 
@@ -22,4 +22,10 @@ npm install --save react-modal
 
 - Install JQuery
 - npm install jquery --save
-- 
+
+# Postgresql
+Install Postgresql for React: https://blog.logrocket.com/getting-started-with-postgres-in-your-react-app/
+
+log into pgsql: sudo -i -u postgres
+CREATE ROLE my_user WITH LOGIN PASSWORD 'my_pass';
+alter role torsten CREATEDB;
