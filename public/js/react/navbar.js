@@ -7,7 +7,7 @@ function NavBar(props) {
             { "class": "navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light" },
             React.createElement(
                 "a",
-                { "class": "navbar-brand alpha" },
+                { "class": "navbar-brand alpha", href: "index.html" },
                 "Terra Incognita Vineyard"
             ),
             React.createElement(
