@@ -32,8 +32,7 @@ function AlertContent(props) {
 function Alerts() {
     return (
     <div>
-        <PrimaryAlert text="Lisa and Philmer with High Lonesome will playing this Saturday May 21st!
-            We will be back at the pavilion for Mother's Day" />,
+        <PrimaryAlert text="Geroge James will playing this Saturday July 9th!" />,
         <SecondaryAlert text={<a href="./events_public.html">See our events page for upcoming events including when
         private events require us to use the western hillside for tastings.</a>} />
       </div>
