@@ -8,7 +8,7 @@ function EventAlertEven(props) {
                 <div class="alert alert-primary" role="alert">
                     <h2 class="cover-heading">{props.title}</h2>
                 </div>
-                <p class="lead">{props.message}</p>
+                <p class="lead">{props.description}</p>
             </div>
 }
 
@@ -18,37 +18,34 @@ function EventAlertOdd(props) {
                 <div class="alert alert-secondary" role="alert">
                     <h2 class="cover-heading">{props.title}</h2>
                 </div>
-                <p class="lead">{props.message}</p>
+                <p class="lead">{props.description}</p>
             </div>
 }
 
 
 function EventAlerts() {
-  return (
-    <div>
-     <EventAlertOdd title = "Saturday July 9th, 2022 - Live Music by George James"
-        message="One of our regulars, George James plays classic country and folk tunes that everyone can appreciate." />
-     <EventAlertEven title="Friday July 15th, 2022 - Private Event at the Pavilion"
-        message="Tastings will be held on the western hillside at the wine shack. Please bear with us while we expand and build our new tasting room."/>
-       <EventAlertOdd title = "Sunday August 21st - Wildcraft Kitchen Mushroom Foray"
-        message = {["Another one-of-a-kind tour with ", <Href link={"https://www.wildcraftkitchenga.com/"} text={"Wildcraft Kitchen!"}/>,
-        ]}
-        />
-    <EventAlertEven title="Saturday August 6th, 2022 - Live Music by High Lonesome"
-        message="Philmer and Lisa Kilby will be entertaining us with their phenomenal guitar and vocals!"/>
-    <EventAlertOdd title = "Saturday August 13th, 2022 - Live Music by Scott Low"/>
-    <EventAlertEven title="Saturday August 20th, 2022 - Live Music by Jake Hicks"
-        message="Another one of our regular performers, happy to have him back!"/>
-     <EventAlertOdd title = "Sunday August 21st - Wildcraft Kitchen Mushroom Foray"
-        message = {["Another one-of-a-kind tour with ", <Href link={"https://www.wildcraftkitchenga.com/"} text={"Wildcraft Kitchen!"}/>,
-        ]}
-        />
-        </div>
+    const eventAlerts = events.map((event) =>
+            <EventAlertOdd title = {event[0]} description = {event[1]} />
+            );
+
+    return (
+    <div>{eventAlerts}</div>
   );
 }
 
+  function makeHref(httpLink, linkText) {
+    return <Href link={httpLink} text={linkText}/>
+  }
 
-ReactDOM.render(
-  <EventAlerts />,
+
+  const events = [
+    ["Saturday July 30th, 2022 - Live Music by George James", "George will be playing starting at 2 pm so come early to enjoy his music."],
+    ["Saturday August 6th, 2022 - Live Music by High Lonesome", "Philmer and Lisa Kilby will be entertaining us with their phenomenal guitar and vocals!"],
+    ["Saturday August 13th, 2022 - Live Music by Scott Low", ""],
+    ["Saturday August 20th, 2022 - Live Music by Jake Hicks", "Another one of our regular performers, happy to have him back!"],
+    ["Sunday August 21st - Wildcraft Kitchen Mushroom Foray",  makeHref("https://www.wildcraftkitchenga.com/", "Wildcraft Kitchen's website!")]
+  ]
+
+ReactDOM.render(<EventAlerts titles = {events}  />,
   document.getElementById('event_alert_container')
 );

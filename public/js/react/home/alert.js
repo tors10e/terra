@@ -36,8 +36,6 @@ function Alerts() {
     return React.createElement(
         "div",
         null,
-        React.createElement(PrimaryAlert, { text: "Geroge James will playing this Saturday July 9th!" }),
-        ",",
         React.createElement(SecondaryAlert, { text: React.createElement(
                 "a",
                 { href: "./events_public.html" },
