@@ -2,8 +2,8 @@ function Navbar(props) {
   return (
       <div>
             <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
-                <a class="navbar-brand alpha" href="index.html">Terra Incognita Vineyard</a>
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="navbar-brand alpha" href="/home">Terra Incognita Vineyard</a>
+                <a class="nav-link" href="home">Home</a>
                         <a class="nav-link" href="index.html#hours">Hours</a>
                         <div class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

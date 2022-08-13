@@ -15,6 +15,8 @@ npm add bootstrap
 
 npm start
 
+npm install --save react-router-dom
+
 
 - Install node.js https://nodejs.org/en/
 Go to your project folder in the terminal, and paste these two commands:
