@@ -8,6 +8,14 @@
 
 
 # React.js
+
+set env variable %PUBLIC_URL% to point a the public directory in the project.
+
+npm add bootstrap
+
+npm start
+
+
 - Install node.js https://nodejs.org/en/
 Go to your project folder in the terminal, and paste these two commands:
 Step 1: Run npm init -y 

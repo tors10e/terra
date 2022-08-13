@@ -1,4 +1,4 @@
-function NavBar(props) {
+function Navbar(props) {
   return (
       <div>
             <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
@@ -34,7 +34,9 @@ function NavBar(props) {
     );
   }
 
-ReactDOM.render(
-    <NavBar />,
-    document.getElementById('nav_container')
-);
+// ReactDOM.render(
+//     <Navbar />,
+//     document.getElementById('nav_container')
+// );
+
+export default Navbar;
