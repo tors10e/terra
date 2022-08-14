@@ -13,7 +13,7 @@ const Contact = () => {
             </p>
             <p>
                 <address>
-                <strong>Navigation Addreess</strong><br/>
+                <strong>Navigation Address</strong><br/>
                 1821 Vandiver Mountain Road<br/>
                 Clarkesville, GA 30523<br/>
                 <abbr title="Phone">Phone:</abbr> (828) 482-7382

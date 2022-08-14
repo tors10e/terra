@@ -4,7 +4,9 @@ import Banner from "../components/banner";
 import Intro from '../home/intro';
 import Hours from "../home/hours";
 import Contact from "../home/contact";
-
+import Directions from "../home/directions";
+import Trails from "../home/hiking";
+import Camping from "../home/camping";
 
 const Home = () => {
     return (
@@ -15,7 +17,9 @@ const Home = () => {
                 <Intro />
                 <Hours />
                 <Contact />
-
+                <Directions />
+                <Trails />
+                <Camping />
             </div>
         </div>
     );
