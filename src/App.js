@@ -1,19 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './navbar';
+import Navbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route}
-    from 'react-router-dom';
-import Home from './pages/home';
+  from 'react-router-dom';
+import Home from './pages/home'
+import Lodging from './pages/lodging'
+
 
 function App() {
   return (
       <Router>
-    <div className="App">
-
-    </div>
-          <Routes>
-              <Route exact path='/home' exact element={<Home />} />
-          </Routes>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' exact element={<Home />} />
+          <Route path='/lodging' element={<Lodging/>} />
+        </Routes>
       </Router>
   );
 }
