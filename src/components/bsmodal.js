@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import cab_bottle from '../images/1000x1000/cab_sav_1000x1000.jpg';
+import Image from 'react-bootstrap/Image'
 
 
 function Bsmodal(props) {
@@ -11,10 +11,12 @@ function Bsmodal(props) {
   const handleShow = () => setShow(true);
 
   return (
+    <div class="col-sm plus-block--item" >
+        <div class="plus-block--item-wrapper inline">
+            <div class="plus-block--img-wrapper">
+            <h3>{props.button_text}</h3>
     <>
-      <Button variant="primary" onClick={handleShow}>
-        {props.button_text}
-      </Button>
+    <Image src={props.image_src}  onClick={handleShow}/>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -31,6 +33,9 @@ function Bsmodal(props) {
         </Modal.Footer>
       </Modal>
     </>
+    </div>
+    </div>
+    </div>
 );
 };
 

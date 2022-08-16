@@ -7,7 +7,7 @@ import Contact from "../home/contact";
 import Directions from "../home/directions";
 import Trails from "../home/hiking";
 import Camping from "../home/camping";
-import WineModal from "../home/wine_modal";
+import Wines from "../home/wines";
 
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
                 <Directions />
                 <Trails />
                 <Camping />
-                <WineModal />
+                <Wines />
             </div>
         </div>
     );
