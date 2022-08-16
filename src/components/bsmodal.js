@@ -13,8 +13,6 @@ function Bsmodal(props) {
   return (
     <div class="col-sm plus-block--item" >
         <div class="plus-block--item-wrapper inline">
-            <div class="plus-block--img-wrapper">
-            <h3>{props.button_text}</h3>
     <>
     <Image src={props.image_src}  onClick={handleShow}/>
 
@@ -27,15 +25,12 @@ function Bsmodal(props) {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
         </Modal.Footer>
       </Modal>
     </>
     </div>
     </div>
-    </div>
+
 );
 };
 

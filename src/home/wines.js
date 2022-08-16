@@ -26,37 +26,37 @@ function Wines(props) {
             image_src={cab_label}
             button_text="Click for more information"
             title_text="Cabernet Sauvignon"
-            body_text="Notes of plum, black cherry and tobacco meld to create a medium body and lightly oaked red wine that's perfect for settling into a relaxing evening."
+            body_text="Notes of plum, black cherry and tobacco meld to create a medium body and lightly oaked red wine that's perfect for settling into a relaxing evening. 13% abv, 750 ml"
          />
         <Bsmodal
             image_src={cardinal_label}
             button_text="Click for more information"
             title_text="Cardinal Direction"
-            body_text="Notes of plum, black cherry and tobacco meld to create a medium body and lightly oaked red wine that's perfect for settling into a relaxing evening."
+            body_text="A unique blend of Cabernet Sauvignon, Chambourcin, Merlot, and a splash of Chardonnay creates an easy drinking favorite with a fruit forward nose. 12% abv., 750 ml."
          />
         <Bsmodal
         image_src={compass_label}
             button_text="Compass Rose"
             title_text="Compass Rose"
-            body_text="Medium dry blend of Pinot Grigio and Chambourcin creates flavors of green apple and strawberry. 12% abv."
+            body_text="Medium dry blend of Pinot Grigio and Chambourcin creates flavors of green apple and strawberry. 12% abv, 750 ml"
          />
          <Bsmodal
             image_src={meridian_label}
             button_text="White Meridian"
             title_text="White Meridian"
-            body_text="100% stainless steel fermentation. Hints of honeysuckle, dried apricot and ripe apple. 12% abv."
+            body_text="A classic bold Muscadine with sweetness that balances it's crisp acidity. A southern favorite. 12% abv, 750 ml"
          />
         <Bsmodal
             image_src={true_north_label}
             button_text="True North"
             title_text="True North"
-            body_text="100% stainless steel fermentation. Hints of honeysuckle, dried apricot and ripe apple. 12% abv."
+            body_text="A blend of Vidal Blanc, Chardonnay, and Pinot Grigio. Crisp apple on the palate with a lemony finish and just a hint of peach and grapefruit."
          />
         <Bsmodal
             image_src={celestial_label}
             button_text="Celestial Spheres"
             title_text="Celestial Spheres"
-            body_text="100% stainless steel fermentation. Hints of honeysuckle, dried apricot and ripe apple. 12% abv."
+            body_text="This sparkling muscadine has a carbonated twist to it that makes it great for celebrating a special occasion or a great weekend with friends and family. 12% abv, 750 ml"
          />
          </div>
 </div>
