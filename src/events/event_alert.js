@@ -46,6 +46,7 @@ function EventAlerts() {
     ["Sunday August 21st - Wildcraft Kitchen Mushroom Foray",  makeHref("https://www.wildcraftkitchenga.com/", "Wildcraft Kitchen's website!")]
   ]
 
+
 ReactDOM.render(<EventAlerts titles = {events}  />,
   document.getElementById('event_alert_container')
 );

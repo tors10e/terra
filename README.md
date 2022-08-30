@@ -12,9 +12,7 @@
 set env variable %PUBLIC_URL% to point a the public directory in the project.
 
 npm add bootstrap
-
 npm start
-
 npm install --save react-router-dom
 
 
