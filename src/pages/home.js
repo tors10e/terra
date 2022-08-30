@@ -4,7 +4,7 @@ import Banner from "../components/banner";
 import Intro from '../home/intro';
 import Hours from "../home/hours";
 import Contact from "../home/contact";
-import {ClarkesvilleDirections, ClaytonDirections, HelenDirections, TallulahDirections} from "../home/directions";
+import {Directions} from "../home/directions";
 import Trails from "../home/hiking";
 import Camping from "../home/camping";
 import Wines from "../home/wines";
@@ -19,7 +19,7 @@ const Home = () => {
                 <Intro />
                 <Hours />
                 <Contact />
-                <ClarkesvilleDirections /> <ClaytonDirections /> <HelenDirections /> <TallulahDirections />
+                <Directions />
                 <Trails />
                 <Camping />
                 <Wines />

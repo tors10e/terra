@@ -12,7 +12,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path='/' exact element={<Home />} />
-          <Route path='/lodging' element={<Lodging/>} />
         </Routes>
       </Router>
   );

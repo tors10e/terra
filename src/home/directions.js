@@ -3,6 +3,24 @@ import TerraCard from '../components/terra_card';
 import TextDirections from './text_directions';
 
 
+export function Directions() {
+    return(
+    <>
+     <div class="topic section-heading">
+                <h2 id="directions">Directions</h2>
+                <div class="container">
+                    <div class="row">
+                        <ClarkesvilleDirections />
+                        <ClaytonDirections />
+                        <HelenDirections />
+                        <TallulahDirections />
+                    </div>
+                </div>
+     </div>
+    </>
+    );
+};
+
 export function ClarkesvilleDirections(props) {
 
     const directions = [
