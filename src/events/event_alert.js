@@ -1,3 +1,16 @@
+import React from 'react';
+
+
+  const events = [
+    ["Sunday  September 4th, 2022 - Operations back to normal", "After some bad weather that made access to the wine shack very tricky we have moved back to the pavilion for the remainder of September."],
+    ["Monday September 5th, 2022 - Open for labor day", "Open for labor day!"],
+    ["Saturday September 10th, 2022 - Stephen Vaclavik Music", "Music is from 3 - 7 pm"],
+    ["Sunday September 11th, 2022 - Live Music by Larry Walker", makeHref("https://soundcloud.com/user-131558822","A first for performing at Terra but long time customer, we welcome Larry Walker!")],
+    ["Saturday September 17th, 2022 - Music by High Lonesome", "Welcome back Kilbys! Music is from 3 - 7 pm"],
+    ["Saturday September 24th, 2022 - Music by George James", "Long time favorite George James will be with us again, music is from 3 - 7 pm"],
+    ["Saturday October 1st, 2022 - Brian Horton", "Welcome back Brian, music is from 3 - 7 pm"],
+  ]
+
 
 function Href(props){
     return <a href={props.link} target="_blank">{props.text}</a>
@@ -36,15 +49,6 @@ function EventAlerts() {
   function makeHref(httpLink, linkText) {
     return <Href link={httpLink} text={linkText}/>
   }
-
-
-  const events = [
-    ["Saturday July 30th, 2022 - Live Music by George James", "George will be playing starting at 2 pm so come early to enjoy his music."],
-    ["Saturday August 6th, 2022 - Live Music by High Lonesome", "Philmer and Lisa Kilby will be entertaining us with their phenomenal guitar and vocals!"],
-    ["Saturday August 13th, 2022 - Live Music by Scott Low", ""],
-    ["Saturday August 20th, 2022 - Live Music by Jake Hicks", "Another one of our regular performers, happy to have him back!"],
-    ["Sunday August 21st - Wildcraft Kitchen Mushroom Foray",  makeHref("https://www.wildcraftkitchenga.com/", "Wildcraft Kitchen's website!")]
-  ]
 
 
 export default EventAlerts;
