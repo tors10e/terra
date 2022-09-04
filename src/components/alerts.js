@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function PrimaryAlert(props) {
     return (
         <div class="alert alert-primary" role="alert">
@@ -31,4 +32,4 @@ function AlertContent(props) {
         </div>);
 }
 
-export default Alerts
+export default SecondaryAlert;
