@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4901425.css",
+    "main.js": "/static/js/main.5aa3400f.js",
+    "static/js/787.012c01c6.chunk.js": "/static/js/787.012c01c6.chunk.js",
+    "static/media/on_property_trails.jpg": "/static/media/on_property_trails.311dcd5cd28d0cf30976.jpg",
+    "static/media/terra_orientation.pdf": "/static/media/terra_orientation.4c6b3fdd7c83ea2fc83b.pdf",
+    "static/media/aerial_sunset_2000.jpg": "/static/media/aerial_sunset_2000.eec7dc8fe92b3de63128.jpg",
+    "static/media/packages2022.pdf": "/static/media/packages2022.6765e2eb888e570f1cdf.pdf",
+    "static/media/pavilion_walkway.jpg": "/static/media/pavilion_walkway.0fccf3bdbc727a88c690.jpg",
+    "static/media/triangulation_214x300.jpg": "/static/media/triangulation_214x300.19c951383523ebc3345b.jpg",
+    "static/media/celestial_214x300.jpg": "/static/media/celestial_214x300.108bdf19f940bc3e7d8a.jpg",
+    "static/media/meridian_214x300.jpg": "/static/media/meridian_214x300.53dc7008db173a5b5d23.jpg",
+    "static/media/compass_214x300.jpg": "/static/media/compass_214x300.a75955faa7eeafaa1e79.jpg",
+    "static/media/cardinal_214x300.jpg": "/static/media/cardinal_214x300.088822baece5574524b9.jpg",
+    "static/media/cab_sav_214x300.jpg": "/static/media/cab_sav_214x300.cd12b49818ff3e63ef8b.jpg",
+    "static/media/true_north_214x300.jpg": "/static/media/true_north_214x300.362bb0c3788ec32d3b3b.jpg",
+    "index.html": "/index.html",
+    "main.c4901425.css.map": "/static/css/main.c4901425.css.map",
+    "main.5aa3400f.js.map": "/static/js/main.5aa3400f.js.map",
+    "787.012c01c6.chunk.js.map": "/static/js/787.012c01c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4901425.css",
+    "static/js/main.5aa3400f.js"
+  ]
+}
