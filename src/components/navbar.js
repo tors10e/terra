@@ -1,42 +1,42 @@
-function Navbar(props) {
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+
+function TerraNavbar(props) {
   return (
-      <div>
-            <nav class="navbar nav-masthead navbar-expand-lg navbar-normal navbar-fixed-top bg-light">
-                <a class="navbar-brand alpha" href="/">Terra Incognita Vineyard</a>
-                <a class="nav-link" href="/">Home</a>
-                        <a class="nav-link" href="/#hours">Hours</a>
-                        <div class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                               data-bs-toggle="dropdown" aria-expanded="false">Events</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="events_public.html">Events</a>
-                                <a class="dropdown-item" href="events_private.html">Private Events</a>
-                                <a class="dropdown-item" href="events_private.html#weddings">Weddings</a>
-                            </div>
-                        </div>
-                        <a class="nav-link" href="/#directions">Directions</a>
-                       <div class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                               data-bs-toggle="dropdown" aria-expanded="false">Food</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="food.html">Food Menu</a>
-                            </div>
-                        </div>
-                        <a class="nav-link" href="/#camping">Camping</a>
-                        <a class="nav-link" href="/#trails">Trails</a>
-                        <a class="nav-link" href="/#contact">Contact</a>
-                        <div class="nav-right ml-auto">
-                            <a href="https://www.facebook.com/TerraIncognitaVineyard" target="_blank"> <i
-                                    class="bi bi-facebook icon-blue"></i></a>
-                        </div>
-                    </nav>
-        </div>
+ <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">Terra Incognita</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/#hours">Hours</Nav.Link>
+            <Nav.Link href="/#directions">Directions</Nav.Link>
+            <Nav.Link href="/events">Events</Nav.Link>
+            <Nav.Link href="/weddings">Weddings</Nav.Link>
+            <Nav.Link href="/#camping">Camping</Nav.Link>
+            <Nav.Link href="/#trails">Trails</Nav.Link>
+            <Nav.Link href="/#contact">Contact</Nav.Link>
+            <NavDropdown title="Events" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     );
   }
 
-// ReactDOM.render(
-//     <Navbar />,
-//     document.getElementById('nav_container')
-// );
 
-export default Navbar;
+export default TerraNavbar;

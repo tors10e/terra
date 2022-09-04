@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from "./components/navbar";
+import TerraNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route}
   from 'react-router-dom';
 import Home from './pages/home';
@@ -11,7 +11,7 @@ import Weddings from './pages/weddings';
 function App() {
   return (
       <Router>
-        <Navbar />
+        <TerraNavbar />
         <Routes>
           <Route exact path='/' exact element={<Home />} />
           <Route path='/lodging' element={<Lodging />} />
