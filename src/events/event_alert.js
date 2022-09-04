@@ -47,6 +47,4 @@ function EventAlerts() {
   ]
 
 
-ReactDOM.render(<EventAlerts titles = {events}  />,
-  document.getElementById('event_alert_container')
-);
+export default EventAlerts;
