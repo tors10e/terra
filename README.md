@@ -31,6 +31,11 @@ npm install --save react-modal
 - Install JQuery
 - npm install jquery --save
 
+# Server Install
+
+- sudo apt install npm
+
+
 # Postgresql
 Install Postgresql for React: https://blog.logrocket.com/getting-started-with-postgres-in-your-react-app/
 
