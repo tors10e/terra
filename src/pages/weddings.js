@@ -3,6 +3,7 @@ import Image from 'react-bootstrap/image';
 import TheKnotImage from "../images/theknot.jpg";
 import WeddingPackages from "../images/packages2022.pdf";
 import WalkwayImage from "../images/pavilion_walkway.jpg";
+import WeddingGallery from '../weddings/wedding_gallery';
 
 
 const Weddings = () => {
@@ -49,6 +50,7 @@ const Weddings = () => {
                         </div>
                     </div>
                 </div>
+                <WeddingGallery />
                 <ul id="events" class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-secondary"><a id="event-group" href="#weddings">Weddings</a></li>
                     <li class="list-group-item list-group-item-light"><a id="event-group" href="#parties">Parties</a></li>
