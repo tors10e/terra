@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'react-bootstrap/image';
 import TheKnotImage from "../images/theknot.jpg";
-import WeddingPackages from "../images/packages2022.pdf";
+import WeddingPackages from "../images/Packages2023.pdf";
 import WalkwayImage from "../images/pavilion_walkway.jpg";
 
 
