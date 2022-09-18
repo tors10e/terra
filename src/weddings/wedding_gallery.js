@@ -1,68 +1,79 @@
 import React from 'react';
 import Gallery from "react-photo-gallery";
-import WalkwayImage from '../images/pavilion_walkway.jpg';
+import casey_flowers from "../images/event_photos/casey_flowers.jpg";
+import blueridge_arbor from "../images/event_photos/blueridge_arbor.jpg";
+import casey_vines from "../images/event_photos/casey_vines.jpg";
+import emily_backlit from "../images/event_photos/emily_backlit.jpg";
+import emily_fishbone_porch from "../images/event_photos/emily_fishbone_porch.jpg";
+import emily_foggy from "../images/event_photos/emily_foggy.jpg";
+import pooja_vines from "../images/event_photos/pooja_vines.jpg";
+import rowe170 from "../images/event_photos/Rowe-0170.jpg";
+import rowe237 from "../images/event_photos/Rowe-0237.jpg";
+import rowe503 from "../images/event_photos/Rowe-0503.jpg";
+import table_layout from "../images/event_photos/table_layout.jpg";
+import anna_claire_dalton_landscape from "../images/event_photos/anna_claire_dalton_landscape.jpg";
 
 
 export const photos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    src: casey_flowers,
+    width: 4,
+    height: 5
+  },
+  {
+    src: emily_fishbone_porch,
+    width: 4,
+    height: 4
+  },
+  {
+    src: pooja_vines,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1
-  },
-  {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    src: rowe170,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
+    src: blueridge_arbor,
+    width: 5,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    src: emily_backlit,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    src: rowe237,
+    width: 4,
+    height: 4
+  },
+  {
+    src: emily_foggy,
+    width: 4,
+    height: 3
+  },
+  {
+    src: casey_vines,
+    width: 4,
+    height: 3
+  },
+  {
+    src: rowe503,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    src: table_layout,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
-    width: 4927,
-    height: 1000
+    src: anna_claire_dalton_landscape,
+    width: 2500,
+    height: 1677
   },
   {
     src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
