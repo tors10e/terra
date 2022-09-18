@@ -12,6 +12,8 @@ import rowe237 from "../images/event_photos/Rowe-0237.jpg";
 import rowe503 from "../images/event_photos/Rowe-0503.jpg";
 import table_layout from "../images/event_photos/table_layout.jpg";
 import anna_claire_dalton_landscape from "../images/event_photos/anna_claire_dalton_landscape.jpg";
+import arbor_artifact from "../images/event_photos/arbor_artifact.jpg";
+import brian_emily_vows from "../images/event_photos/brian_emily_vows.jpg";
 
 
 export const photos = [
@@ -76,12 +78,12 @@ export const photos = [
     height: 1677
   },
   {
-    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+    src: arbor_artifact,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
+    src: brian_emily_vows,
     width: 4,
     height: 3
   },
