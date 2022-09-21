@@ -23,7 +23,7 @@ import ryan_rosie_sunset from '../images/event_photos/ryan_rosie_sunset.jpg';
 import flowery_arbor from '../images/event_photos/flowery_arbor.jpg';
 
 
-export const photos = [
+const photos = [
   {
     src: casey_flowers,
     width: 4,
