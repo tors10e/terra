@@ -3,6 +3,7 @@ import Image from 'react-bootstrap/image';
 import TheKnotImage from "../images/theknot.jpg";
 import WeddingPackages from "../images/Packages2023.pdf";
 import WalkwayImage from "../images/pavilion_walkway.jpg";
+import WeddingGallery from '../weddings/wedding_gallery';
 
 
 const Weddings = () => {
@@ -49,14 +50,10 @@ const Weddings = () => {
                         </div>
                     </div>
                 </div>
-                <ul id="events" class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-secondary"><a id="event-group" href="#weddings">Weddings</a></li>
-                    <li class="list-group-item list-group-item-light"><a id="event-group" href="#parties">Parties</a></li>
-                    <li class="list-group-item list-group-item-secondary"><a id="event-group" href="#corporate">Corporate</a></li>
-                </ul>
+                <WeddingGallery />
             </div>
             <div class="topic topic-even">
-                <h2 id="weddings">Weddings</h2>
+                <h2 id="weddings">Wedding Packages</h2>
                 <div class="row align-items-start">
                     <div class="col">
                         <img src={WalkwayImage} fluid="true" alt="..."></img>
