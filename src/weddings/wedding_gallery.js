@@ -14,6 +14,13 @@ import table_layout from "../images/event_photos/table_layout.jpg";
 import anna_claire_dalton_landscape from "../images/event_photos/anna_claire_dalton_landscape.jpg";
 import arbor_artifact from "../images/event_photos/arbor_artifact.jpg";
 import brian_emily_vows from "../images/event_photos/brian_emily_vows.jpg";
+import lighted_jar_pavilion from '../images/event_photos/lighted_jar_pavilion.jpg';
+import brian_emily_toast from "../images/event_photos/brian_emily_toast.jpg";
+import pavilion_glow from '../images/event_photos/pavilion_glow.jpg';
+import arbor_day_view from '../images/event_photos/arbor_day_view.jpg';
+import blood_mtn_sunset from '../images/event_photos/blood_mtn_sunset.jpg';
+import ryan_rosie_sunset from '../images/event_photos/ryan_rosie_sunset.jpg';
+import flowery_arbor from '../images/event_photos/flowery_arbor.jpg';
 
 
 export const photos = [
@@ -24,18 +31,18 @@ export const photos = [
   },
   {
     src: emily_fishbone_porch,
-    width: 4,
-    height: 4
+    width: 3648,
+    height: 5472
   },
   {
-    src: pooja_vines,
+    src: pavilion_glow,
     width: 4,
     height: 3
   },
   {
-    src: rowe170,
-    width: 3,
-    height: 4
+    src: ryan_rosie_sunset,
+    width: 1284,
+    height: 1870
   },
   {
     src: blueridge_arbor,
@@ -49,18 +56,8 @@ export const photos = [
   },
   {
     src: rowe237,
-    width: 4,
-    height: 4
-  },
-  {
-    src: emily_foggy,
-    width: 4,
-    height: 3
-  },
-  {
-    src: casey_vines,
-    width: 4,
-    height: 3
+    width: 6016,
+    height: 4016
   },
   {
     src: rowe503,
@@ -87,21 +84,42 @@ export const photos = [
     width: 4,
     height: 3
   },
-  {
-    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
+
+    {
+    src: pooja_vines,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
+    src: brian_emily_toast,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+    src: flowery_arbor,
+    width: 3701,
+    height: 2775
+  },
+    {
+    src: blood_mtn_sunset,
+    width: 3305,
+    height: 1268
+  },
+    {
+    src: emily_foggy,
     width: 4,
     height: 3
-  }
+  },
+    {
+    src: lighted_jar_pavilion,
+    width: 4,
+    height: 3
+  },
+    {
+    src: rowe170,
+    width: 3,
+    height: 4
+  },
 ];
 
 

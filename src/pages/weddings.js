@@ -51,14 +51,9 @@ const Weddings = () => {
                     </div>
                 </div>
                 <WeddingGallery />
-                <ul id="events" class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-secondary"><a id="event-group" href="#weddings">Weddings</a></li>
-                    <li class="list-group-item list-group-item-light"><a id="event-group" href="#parties">Parties</a></li>
-                    <li class="list-group-item list-group-item-secondary"><a id="event-group" href="#corporate">Corporate</a></li>
-                </ul>
             </div>
             <div class="topic topic-even">
-                <h2 id="weddings">Weddings</h2>
+                <h2 id="weddings">Wedding Packages</h2>
                 <div class="row align-items-start">
                     <div class="col">
                         <img src={WalkwayImage} fluid="true" alt="..."></img>
