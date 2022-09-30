@@ -3,24 +3,24 @@ import Gallery from "react-photo-gallery";
 import casey_flowers from "../images/event_photos/casey_flowers.jpg";
 import blueridge_arbor from "../images/event_photos/blueridge_arbor.jpg";
 import casey_vines from "../images/event_photos/casey_vines.jpg";
-import emily_backlit from "../images/event_photos/emily_backlit.jpg";
-import emily_fishbone_porch from "../images/event_photos/emily_fishbone_porch.jpg";
+import emily_backlit from "../images/event_photos/emily_backlit_2000px.jpg";
+import emily_fishbone_porch from "../images/event_photos/emily_fishbone_porch_2000px.jpg";
 import emily_foggy from "../images/event_photos/emily_foggy.jpg";
-import pooja_vines from "../images/event_photos/pooja_vines.jpg";
-import rowe170 from "../images/event_photos/Rowe-0170.jpg";
-import rowe237 from "../images/event_photos/Rowe-0237.jpg";
-import rowe503 from "../images/event_photos/Rowe-0503.jpg";
-import table_layout from "../images/event_photos/table_layout.jpg";
+import pooja_vines from "../images/event_photos/pooja_vines_1651px.jpg";
+import rowe170 from "../images/event_photos/Rowe-0170_1183px.jpg";
+import rowe237 from "../images/event_photos/Rowe-0237_2000px.jpg";
+import rowe503 from "../images/event_photos/Rowe-0503_1183px.jpg";
+import table_layout from "../images/event_photos/table_layout_2000px.jpg";
 import anna_claire_dalton_landscape from "../images/event_photos/anna_claire_dalton_landscape.jpg";
-import arbor_artifact from "../images/event_photos/arbor_artifact.jpg";
-import brian_emily_vows from "../images/event_photos/brian_emily_vows.jpg";
+import arbor_artifact from "../images/event_photos/arbor_artifact_2000px.jpg";
+import brian_emily_vows from "../images/event_photos/brian_emily_vows_2000px.jpg";
 import lighted_jar_pavilion from '../images/event_photos/lighted_jar_pavilion.jpg';
-import brian_emily_toast from "../images/event_photos/brian_emily_toast.jpg";
+import brian_emily_toast from "../images/event_photos/brian_emily_toast_2000px.jpg";
 import pavilion_glow from '../images/event_photos/pavilion_glow.jpg';
-import arbor_day_view from '../images/event_photos/arbor_day_view.jpg';
+import arbor_day_view from '../images/event_photos/arbor_day_view_2000px.jpg';
 import blood_mtn_sunset from '../images/event_photos/blood_mtn_sunset.jpg';
 import ryan_rosie_sunset from '../images/event_photos/ryan_rosie_sunset.jpg';
-import flowery_arbor from '../images/event_photos/flowery_arbor.jpg';
+import flowery_arbor from '../images/event_photos/flowery_arbor_2000px.jpg';
 
 
 const photos = [

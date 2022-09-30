@@ -4,7 +4,7 @@
 - file size (max)  = 500 kb
 - resolution
 - slide show aspect ratio 16:9
-- Photos export settings 2000pix width 50% quality
+- Photos export settings 2000pix width 80% quality
 
 
 # React.js
