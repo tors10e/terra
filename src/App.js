@@ -2,10 +2,10 @@ import './App.css';
 import TerraNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route}
   from 'react-router-dom';
-import Home from './pages/home';
-import Lodging from './pages/lodging';
-import Events from './pages/events';
-import Weddings from './pages/weddings';
+import Home from './home/home';
+import Lodging from './lodging/lodging';
+import Events from './events/events';
+import Weddings from './weddings/weddings';
 
 
 function App() {
