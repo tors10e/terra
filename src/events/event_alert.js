@@ -2,8 +2,9 @@ import React from 'react';
 
 
   const events = [
-    ["Saturday September 24th, 2022 - Music by George James", "Long time favorite George James will be with us again, music is from 3 - 7 pm"],
-    ["Saturday October 1st, 2022 - Brian Horton", "Welcome back Brian, music is from 3 - 7 pm"],
+    ["October 1, 2022", "Saturday October 1st, 2022 - Brian Horton", "Welcome back Brian! Music will be from from 3 - 7 pm."],
+    ["October 8, 2022", "Saturday October 8th, 2022 - Private Event", "Tastings to be held outside on the Western \
+    Hillside Lawn. Access to the pavilion will be limited to wedding guests."],
   ]
 
 
@@ -33,7 +34,7 @@ function EventAlertOdd(props) {
 
 function EventAlerts() {
     const eventAlerts = events.map((event) =>
-            <EventAlertOdd title = {event[0]} description = {event[1]} />
+            <EventAlertOdd title = {event[1]} description = {event[2]} />
             );
 
     return (
