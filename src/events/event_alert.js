@@ -1,10 +1,16 @@
 import React from 'react';
 
 
+//Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description"]
+//todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
+
+
   const events = [
-    ["October 1, 2022", "Saturday October 1st, 2022 - Brian Horton", "Welcome back Brian! Music will be from from 3 - 7 pm."],
-    ["October 8, 2022", "Saturday October 8th, 2022 - Private Event", "Tastings to be held outside on the Western \
-    Hillside Lawn. Access to the pavilion will be limited to wedding guests."],
+    ["November 20, 2022", "Friday Oct 7th - Sunday Nov 20th Tastings on the Western Hillside.", "Private events are scheduled starting Friday October \
+     7th and will continue through the end of November. Tastings will be held in the open on the Western Hillside. Thanks for your patience while we construct \
+     our new tasting room and winery to be open Spring 2023!"],
+    ["November 25, 2022", "Thanksgiving - Back to the Pavilion!", "We are back to the pavilion for wine tastings until \
+    the end of the year!"],
   ]
 
 
