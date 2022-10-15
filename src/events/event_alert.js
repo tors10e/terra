@@ -1,4 +1,5 @@
 import React from 'react';
+import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 
 
 //Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description"]
@@ -8,7 +9,7 @@ import React from 'react';
   const events = [
     ["November 20, 2022", "Friday Oct 7th - Sunday Nov 20th Tastings on the Western Hillside.", "Private events are scheduled starting Friday October \
      7th and will continue through the end of November. Tastings will be held in the open on the Western Hillside. Thanks for your patience while we construct \
-     our new tasting room and winery to be open Spring 2023!"],
+     our new tasting room and winery to be open Spring 2023!", pavilion_photo],
     ["November 25, 2022", "Thanksgiving - Back to the Pavilion!", "We are back to the pavilion for wine tastings until \
     the end of the year!"],
   ]
@@ -33,14 +34,14 @@ function EventAlertOdd(props) {
                 <div class="alert alert-secondary" role="alert">
                     <h2 class="cover-heading">{props.title}</h2>
                 </div>
-                <p class="lead">{props.description}</p>
+                <p class="lead">{props.description} <img src={props.image} fluid="true" alt="..."></img></p>
             </div>
 }
 
 
 function EventAlerts() {
     const eventAlerts = events.map((event) =>
-            <EventAlertOdd title = {event[1]} description = {event[2]} />
+            <EventAlertOdd title = {event[1]} description = {event[2]} image={event[3]} />
             );
 
     return (
