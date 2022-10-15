@@ -2,7 +2,7 @@ import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 
 
-//Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description"]
+//Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description", image]
 //todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
 
 
@@ -30,13 +30,25 @@ function EventAlertEven(props) {
 
 
 function EventAlertOdd(props) {
+  if (props.image != null) {
   return       <div class="topic">
                 <div class="alert alert-secondary" role="alert">
                     <h2 class="cover-heading">{props.title}</h2>
                 </div>
-                <p class="lead">{props.description} <img src={props.image} fluid="true" alt="..."></img></p>
+                <p class="lead">{props.description} </p>
+                     <img src={props.image} fluid="false" alt=""></img>
             </div>
-}
+            }
+   else {
+    return       <div class="topic">
+                <div class="alert alert-secondary" role="alert">
+                    <h2 class="cover-heading">{props.title}</h2>
+                </div>
+                <p class="lead">{props.description}</p>
+            </div>
+        }
+ }
+
 
 
 function EventAlerts() {
