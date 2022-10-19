@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function PrimaryAlert(props) {
+export function PrimaryAlert(props) {
     return (
         <div class="alert alert-primary" role="alert">
             <AlertContent text={props.text}/>
@@ -9,7 +9,7 @@ function PrimaryAlert(props) {
         </div>);
 }
 
-function DangerAlert(props) {
+export function DangerAlert(props) {
     return (
         <div class="alert alert-danger" role="alert">
             <AlertContent text={props.text}/>
@@ -17,7 +17,7 @@ function DangerAlert(props) {
     );
 }
 
-function SecondaryAlert(props) {
+export function SecondaryAlert(props) {
     return (
         <div class="alert alert-secondary" role="alert">
             <AlertContent text={props.text}/>
@@ -31,5 +31,3 @@ function AlertContent(props) {
             <img src={props.image_url} class="rounded" alt={props.image_alt}></img>
         </div>);
 }
-
-export default SecondaryAlert;
