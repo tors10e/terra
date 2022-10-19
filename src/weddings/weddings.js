@@ -11,7 +11,12 @@ const Weddings = () => {
     <>
         <div>
             <div class="topic">
-                <h1 class="cover-heading">Host Your Event at Terra Incognita Vineyard</h1>
+                <h2> Chosen as one of Atlanta's Top 10 Winery Wedding Venues in 2021 and 2022!</h2>
+                <a id="myInput" target="_blank" rel="noopener"
+                    href="https://www.weddingrule.com/winery-wedding-venues/georgia/atlanta">
+                    <img width="250px" height="250px" src="https://www.weddingrule.com/wp-content/uploads/2022/05/wedding-rule-badge-2022-1.png"></img>
+                </a>
+
                 <p class="lead">
                     We provide a 1,800 sq. ft. pavilion with an attached catering kitchen, fireplace, bar, and upstairs
                     suite
@@ -27,9 +32,6 @@ const Weddings = () => {
                         <div class="col">
                             <ul class="">
                                 <li>Tables and chairs for up to 150 set up per discussion during event planning</li>
-                                <li>Use of the space from the afternoon before your event (so you can decorate), until
-                                    the early morning the day after
-                                </li>
                                 <li>Event set up on our lawn overlooking the vineyard with the mountains in the
                                     background
                                 </li>
@@ -45,7 +47,7 @@ const Weddings = () => {
                                 <li>Parking attendants during the event</li>
                                 <li>Vinyl walls in case of inclement weather</li>
                                 <li>Use of catering kitchen</li>
-                                <li>Exclusive use of campsite</li>
+                                <li>Campsites</li>
                             </ul>
                         </div>
                     </div>
