@@ -4,6 +4,7 @@ import TheKnotImage from "../images/theknot.jpg";
 import WeddingPackages from "../images/Packages2023.pdf";
 import WalkwayImage from "../images/pavilion_walkway.jpg";
 import WeddingGallery from '../weddings/wedding_gallery';
+import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png'
 
 
 const Weddings = () => {
@@ -12,6 +13,10 @@ const Weddings = () => {
         <div>
             <div class="topic">
                 <h2> Chosen as one of Atlanta's Top 10 Winery Wedding Venues in 2021 and 2022!</h2>
+                <a id="myInput" target="_blank" rel="noopener"
+                    href="https://www.weddingrule.com/winery-wedding-venues/georgia/atlanta">
+                    <img width="250px" height="250px" src={Badge2021}></img>
+                </a>
                 <a id="myInput" target="_blank" rel="noopener"
                     href="https://www.weddingrule.com/winery-wedding-venues/georgia/atlanta">
                     <img width="250px" height="250px" src="https://www.weddingrule.com/wp-content/uploads/2022/05/wedding-rule-badge-2022-1.png"></img>
