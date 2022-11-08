@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 function Camping(props) {
     return (
         <div className="topic topic-odd section-heading">
@@ -28,17 +31,13 @@ function Apartment(props) {
     )
 }
 
-function Overnighting(props){
+export function Overnighting(){
     return (
+    <>
         <div>
-            <Camping/>
-            <Apartment/>
+            <Camping />
+            <Apartment />
         </div>
-
+        </>
     )
 }
-
-ReactDOM.render(
-    <Overnighting/>,
-    document.getElementById('overnighting_container')
-);

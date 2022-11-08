@@ -3,7 +3,7 @@ import TerraNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route}
   from 'react-router-dom';
 import Home from './home/home';
-import Lodging from './lodging/lodging';
+import {Overnighting} from './overnighting/overnighting';
 import Events from './events/events';
 import Weddings from './weddings/weddings';
 
@@ -17,6 +17,7 @@ function App() {
           <Route path='/lodging' element={<Lodging />} />
           <Route path='/events' element={<Events />} />
           <Route path='/weddings' element={<Weddings />} />
+          <Route path='/overnighting' element={<Overnighting />} />
         </Routes>
       </Router>
   );
