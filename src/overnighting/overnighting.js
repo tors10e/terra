@@ -27,7 +27,7 @@ function Camping(props) {
     return (
         <div className="topic topic-odd section-heading">
             <h2 id="camping">Camping</h2>
-            <p>Camping is available on the western hillside with views of the Southern Nantahalla Since we limit
+            <p>Camping is available on the western ridge, views of the Southern Nantahala Wilderness. Since we limit
                 camping to one group, you'll have the place to yourself. To reserve a spot go to <a
                     href="https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard"
                     target="_blank">
