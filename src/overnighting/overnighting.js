@@ -2,6 +2,16 @@ import React from 'react';
 import {TerraCard} from '../components/terra_card';
 import camping_summer from '../images/camping_summer.jpg';
 import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
+import NorthernViewFromWRidge from '../images/NorthernViewFromWRidge.png';
+import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
+import Image from 'react-bootstrap/Image';
+
+
+function Alerts() {
+   return(
+        <PrimaryAlert text='Reopening camping at the end of November!'/>
+    )
+};
 
 function Intro() {
 return(
@@ -17,10 +27,8 @@ function Camping(props) {
     return (
         <div className="topic topic-odd section-heading">
             <h2 id="camping">Camping</h2>
-            <p>Unimproved camping is available on the western hillside overlooking the vineyard. Since we limit
-                camping to
-                one group, you'll have
-                the place to yourself. To reserve a spot go to <a
+            <p>Camping is available on the western hillside with views of the Southern Nantahalla Since we limit
+                camping to one group, you'll have the place to yourself. To reserve a spot go to <a
                     href="https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard"
                     target="_blank">
                     https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard</a>.
@@ -28,6 +36,7 @@ function Camping(props) {
                 If you're a current camper, check out the <a href="./images/terra_orientation.pdf" target="_blank">orientation sheet </a>
                 for information on what to expect and what to do.
             </p>
+            <Image src={NorthernViewFromWRidge} class="img-fluid"/>
         </div>
     )
 }
@@ -46,11 +55,10 @@ function Apartment(props) {
 export function Overnighting() {
     return (
         <>
-            <div>
+                <Alerts />
                 <Intro />
                 <Camping />
                 <Apartment />
-            </div>
         </>
     )
 }
