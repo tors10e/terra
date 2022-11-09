@@ -1,9 +1,13 @@
 import React from 'react';
+import {TerraCard} from '../components/terra_card';
+import camping_summer from '../images/camping_summer.jpg';
+import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
 
 function Intro() {
 return(
         <div className="topic topic-even section-heading">
-
+            <TerraCard card_image={camping_summer} card_title='Camping' card_text='Camping is cool' button_text='More Information'/>
+            <TerraCard card_image={alpenglow_apartment_interior} card_title='Apartment Rental' card_text='Overnighting in the Alpenglow Studio Apartment' button_text='More Information'/>
         </div>
     )
 };
