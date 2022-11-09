@@ -4,7 +4,8 @@ import TheKnotImage from "../images/theknot.jpg";
 import WeddingPackages from "../images/Packages2023.pdf";
 import WalkwayImage from "../images/pavilion_walkway.jpg";
 import WeddingGallery from '../weddings/wedding_gallery';
-import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png'
+import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png';
+import Button from 'react-bootstrap/Button';
 
 
 const Weddings = () => {
@@ -90,6 +91,11 @@ const Weddings = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="topic topic-odd">
+                <Button variant="outline-primary">
+                    <a href="https://appsrv4.amerspec.com/dbweb/f?p=198:1::::APP" target="_blank">Click Here For Event Insurance</a>
+                </Button>
             </div>
             </div>
         </>
