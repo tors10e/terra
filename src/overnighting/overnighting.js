@@ -1,5 +1,13 @@
 import React from 'react';
 
+function Intro() {
+return(
+        <div className="topic topic-even section-heading">
+
+        </div>
+    )
+};
+
 
 function Camping(props) {
     return (
@@ -31,13 +39,14 @@ function Apartment(props) {
     )
 }
 
-export function Overnighting(){
+export function Overnighting() {
     return (
-    <>
-        <div>
-            <Camping />
-            <Apartment />
-        </div>
+        <>
+            <div>
+                <Intro />
+                <Camping />
+                <Apartment />
+            </div>
         </>
     )
 }
