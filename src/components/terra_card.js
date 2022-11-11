@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 
 export function TerraCard(props) {
   return (
-    <Card bg='light gray'>
+    <Card style={{width: '36rem'}}>
       <Card.Body>
-      <Card.Img variant="top" src={props.card_image} />
+        <Card.Img variant="top" src={props.card_image} />
         <Card.Title>{props.card_title}</Card.Title>
         <Card.Text>{props.card_text}</Card.Text>
         <Button variant="primary" href={props.button_href}>{props.button_text}</Button>

@@ -1,6 +1,6 @@
 import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
-
+import Alert from 'react-bootstrap/Alert';
 
 //Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description", image]
 //todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
@@ -19,36 +19,25 @@ function Href(props){
     return <a href={props.link} target="_blank">{props.text}</a>
 };
 
-function EventAlertEven(props) {
-  return       <div class="topic">
-                <div class="alert alert-primary" role="alert">
-                    <h2 class="cover-heading">{props.title}</h2>
-                </div>
-                <p class="lead">{props.description}</p>
-            </div>
-}
-
 
 function EventAlertOdd(props) {
   if (props.image != null) {
-  return       <div class="topic">
-                <div class="alert alert-secondary" role="alert">
-                    <h2 class="cover-heading">{props.title}</h2>
+  return       <>
+                <div className="alert alert-secondary" role="alert">
+                    <h2 className="cover-heading">{props.title}</h2>
                 </div>
                 <p class="lead">{props.description} </p>
-                     <img src={props.image} fluid="false" alt=""></img>
-            </div>
+                <img src={props.image} fluid="false" alt=""></img>
+            </>
             }
    else {
-    return       <div class="topic">
-                <div class="alert alert-secondary" role="alert">
-                    <h2 class="cover-heading">{props.title}</h2>
-                </div>
-                <p class="lead">{props.description}</p>
-            </div>
+    return       <>
+        <Alert key="secondary" variant="secondary">
+          {props.text}
+        </Alert>
+            </>
         }
  }
-
 
 
 function EventAlerts() {
@@ -57,13 +46,9 @@ function EventAlerts() {
             );
 
     return (
-    <div>{eventAlerts}</div>
-  );
+        <div>{eventAlerts}</div>
+    );
 }
-
-  function makeHref(httpLink, linkText) {
-    return <Href link={httpLink} text={linkText}/>
-  }
 
 
 export default EventAlerts;

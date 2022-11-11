@@ -1,13 +1,14 @@
 import React from 'react';
-import {TerraCard} from '../components/terra_card';
-import camping_summer from '../images/camping_summer.jpg';
-import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+
+import {TerraCard} from '../components/terra_card';
+import camping_summer from '../images/camping_summer.jpg';
+import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
 import NorthernViewFromWRidge from '../images/NorthernViewFromWRidge.png';
 import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
-import Image from 'react-bootstrap/Image';
 
 
 function Alerts() {
@@ -15,6 +16,7 @@ function Alerts() {
         <PrimaryAlert text='Reopening camping at the end of November!'/>
     )
 };
+
 
 function Intro() {
 return(
@@ -51,24 +53,31 @@ function Camping(props) {
     )
 }
 
+
 function Apartment(props) {
     return (
         <div className="topic topic-even section-heading">
             <h2 id="apartment">Apartment</h2>
-            <p>Above the pavilion is a beautiful apartment available for rental. Please checkout our \
+            <p>Tucked away
             <a href="https://www.vrbo.com/2328117?adultsCount=2&arrival=2022-07-14&departure=2022-07-16&unitId=2894423" target="_blank">VRBO Listing</a>
             </p>
         </div>
     )
 }
 
-export function Overnighting() {
+
+function Overnighting() {
     return (
-        <div>
+    <div className="d-flex w-100 h-100 mx-auto flex-column">
                 <Alerts />
-                <Intro />
-                <Camping />
-                <Apartment />
+                <div className="container">
+                    <Intro />
+                    <Camping />
+                    <Apartment />
+                </div>
         </div>
     )
 }
+
+
+export default Overnighting;

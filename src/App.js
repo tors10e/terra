@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './home/home';
 import Events from './events/events';
 import Weddings from './weddings/weddings';
-import {Overnighting} from './overnighting/overnighting';
+import Overnighting from './overnighting/overnighting';
 
 
 function App() {
