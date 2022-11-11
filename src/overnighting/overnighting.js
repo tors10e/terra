@@ -5,7 +5,16 @@ import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import NorthernViewFromWRidge from '../images/NorthernViewFromWRidge.png';
+import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
+import Image from 'react-bootstrap/Image';
 
+
+function Alerts() {
+   return(
+        <PrimaryAlert text='Reopening camping at the end of November!'/>
+    )
+};
 
 function Intro() {
 return(
@@ -29,10 +38,8 @@ function Camping(props) {
     return (
         <div className="topic topic-odd section-heading">
             <h2 id="camping">Camping</h2>
-            <p>Unimproved camping is available on the western hillside overlooking the vineyard. Since we limit
-                camping to
-                one group, you'll have
-                the place to yourself. To reserve a spot go to <a
+            <p>Camping is available on the western ridge, views of the Southern Nantahala Wilderness. Since we limit
+                camping to one group, you'll have the place to yourself. To reserve a spot go to <a
                     href="https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard"
                     target="_blank">
                     https://www.hipcamp.com/en-US/georgia/torsten-e-s-land/terra-incognita-vineyard</a>.
@@ -57,12 +64,11 @@ function Apartment(props) {
 
 export function Overnighting() {
     return (
-        <>
-            <div>
+        <div>
+                <Alerts />
                 <Intro />
                 <Camping />
                 <Apartment />
-            </div>
-        </>
+        </div>
     )
 }
