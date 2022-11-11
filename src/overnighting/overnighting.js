@@ -2,12 +2,24 @@ import React from 'react';
 import {TerraCard} from '../components/terra_card';
 import camping_summer from '../images/camping_summer.jpg';
 import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 function Intro() {
 return(
         <div className="topic topic-even section-heading">
-            <TerraCard card_image={camping_summer} card_title='Camping' card_text='Camping is cool' button_text='More Information'/>
-            <TerraCard card_image={alpenglow_apartment_interior} card_title='Apartment Rental' card_text='Overnighting in the Alpenglow Studio Apartment' button_text='More Information'/>
+            <Container>
+                <Row>
+                    <Col>
+                        <TerraCard card_image={camping_summer} card_title='Camping' card_text='Camping is cool' button_text='More Information'/>
+                    </Col>
+                    <Col>
+                        <TerraCard card_image={alpenglow_apartment_interior} card_title='Apartment Rental' card_text='Overnighting in the Alpenglow Studio Apartment' button_text='More Information'/>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 };
