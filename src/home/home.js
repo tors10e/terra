@@ -12,7 +12,7 @@ import Wines from "../home/wines";
 
 const Home = () => {
     return (
-            <div className="d-flex w-100 h-100 mx-auto flex-column">
+                <>
                 <HomeAlerts />
                 <Banner />
                 <div className="container">
@@ -24,8 +24,7 @@ const Home = () => {
                     <Camping />
                     <Wines />
                 </div>
-            </div>
-
+                </>
     );
 };
 

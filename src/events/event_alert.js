@@ -33,7 +33,7 @@ function EventAlertOdd(props) {
    else {
     return       <>
         <Alert key="secondary" variant="secondary">
-          {props.text}
+          {props.description}
         </Alert>
             </>
         }
