@@ -12,19 +12,19 @@ import Wines from "../home/wines";
 
 const Home = () => {
     return (
-        <div>
-            <div className="cover-container d-flex w-100 h-100 mx-auto flex-column">
+                <>
                 <HomeAlerts />
                 <Banner />
-                <Intro />
-                <Hours />
-                <Contact />
-                <Directions />
-                <Trails />
-                <Camping />
-                <Wines />
-            </div>
-        </div>
+                <div className="container">
+                    <Intro />
+                    <Hours />
+                    <Contact />
+                    <Directions />
+                    <Trails />
+                    <Camping />
+                    <Wines />
+                </div>
+                </>
     );
 };
 

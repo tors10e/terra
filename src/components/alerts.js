@@ -1,27 +1,28 @@
 import React from 'react';
+import Alert from 'react-bootstrap/Alert';
 
 
 export function PrimaryAlert(props) {
     return (
-        <div class="alert alert-primary" role="alert">
-            <AlertContent text={props.text}/>
-            <img src={props.image_url} class="rounded" alt={props.image_alt}></img>
-        </div>);
+        <Alert key="primary" variant="primary">
+                <h2>{props.text}</h2>
+        </Alert>
+        );
 }
 
 export function DangerAlert(props) {
     return (
-        <div class="alert alert-danger" role="alert">
-            <AlertContent text={props.text}/>
-        </div>
+        <Alert key="danger" variant="danger">
+            <h2>{props.text}</h2>
+        </Alert>
     );
 }
 
 export function SecondaryAlert(props) {
     return (
-        <div class="alert alert-secondary" role="alert">
-            <AlertContent text={props.text}/>
-        </div>
+        <Alert key="secondary" variant="secondary">
+        <h2>{props.text}</h2>
+        </Alert>
     );
 }
 

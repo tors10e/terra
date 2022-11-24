@@ -2,6 +2,10 @@
  * Globals
  */
 
+.alert {
+    text-align: center;
+}
+
 .plus-block--item {
     display: flex;
     flex-flow: column nowrap;
@@ -26,18 +30,11 @@
 
 body {
   height: 100%;
-  background-color: bg-light;
-  display: -ms-flexbox;
-  display: flex;
-  color: black;
-  /*  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);*/
-  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
+  min-height: 100vh;
 }
 
 p {
   text-align: left;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 .wrapper {
 
@@ -189,7 +186,7 @@ width: 50%;
 }
 
  .topic {
-   margin-top: 3rem;
+/*   margin-top: 3rem;*/
    margin-bottom: 3rem;
    padding-top: 1.5rem;
    padding-bottom: 1.5rem;
@@ -366,3 +363,7 @@ img {
 .justify-text-left {
     text-align: left;
 }
+
+
+
+

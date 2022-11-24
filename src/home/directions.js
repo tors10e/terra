@@ -1,5 +1,5 @@
 import React from 'react';
-import TerraCard from '../components/terra_card';
+import {TerraCard} from '../components/terra_card';
 import TextDirections from './text_directions';
 
 
