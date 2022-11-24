@@ -14,6 +14,7 @@ function TerraNavbar(props) {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/#hours">Hours</Nav.Link>
+            <Nav.Link href="/#weather">Current Weather</Nav.Link>
             <Nav.Link href="/#directions">Directions</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/weddings">Weddings</Nav.Link>

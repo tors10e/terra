@@ -8,6 +8,7 @@ import {Directions} from "../home/directions";
 import Trails from "../home/hiking";
 import Camping from "../home/camping";
 import Wines from "../home/wines";
+import Weather from "../home/weather";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
                 <div className="container">
                     <Intro />
                     <Hours />
+                    <Weather />
                     <Contact />
                     <Directions />
                     <Trails />
