@@ -13,7 +13,7 @@ import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
 
 function Alerts() {
    return(
-        <PrimaryAlert text='Reopening camping at the end of November!'/>
+        <PrimaryAlert text='Camping is reopened!'/>
     )
 };
 

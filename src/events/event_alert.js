@@ -1,17 +1,18 @@
 import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 import Alert from 'react-bootstrap/Alert';
+import { v4 as uuidv4 } from 'uuid';
+
 
 //Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description", image]
 //todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
 
 
   const events = [
-    ["November 20, 2022", "Friday Oct 7th - Sunday Nov 20th Tastings on the Western Hillside.", "Private events are scheduled starting Friday October \
-     7th and will continue through the end of November. Tastings will be held in the open on the Western Hillside. Thanks for your patience while we construct \
-     our new tasting room and winery to be open Spring 2023!", pavilion_photo],
-    ["November 25, 2022", "Thanksgiving - Back to the Pavilion!", "We are back to the pavilion for wine tastings until \
-    the end of the year!"],
+        ["November 25, 2022", "Thanksgiving - Back to the Pavilion!", "We are back to the pavilion for wine tastings until the end of the year!"],
+        ["January 1, 2023", "Last day of the season", "see you in March!"],
+        ["April 21, 2023", "Private event at the East Ridge Pavilion", "We may be in the new tasting room by this, fingers crossed."],
+        ["April 28, 2023", "Grand Opening New Tasting Room", "Rough estimate for the grand opening of the new tasting room."],
   ]
 
 
@@ -42,7 +43,7 @@ function EventAlertOdd(props) {
 
 function EventAlerts() {
     const eventAlerts = events.map((event) =>
-            <EventAlertOdd title = {event[1]} description = {event[2]} image={event[3]} />
+            <EventAlertOdd title = {event[0]} description = {event[1]} image={event[2]} />
             );
 
     return (
