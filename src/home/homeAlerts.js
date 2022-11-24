@@ -5,8 +5,9 @@ function HomeAlerts() {
     return (
 <>
             <PrimaryAlert
-                text={<a href="/events">See our events page for upcoming events including when
-                    private events require us to use the western hillside for tastings.</a>}/>
+                text={
+                    <a href="/events">We are back in the East Ridge Pavilion and operations are back to normal!</a>}
+                />
 </>
     );
 };
