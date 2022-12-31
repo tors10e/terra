@@ -1,12 +1,14 @@
 import React from "react";
 import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
+import alert_text from './alert_text';
+
 
 function HomeAlerts() {
     return (
 <>
             <PrimaryAlert
                 text={
-                    <a href="/events">We are back in the East Ridge Pavilion and operations are back to normal!</a>}
+                    <a href="/events">{alert_text}</a>}
                 />
 </>
     );

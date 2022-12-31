@@ -9,7 +9,6 @@ import { v4 as uuidv4 } from 'uuid';
 
 
   const events = [
-        ["November 25, 2022", "Thanksgiving - Back to the Pavilion!", "We are back to the pavilion for wine tastings until the end of the year!"],
         ["January 1, 2023", "Last day of the season", "see you in March!"],
         ["April 21, 2023", "Private event at the East Ridge Pavilion", "We may be in the new tasting room by this, fingers crossed."],
         ["April 28, 2023", "Grand Opening New Tasting Room", "Rough estimate for the grand opening of the new tasting room."],
