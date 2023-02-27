@@ -6,8 +6,8 @@ const Hours = () => {
             <h2 id="hours">Operating Hours and Season</h2>
             <div className="container">
                 <div className="row">
-                    <div className="p-3 col bg-light">
-                        March - December (Currently open for the season)
+                    <div className="h4 p-3 col bg-light">
+                        March - December
                     </div>
                 </div>
                 <div className="row ">
