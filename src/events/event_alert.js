@@ -8,10 +8,11 @@ import { v4 as uuidv4 } from 'uuid';
 //todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
 
 
+// Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
+// Example of an event without photo  ["March 3, 2023", "First day of the season we are back to being open!"]
   const events = [
-        ["January 1, 2023", "Last day of the season", "see you in March!"],
-        ["April 21, 2023", "Private event at the East Ridge Pavilion", "We may be in the new tasting room by this, fingers crossed."],
-        ["April 28, 2023", "Grand Opening New Tasting Room", "Rough estimate for the grand opening of the new tasting room."],
+        ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo],
+        ["May 13, 2023", "Grand opening and open house of new tasting room and winery at 12:00"],
   ]
 
 
@@ -22,19 +23,20 @@ function Href(props){
 
 function EventAlertOdd(props) {
   if (props.image != null) {
-  return       <>
+  return    <>
                 <div className="alert alert-secondary" role="alert">
-                    <h2 className="cover-heading">{props.title}</h2>
+                    <h4 className="cover-heading">{props.title}</h4>
+                    <p class="lead">{props.description} </p>
+                    <img src={props.image} fluid="false" alt=""></img>
                 </div>
-                <p class="lead">{props.description} </p>
-                <img src={props.image} fluid="false" alt=""></img>
             </>
             }
    else {
-    return       <>
-        <Alert key="secondary" variant="secondary">
-          {props.description}
-        </Alert>
+    return  <>
+                <div className="alert alert-secondary" role="alert">
+                    <h4 className="alert-heading">{props.title}</h4>
+                    {props.description}
+                </div>
             </>
         }
  }
