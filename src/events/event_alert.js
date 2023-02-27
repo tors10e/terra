@@ -11,7 +11,7 @@ import { v4 as uuidv4 } from 'uuid';
 // Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
 // Example of an event without photo  ["March 3, 2023", "First day of the season we are back to being open!"]
   const events = [
-        ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo],
+        ["March 3, 2023", "First day of the season we are back to being open!"],
         ["May 13, 2023", "Grand opening and open house of new tasting room and winery at 12:00"],
   ]
 
