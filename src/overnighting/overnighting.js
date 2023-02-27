@@ -37,7 +37,7 @@ return(
                     </Col>
                     <Col>
                         <TerraCard card_image={alpenglow_apartment_interior}
-                            card_title='Apartment Rental'
+                            card_title='Apartment Rental - (Closed until county regulations are navigated)'
                             card_text='Come spend the night in the Overlook Apartment and have the Tallulah Mountains to yourselves!
                                 Our studio apartment on the East Ridge, provides lodging for 2 people plus a pullout couch
                                 for additional guests. The interior is furnished with oak that was harvested from our official
