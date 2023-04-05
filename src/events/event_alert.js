@@ -2,18 +2,11 @@ import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 import Alert from 'react-bootstrap/Alert';
 import { v4 as uuidv4 } from 'uuid';
-
+import events from './list_of_events';
 
 //Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description", image]
 //todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
 
-
-// Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
-// Example of an event without photo  ["March 3, 2023", "First day of the season we are back to being open!"]
-  const events = [
-        ["March 3, 2023", "First day of the season we are back to being open!"],
-        ["May 13, 2023", "Grand opening and open house of new tasting room and winery at 12:00"],
-  ]
 
 
 function Href(props){
