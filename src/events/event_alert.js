@@ -2,7 +2,7 @@ import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 import Alert from 'react-bootstrap/Alert';
 import { v4 as uuidv4 } from 'uuid';
-import events from './list_of_events';
+import CurrentEvents from '../components/utilities';
 
 //Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description", image]
 //todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
@@ -36,7 +36,8 @@ function EventAlertOdd(props) {
 
 
 function EventAlerts() {
-    const eventAlerts = events.map((event) =>
+    const current_events = CurrentEvents();
+    const eventAlerts = current_events.map((event) =>
             <EventAlertOdd title = {event[0]} description = {event[1]} image={event[2]} />
             );
     return (

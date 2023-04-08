@@ -1,6 +1,5 @@
 import React from "react";
 import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
-import events from '../events/list_of_events';
 import CurrentEvents from '../components/utilities';
 
 
@@ -8,11 +7,12 @@ import CurrentEvents from '../components/utilities';
 //todo: make it so that we pull the closest event in the future instead of the first event.
 
 function HomeAlerts() {
+    const current_events = CurrentEvents();
     return (
 <>
             <PrimaryAlert
                 text={
-                    <a href="/events">{events[0][0]} - {events[0][1]}</a>}
+                    <a href="/events">{current_events[0][0]} - {current_events[0][1]}</a>}
                 />
 </>
     );
