@@ -39,11 +39,9 @@ function EventAlerts() {
     const eventAlerts = events.map((event) =>
             <EventAlertOdd title = {event[0]} description = {event[1]} image={event[2]} />
             );
-
     return (
         <div>{eventAlerts}</div>
     );
 }
-
 
 export default EventAlerts;
