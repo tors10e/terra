@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://github.com/tors10e/terra/issues"
   },
-  "homepage": "http://terraincognitavineyard.com",
+  "homepage": "https://terraincognitavineyard.com",
   "watch": {
     "build": {
       "patterns": [

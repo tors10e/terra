@@ -4,14 +4,12 @@ import events from '../events/list_of_events';
 // those that are not in the past.
 
 
-function CurrentEvents(props) {
+export function CurrentEvents(props) {
     const current_events = [];
     const current_date = new Date();
     events.map((event) => {
         const event_date = new Date(event[0])
-        if (event_date.getFullYear() >= current_date.getFullYear() &&
-            event_date.getMonth() >= current_date.getMonth() &&
-            event_date.getDate() >= current_date.getDate()) {
+        if (event_date >= current_date) {
             current_events.push(event);
             }
         }
@@ -19,5 +17,9 @@ function CurrentEvents(props) {
     return (current_events);
 }
 
-export default CurrentEvents;
+
+export function GetDayOfTheWeek(props) {
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    return weekday[props]
+}
 

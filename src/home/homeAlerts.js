@@ -1,6 +1,6 @@
 import React from "react";
 import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
-import CurrentEvents from '../components/utilities';
+import {CurrentEvents} from '../components/utilities';
 
 
 // This pulls the first event from list_of_events and displays it on the homepage to get attention.
