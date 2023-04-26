@@ -1,5 +1,5 @@
 import React from 'react';
-import EventAlerts from '../events/event_alert';
+import {EventAlerts} from '../events/event_alert';
 
 
 const Events = () => {

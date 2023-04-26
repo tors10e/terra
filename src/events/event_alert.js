@@ -4,10 +4,8 @@ import Alert from 'react-bootstrap/Alert';
 import { v4 as uuidv4 } from 'uuid';
 import {CurrentEvents, GetDayOfTheWeek} from '../components/utilities';
 
-//Format of events are ["End Date (date used for programmatic purposes", "Diplay Date", "Description", image]
-//todo: This should be refactored to filter out alerts based on the end date given in the first position of the array.
 
-function Href(props){
+export function Href(props){
     return <a href={props.link} target="_blank">{props.text}</a>
 };
 
@@ -33,7 +31,7 @@ function EventAlertOdd(props) {
  }
 
 
-function EventAlerts() {
+export function EventAlerts() {
     const current_events = CurrentEvents();
     const eventAlerts = current_events.map((event) =>
             <EventAlertOdd key={event[0]} title = {event[0]} description = {event[1]} image={event[2]} />
@@ -42,5 +40,3 @@ function EventAlerts() {
         <div>{eventAlerts}</div>
     );
 }
-
-export default EventAlerts;
