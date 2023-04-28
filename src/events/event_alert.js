@@ -31,6 +31,7 @@ function EventAlertOdd(props) {
  }
 
 
+
 export function EventAlerts() {
     const current_events = CurrentEvents();
     const eventAlerts = current_events.map((event) =>
