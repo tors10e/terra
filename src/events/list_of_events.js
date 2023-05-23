@@ -10,7 +10,7 @@ import mothers_day_poster from '../images/public_events/Brunchposter-onlineforma
             for us again! Checkout https://soundcloud.com/user-131558822 for a taste of his music. Music starts at 3pm"],
         ["May 6, 2023", "It's Lisa and Filmer Kilby time again! High Lonesome will be playing starting at 3pm."],
         ["May 14, 2023", ["Join us for a Mother's day brunch hosted at Terra! ", <a href="https://checkout.square.site/buy/KYRCKHERDJUYHAMV7WDQAKDP">Click here to buy a ticket!</a>], mothers_day_poster],
-        ["May 27, 2023", "Grand opening and open house of new tasting room and winery at 12:00"],
+        ["May 27, 2023", "Grand opening and open house of new tasting room and winery at 2 PM"],
   ]
 
   export default events;
