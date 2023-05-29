@@ -8,14 +8,17 @@ import {CurrentEvents} from '../components/utilities';
 
 function HomeAlerts() {
     const current_events = CurrentEvents();
-    return (
-<>
-            <PrimaryAlert
-                text={
-                    <a href="/events">{current_events[0][0]} - {current_events[0][1]}</a>}
+    //Don't display anything if the event doesn't have a date indicating we are using the no_events list.
+    var event_date = new Date(current_events[0][0])
+
+    if (current_events.length > 0 && event_date !=  "Invalid Date") {
+        return (
+                <PrimaryAlert
+                    text={<a href="/events">{current_events[0][0]} - {current_events[0][1]}</a>}
                 />
-</>
-    );
+        );
+    }
+
 };
 
 export default HomeAlerts;
