@@ -1,5 +1,5 @@
 import React from 'react';
-import aerial_sunset_2000 from "../images/aerial_sunset_2000.jpg";
+import aerial_sunset_2000 from "../images/banners/aerial_sunset_2000.jpg";
 
 
 function Banner(props) {

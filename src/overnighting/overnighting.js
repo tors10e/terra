@@ -13,7 +13,8 @@ import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
 
 function Alerts() {
    return(
-        <PrimaryAlert text='Camping is reopened!'/>
+        <PrimaryAlert text='Rabun County no longer allows camping or short-term rentals on agricultural lands. Sorry for the
+        inconvenience, but all overnighting is currently unavailable.'/>
     )
 };
 
@@ -24,7 +25,7 @@ return(
             <Container>
                 <Row>
                     <Col>
-                        <TerraCard card_image={camping_summer} card_title='Camping'
+                        <TerraCard card_image={camping_summer} card_title='Camping - (Closed until county regulations are navigated)'
                             card_text='Best of 2022 Finalist at HipCamp! Our campsite is available on the West Ridge with
                                 spectacular views of the Southern Nantahala Wilderness, including peaks pushing ,5500 feet!
                                 We now have a 12 x 20 ft pavilion thats perfect for getting out of the rain or setting
