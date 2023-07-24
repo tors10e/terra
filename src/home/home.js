@@ -23,7 +23,6 @@ const Home = () => {
                     <Contact />
                     <Directions />
                     <Trails />
-                    <Camping />
                     <Wines />
                 </div>
                 </>
