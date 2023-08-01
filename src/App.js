@@ -11,7 +11,7 @@ import ReactGA from 'react-ga';
 
 function App() {
     ReactGA.initialize('G-GRRHPDLTTM');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
       <Router>
             <TerraNavbar />

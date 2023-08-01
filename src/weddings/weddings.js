@@ -6,9 +6,10 @@ import WalkwayImage from "../images/pavilion_walkway.jpg";
 import WeddingGallery from '../weddings/wedding_gallery';
 import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png';
 import Button from 'react-bootstrap/Button';
-
+import ReactGA from 'react-ga';
 
 const Weddings = () => {
+   ReactGA.pageview(window.location.pathname + window.location.search);
     return (
     <>
         <div>
