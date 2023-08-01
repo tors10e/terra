@@ -9,9 +9,10 @@ import camping_summer from '../images/camping_summer.jpg';
 import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
 import NorthernViewFromWRidge from '../images/NorthernViewFromWRidge.png';
 import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
-
+import ReactGA from 'react-ga';
 
 function Alerts() {
+   ReactGA.pageview(window.location.pathname + window.location.search);
    return(
         <PrimaryAlert text='Rabun County no longer allows camping or short-term rentals on agricultural lands. Sorry for the
         inconvenience, but all overnighting is currently unavailable.'/>

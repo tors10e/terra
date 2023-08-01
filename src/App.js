@@ -7,9 +7,11 @@ import Events from './events/events';
 import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
 import Container from 'react-bootstrap/Container';
-
+import ReactGA from 'react-ga';
 
 function App() {
+    ReactGA.initialize('G-GRRHPDLTTM');
+
   return (
       <Router>
             <TerraNavbar />
