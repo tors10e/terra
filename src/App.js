@@ -1,4 +1,5 @@
 import './App.css';
+import React, {useEffect } from 'react';
 import TerraNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route}
   from 'react-router-dom';
@@ -7,10 +8,16 @@ import Events from './events/events';
 import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
 import Container from 'react-bootstrap/Container';
+const tracking_id = 'G-GRRHPDLTTM'; //google analytics tracking id
 import ReactGA from 'react-ga';
 
+ReactGA.initialize(tracking_id);
+
+
 function App() {
-    ReactGA.initialize('G-GRRHPDLTTM');
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
       <Router>
