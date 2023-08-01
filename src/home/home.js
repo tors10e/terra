@@ -11,7 +11,7 @@ import Weather from "../home/weather";
 import ReactGA from "react-ga";
 
 const Home = () => {
-   ReactGA.pageview(window.location.pathname + window.location.search);
+   ReactGA.pageview('home');
     return (
                 <>
                 <HomeAlerts />
