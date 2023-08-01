@@ -6,7 +6,6 @@ import Hours from "../home/hours";
 import Contact from "../home/contact";
 import {Directions} from "../home/directions";
 import Trails from "../home/hiking";
-import Camping from "../home/camping";
 import Wines from "../home/wines";
 import Weather from "../home/weather";
 
