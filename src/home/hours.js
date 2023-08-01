@@ -21,9 +21,13 @@ const Hours = () => {
                         <div>
                             Sunday:
                         </div>
+                        <div>
+                            Monday:
+                        </div>
                     </div>
                     <div className="col">
-                        <div>4:00 - 9:00 PM</div>
+                        <div>12:30 - 9:00 PM</div>
+                        <div>12:30 - 9:00 PM</div>
                         <div>12:30 - 9:00 PM</div>
                         <div>12:30 - 9:00 PM</div>
                     </div>

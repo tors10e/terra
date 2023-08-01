@@ -3,6 +3,8 @@ import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 import Alert from 'react-bootstrap/Alert';
 import { v4 as uuidv4 } from 'uuid';
 import {CurrentEvents, GetDayOfTheWeek} from '../components/utilities';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 
 export function Href(props){
@@ -10,32 +12,23 @@ export function Href(props){
 };
 
 
-function EventAlertOdd(props) {
-  if (props.image != null) {
+function EventAlert(props) {
   return    <>
-                <div className="alert alert-secondary" role="alert">
-                    <h4 className="cover-heading">{props.title}</h4>
-                    <p class="lead">{props.description} </p>
-                    <img src={props.image} fluid="false" alt=""></img>
-                </div>
+            <Card style={{ width: '30rem' }} border="info" bg="light">
+              <Card.Img variant="top" src={props.image} />
+              <Card.Body>
+                <Card.Title>{props.title}</Card.Title>
+                <Card.Text>{props.description}</Card.Text>
+              </Card.Body>
+            </Card>
             </>
-            }
-   else {
-    return  <>
-                <div className="alert alert-secondary" role="alert">
-                    <h4 className="alert-heading">{props.title}</h4>
-                    {props.description}
-                </div>
-            </>
-        }
  }
-
 
 
 export function EventAlerts() {
     const current_events = CurrentEvents();
     const eventAlerts = current_events.map((event) =>
-            <EventAlertOdd key={event[0]} title = {event[0]} description = {event[1]} image={event[2]} />
+            <EventAlert key={event[0]} title = {event[0]} description = {event[1]} image={event[2]} />
             );
     return (
         <div>{eventAlerts}</div>
