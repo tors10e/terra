@@ -9,11 +9,11 @@ import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
 import Container from 'react-bootstrap/Container';
 
-import GA4React from "ga-4-react";
+import ReactGA from "react-ga4";
 
 function App() {
-    const ga4react = new GA4React("G-GRRHPDLTTM");
-    ga4react.initialize().then().catch()
+    ReactGA.initialize("G-GRRHPDLTTM");
+
   return (
       <Router>
             <TerraNavbar />
