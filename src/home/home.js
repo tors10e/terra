@@ -8,6 +8,7 @@ import {Directions} from "../home/directions";
 import Trails from "../home/hiking";
 import Wines from "../home/wines";
 import Weather from "../home/weather";
+
 import ReactGA from "react-ga4";
 
 const Home = () => {
