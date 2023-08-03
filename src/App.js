@@ -13,7 +13,6 @@ import ReactGA from "react-ga4";
 
 function App() {
     ReactGA.initialize("G-GRRHPDLTTM");
-
   return (
       <Router>
             <TerraNavbar />
