@@ -8,17 +8,12 @@ import Events from './events/events';
 import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
 import Container from 'react-bootstrap/Container';
-const tracking_id = 'G-GRRHPDLTTM'; //google analytics tracking id
-import ReactGA from 'react-ga';
 
-ReactGA.initialize(tracking_id);
-
+import GA4React from "ga-4-react";
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
+    const ga4react = new GA4React("G-GRRHPDLTTM");
+    ga4react.initialize().then().catch()
   return (
       <Router>
             <TerraNavbar />
