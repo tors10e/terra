@@ -10,10 +10,9 @@ import Overnighting from './overnighting/overnighting';
 import Container from 'react-bootstrap/Container';
 
 import ReactGA from "react-ga4";
+ReactGA.initialize("G-GRRHPDLTTM");
 
 function App() {
-    ReactGA.initialize("G-GRRHPDLTTM");
-
   return (
       <Router>
             <TerraNavbar />
