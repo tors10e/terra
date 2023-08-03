@@ -12,7 +12,7 @@ import {PrimaryAlert, SecondaryAlert}  from '../components/alerts';
 import ReactGA from 'react-ga4';
 
 function Alerts() {
-    ReactGA.send({ hitType: "pageview", page: "/home", title: "Home" });
+    ReactGA.send({ hitType: "pageview", page: "/overnighting", title: "Overnighting" });
    return(
         <PrimaryAlert text='Rabun County no longer allows camping or short-term rentals on agricultural lands. Sorry for the
         inconvenience, but all overnighting is currently unavailable.'/>
