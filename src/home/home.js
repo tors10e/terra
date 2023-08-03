@@ -12,7 +12,7 @@ import Weather from "../home/weather";
 import ReactGA from "react-ga4";
 
 const Home = () => {
-    ReactGA.send({ hitType: "pageview", page: "/home", title: "Home pageview" });
+    ReactGA.send({ hitType: "pageview", page: "/home", title: "Home" });
     return (
                 <>
                 <HomeAlerts />
