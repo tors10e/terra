@@ -16,7 +16,7 @@ const FacebookFeed = React.memo((props) => {
   return (
     <React.Fragment>
       <div id="fb-root"></div>
-      <div class="fb-page" data-href="https://www.facebook.com/TerraIncognitaVineyard" data-tabs="timeline, events"
+      <div class="fb-page" data-href="https://www.facebook.com/TerraIncognitaVineyard" data-show-posts="true"
         data-width="380" data-height="500" data-small-header="false" data-adapt-container-width="true"
         data-hide-cover="false" data-show-facepile="false">
         <blockquote cite="https://www.facebook.com/TerraIncognitaVineyard" class="fb-xfbml-parse-ignore">
