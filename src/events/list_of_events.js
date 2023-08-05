@@ -20,6 +20,7 @@ import high_lonesome from '../images/public_events/lisa_philmer_high_lonesome.jp
         ["July 22, 2023", "Jake Hicks will be playing from 3-7pm", ],
         ["July 29, 2023", "Music by George James will be playing from 3-7pm", ],
         ["July 30, 2023", ["Wild Mushroom Foray with Cara-Lee Langston at 10:30. ", <a href="https://www.wildcraftkitchenga.com/event-details/wildcraft-wine-wild-mushroom-foray-at-terra-incognita-2023-07-30-10-30">Click here for more info</a>] ],
+        ['August 5, 2023', "3-7pm Terra welcomes local musician Mat Fried."],
         ["August 12, 2023", "3-7pm Music by Brian Horton", ],
         ["August 13, 2023", "1-3pm Music by Christian Jones", ],
         ["August 19, 2023", "3-7pm Music by Mat Fried", ],
