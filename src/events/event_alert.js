@@ -2,7 +2,7 @@ import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 import Alert from 'react-bootstrap/Alert';
 import { v4 as uuidv4 } from 'uuid';
-import {CurrentEvents, GetDayOfTheWeek} from '../components/utilities';
+import {CurrentEvents, GetDayOfTheWeek, StringToDayOfTheWeek} from '../components/utilities';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -28,7 +28,7 @@ function EventAlert(props) {
 export function EventAlerts() {
     const current_events = CurrentEvents();
     const eventAlerts = current_events.map((event) =>
-            <EventAlert key={event[0]} title = {event[0]} description = {event[1]} image={event[2]} />
+            <EventAlert key={event[0]} title = {StringToDayOfTheWeek(event[0]) + " " + event[0]} description = {event[1]} image={event[2]} />
             );
     return (
         <div>{eventAlerts}</div>
