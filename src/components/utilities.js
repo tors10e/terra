@@ -30,8 +30,13 @@ export function CurrentEvents(props) {
 }
 
 
-export function GetDayOfTheWeek(props) {
+export function GetDayOfTheWeek(day_of_week) {
     const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    return weekday[props]
+    return weekday[day_of_week];
 }
 
+export function StringToDayOfTheWeek(date_string) {
+    var date_value = new Date(date_string);
+    var day_number = date_value.getDay();
+    return GetDayOfTheWeek(day_number);
+}
