@@ -6,7 +6,7 @@ const Home = () => {
     return (
                 <>
                 <div className="container">
-                    <p> placeholder</p>
+                    <a href="https://squareup.com/gift/K1DW0910BX83D/order">E-gift card </a>
                 </div>
                 </>
     );
