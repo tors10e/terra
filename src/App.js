@@ -7,6 +7,7 @@ import Home from './home/home';
 import Events from './events/events';
 import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
+import Store from './store/store';
 import Container from 'react-bootstrap/Container';
 const tracking_id = 'G-GRRHPDLTTM'; //google analytics tracking id
 import ReactGA from 'react-ga';
@@ -28,6 +29,7 @@ function App() {
               <Route path='/events' element={<Events />} />
               <Route path='/weddings' element={<Weddings />} />
               <Route path='/overnighting' element={<Overnighting />} />
+              <Route path='/store' element={<Store />} />
             </Routes>
            </Container>
       </Router>
