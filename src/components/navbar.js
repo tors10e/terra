@@ -20,6 +20,7 @@ function TerraNavbar(props) {
             <Nav.Link href="/weddings">Weddings</Nav.Link>
             <Nav.Link href="/overnighting">Overnighting</Nav.Link>
             <Nav.Link href="/#trails">Trails</Nav.Link>
+            <Nav.Link href="/store">E-Store</Nav.Link>
             <Nav.Link href="/#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
