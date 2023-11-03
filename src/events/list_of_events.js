@@ -41,7 +41,6 @@ import warren_miller from '../images/public_events/warren_miller_2023_1080x1080.
         ["October 14, 2023", "3-7pm Music by Brian Horton", ],
         ["October 21, 2023", "3-7pm Music by Blake Gardner", ],
         ["October 28, 2023", "3-7pm Music by Jake Hicks", ],
-        ["November 4, 2023", ["Autumn Feast with Alex Stein,  ", <a href="https://square.link/u/h1XEzf8O">Buy tickets here!</a>], autumn_feast ],
         ["November 4, 2023", "3-7 pm Music by George Jones",],
         ["November 11, 2023", "3-7 pm Music by Brian Horton",],
         ["November 18, 2023", "3-7 pm Music by High Lonesome",high_lonesome],
