@@ -42,7 +42,7 @@ import warren_miller from '../images/public_events/warren_miller_2023_1080x1080.
         ["October 21, 2023", "3-7pm Music by Blake Gardner", ],
         ["October 28, 2023", "3-7pm Music by Jake Hicks", ],
         ["November 4, 2023", ["Autumn Feast with Alex Stein,  ", <a href="https://square.link/u/hsyf6sCQ">Buy tickets here!</a>], autumn_feast ],
-        ["November 4, 2023", "3-7 pm Music by George Jones",],
+        ["November 4, 2023", "3-7 pm Music by George James",],
         ["November 11, 2023", "3-7 pm Music by Brian Horton",],
         ["November 18, 2023", "3-7 pm Music by High Lonesome",high_lonesome],
         ["December 1, 2023", ["Warren Miller ski film tour, checkout https://warrenmiller.com for details, ", <a href="https://checkout.square.site/buy/QKSLLJ2AGXVEACNXLEGDXMNI">Buy tickets here!</a>], warren_miller],
