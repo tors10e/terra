@@ -8,6 +8,7 @@ import Events from './events/events';
 import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
+import WarrenMiller from './events/warren-miller/warren-miller';
 import Container from 'react-bootstrap/Container';
 
 import ReactGA from "react-ga4";
@@ -21,6 +22,7 @@ function App() {
             <Routes>
               <Route exact path='/' exact element={<Home />} />
               <Route path='/events' element={<Events />} />
+              <Route path='/events/warren-miller' element={<WarrenMiller />} />
               <Route path='/weddings' element={<Weddings />} />
               <Route path='/overnighting' element={<Overnighting />} />
               <Route path='/store' element={<Store />} />
