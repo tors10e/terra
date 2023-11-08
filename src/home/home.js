@@ -8,6 +8,7 @@ import {Directions} from "../home/directions";
 import Trails from "../home/hiking";
 import Wines from "../home/wines";
 import Weather from "../home/weather";
+import FacebookFeed from "../components/facebook";
 
 import ReactGA from "react-ga4";
 
@@ -19,6 +20,7 @@ const Home = () => {
                 <Banner />
                 <div className="container">
                     <Intro />
+                    <FacebookFeed />
                     <Hours />
                     <Weather />
                     <Contact />
