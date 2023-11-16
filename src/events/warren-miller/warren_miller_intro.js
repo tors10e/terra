@@ -1,5 +1,6 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Alert';
 
 
 const WarrenMillerIntro = () => {
@@ -7,6 +8,7 @@ const WarrenMillerIntro = () => {
     <div className="topic">
         <h1 className="cover-heading">Welcome to the Warren Miller Film Tour at Terra!</h1>
         <Button variant="primary" size="lg" target="_blank" href="https://checkout.square.site/buy/QKSLLJ2AGXVEACNXLEGDXMNI">Purchase Tickets Here</Button>
+        <Alert variant="primary">Tickets are limited so please purchase them in advance so you are not left out in the cold!</Alert>
         <p> This is our first year hosting the Warren Miller Film Tour and we are beyond excited to bring this to
         fellow outdoor enthusiasts in the  Southern Highlands, this is going to be great! Warren Miller’s ALL TIME is bringing 74 years of filmmaking reimagined
         to a theater near you this fall. And this season, it's all about good turns and good snow on good hills with good people.  Narrated by Jonny Moseley,
@@ -19,7 +21,7 @@ const WarrenMillerIntro = () => {
         </p>
 
         <h2 className="cover-heading">The Event</h2>
-        <p>So, what's this going to look like? The event will be held at the Pavilion, which is located on Stoney Mountain, about  1.5 miles up a gravel Forest Service
+        <p>So, what is this going to look like? The event will be held at the Pavilion, which is located on Stoney Mountain, about  1.5 miles up a gravel Forest Service
         Road. We are kid and dog friendly! There is a bar with wine and food available for purchase. Although the pavilion is open air, we have vinyl walls and propane heaters to keep the place
         passably warm. That being said it's a good idea to dress for cold weather, since December can be cold and windy. We have a fire pit, for hanging around outside
         after the show. </p>
@@ -40,6 +42,9 @@ const WarrenMillerIntro = () => {
         Note that there are no actual campsites, but forest with flat areas where a tent can be put up. Please contact
         us for more information on this if you are interested.</p>
 
+        <p>For a campground style experience, Tallulah Gorge State Park Campground is open and has availability during the first week in December: <a href="https://gastateparks.reserveamerica.com/camping/tallulah-gorge-state-park/r/campsiteCalendar.do?page=calendar&search=site&contractCode=GA&parkId=530196"
+            target="_blank">Tallulah Falls Campground Reservations</a>.
+        </p>
         <p><b>Nearby Hotels</b>:
             <ul>
                 <li><a target="_blank" href="https://www.ihg.com/holidayinnclubvacations/hotels/us/en/clarkesville/toccv/hoteldetail">Apple Mountain Resort</a></li>
