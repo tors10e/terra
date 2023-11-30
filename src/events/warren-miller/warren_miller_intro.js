@@ -1,7 +1,11 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
-
+import Sweepstakes from "../../images/public_events/On Screen Brand Ads_SweepDetails_no_qr.jpg";
+import Smith_IO_Mag from "../../images/public_events/Smith_IO_Mag.png";
+import Smith_Embark from "../../images/public_events/Smith_Embark.png";
+import Outside_Plus from "../../images/public_events/Outside+.png";
+import GAIA_GPS from "../../images/public_events/GAIA_GPS.png";
 
 const WarrenMillerIntro = () => {
     return (
@@ -22,20 +26,41 @@ const WarrenMillerIntro = () => {
 
         <h2 className="cover-heading">The Event</h2>
         <p>So, what is this going to look like? The event will be held at the Pavilion, which is located on Stoney Mountain, about  1.5 miles up a gravel Forest Service
-        Road. We are kid and dog friendly! There is a bar with wine and food available for purchase. Although the pavilion is open air, we have vinyl walls and propane heaters to keep the place
+        Road. We are kid and dog friendly! There is a bar with wine, hot chocolate, Glüwein and food available for purchase. Although the pavilion is open air, we have vinyl walls and propane heaters to keep the place
         passably warm. That being said it's a good idea to dress for cold weather, since December can be cold and windy. We have a fire pit, for hanging around outside
-        after the show. </p>
-        <p>On the other hillside, we have a winery and tasting room which is open from 12:30 - 9:00 pm in case you want to come early and hang out.
+        after the show and fire place inside. Sunset is at 5:30 so if the weather is looking passable, you can hangout by the campfire play and watch the sunset. Once it's
+        dark enough, the film showing will start.</p>
+
+        <p>On the other hillside, we have a winery and tasting room which is open from 12:30 - 9:00 pm in case you want to come early or stay late, that is also available.
         </p>
 
-        <h2 className="cover-heading">Raffle and Sweepstakes</h2>
-        <p>Stay tuned for more information on this, there are some great prizes though...trust me.</p>
+        <h2 className="cover-heading">Sweepstakes</h2>
+        <p>During the intermission, there will be a giveaway and a chance to enter the national sweepstakes. The goods are awesome but the odds are not,
+        but hey that's why we've got the nightly giveway items!
+        <img src={Sweepstakes}/>
+</p>
 
-        <h2 className="cover-heading">Food</h2>
-        <p>There will be some light food like soup and personal flatbread pizzas available so you don't starve'.</p>
 
-        <h2 className="cover-heading">Drink</h2>
-        <p>We will have wine, hot chocolate, coffee, tea  and probably warm Glüwein available for sale throughout the event, but feel free to BYOB.</p>
+        <h2 className="cover-heading">Giveaway</h2>
+        <p>Each showing we will be giving away prizes from Wander North Georgia, Outside Magazine, GAIA GPS, and Smith Optics.
+         has generously provided us with I/O Mag googles and Embark glasses valued at $270 and $239 (respectively)!!
+
+        <ul>
+        <li>        <img src={Smith_IO_Mag} alt="Smith IO Mag googles"/>
+        <p>or</p>
+        <img src={Smith_Embark} alt="Smith Embark glasses"/>
+        </li>
+
+        <li>Year long subscription to Outside+</li>
+         <img src={Outside_Plus}/>
+        <li>Year long subscription to GAIA with Outside+ </li>
+        <img src={GAIA_GPS}/>
+</ul>
+</p>
+        <h2 className="cover-heading">Food and Drink</h2>
+        <p>Maria Loveless from Skye Burger will be providing food for purchase on Friday - Saturday and possibly Sunday,
+        depending on turn-out. There will be a few choices, including a vegetarian option. We will have wine, hot chocolate,
+        coffee, tea  and probably warm Glüwein available for sale throughout the event, but feel free to BYOB.</p>
 
         <h2 className="cover-heading">Lodging</h2>
         <p><b>Camping</b> - the property is surrounded by National Forest, so camping is allowed within 100' of the pavilion.
