@@ -50,8 +50,9 @@ import warren_miller from '../images/public_events/warren_miller_2023_1080x1080.
         ["December 3, 2023", ["Warren Miller ski film tour @ 5:30 pm ", <a href="./events/warren-miller">Click here for more information!</a>], warren_miller],
         ["December 9, 2023", "3-7 pm Music by Brian Horton",],
         ["December 16, 2023", "3-7 pm Music by George James",],
-        ["December 23, 2023", "3-7 pm Music by Mat Fried",],
-        ["December 30, 2023", "3-7 pm Music by Blake Gardner",],
+        ["December 24, 2023", "Closing early at 7 for Christmas Eve",],
+        ["December 25, 2023", "Closed for Christmas",],
+        ["December 31, 2023", "New years eve, live music by High Lonesome, and last day of summer hours", high_lonesome],
     ];
 
     export const no_events =
