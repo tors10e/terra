@@ -1,9 +1,10 @@
-import {events, no_events} from '../events/list_of_events';
+import {events,} from '../events/list_of_events';
 
 // Look at each event in the events file and make a new list with
 // those that are not in the past.
 
 
+//todo: This should be moved to the events class because this has specific logic to that.
 function IsEventCurrent(event_date, current_date) {
     var isCurrent = false;
     if (event_date >= current_date) {
@@ -12,6 +13,7 @@ function IsEventCurrent(event_date, current_date) {
     return isCurrent;
  }
 
+//todo: This should be moved to the events class because this has specific logic to that.
 export function CurrentEvents(props) {
     var current_events = [];
     // Set current date without time part so that a comparison by day is possible without having to deal with time.
@@ -24,7 +26,12 @@ export function CurrentEvents(props) {
             }
         )
     if (current_events.length < 1)
-        { return (no_events)}
+        {
+        var no_events =   [
+            [new Date().toDateString(), "No scheduled events, check back soon!"],
+        ]
+        return (no_events)
+            }
     else
         { return (current_events)}
 }
