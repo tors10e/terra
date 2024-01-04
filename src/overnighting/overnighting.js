@@ -14,8 +14,8 @@ import ReactGA from 'react-ga4';
 function Alerts() {
     ReactGA.send({ hitType: "pageview", page: "/overnighting", title: "Overnighting" });
    return(
-        <PrimaryAlert text='Rabun County no longer allows camping or short-term rentals on agricultural lands. Sorry for the
-        inconvenience, but all overnighting is currently unavailable.'/>
+        <PrimaryAlert text='Apartment rental is back! Unfortunately, Rabun County no longer allows camping on agricultural lands, sorry for the
+        inconvenience.'/>
     )
 };
 
