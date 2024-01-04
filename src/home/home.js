@@ -9,8 +9,10 @@ import Trails from "../home/hiking";
 import Wines from "../home/wines";
 import Weather from "../home/weather";
 import FacebookFeed from "../components/facebook";
+import Subscribe from "../home/subscribe";
 
 import ReactGA from "react-ga4";
+
 
 const Home = () => {
     ReactGA.send({ hitType: "pageview", page: "/home", title: "Home" });
@@ -27,6 +29,7 @@ const Home = () => {
                     <Directions />
                     <Trails />
                     <Wines />
+                    <Subscribe />
                 </div>
                 </>
     );

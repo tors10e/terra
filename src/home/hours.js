@@ -1,39 +1,16 @@
 import React from "react";
+import {WinterHours} from './hours_winter';
+import {SummerHours} from './hours_summer';
 
 const Hours = () => {
     return (
         <div className="topic topic-even section-heading">
-            <h2 id="hours">Operating Hours and Season</h2>
+            <h2 id="hours">Operating Hours and Seasons</h2>
             <div className="container">
-                <div className="row">
-                    <div className="h4 p-3 col bg-light">
-                        March - December
-                    </div>
-                </div>
-                <div className="row ">
-                    <div className="col">
-                        <div className="strong">
-                            Friday:
-                        </div>
-                        <div>
-                            Saturday:
-                        </div>
-                        <div>
-                            Sunday:
-                        </div>
-                        <div>
-                            Monday:
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div>12:30 - 9:00 PM</div>
-                        <div>12:30 - 9:00 PM</div>
-                        <div>12:30 - 9:00 PM</div>
-                        <div>12:30 - 9:00 PM</div>
-                    </div>
-                </div>
+                <WinterHours />
+                <SummerHours />
+                <p class="text-muted p-3 small">* <em>Special events are available by appointment</em></p>
             </div>
-            <p class="text-muted p-3 small">* <em>Special events are available by appointment</em></p>
         </div>
     );
 };
