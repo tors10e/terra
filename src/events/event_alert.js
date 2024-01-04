@@ -1,7 +1,7 @@
 import React from 'react';
 import pavilion_photo from '../images/public_events/HillsidePavilion.jpg';
 import Alert from 'react-bootstrap/Alert';
-import {events,} from '../events/list_of_events';
+import {events,} from './list_of_events';
 import { v4 as uuidv4 } from 'uuid';
 import {GetDayOfTheWeek, StringToDayOfTheWeek, MakeDateNiceToRead} from '../components/utilities';
 import Card from 'react-bootstrap/Card';
@@ -36,6 +36,18 @@ export function EventAlerts() {
     );
 }
 
+
+// Get raw events from event list file.
+function GetEvents() {
+    if (typeof events !==  'undefined') //if there is a list just send it.
+        {return events}
+    else
+        {var no_events = [] //if theres not a list, make a blank array and send it.
+            return no_events;
+         }
+}
+
+
 function IsEventCurrent(event_date, current_date) {
     var isCurrent = false;
     if (event_date >= current_date) {
@@ -45,19 +57,6 @@ function IsEventCurrent(event_date, current_date) {
  }
 
 
-function GetEvents() {
-    if (events.length > 0)
-        {return events}
-    else
-        {var no_events =
-            [
-                [MakeDateNiceToRead(new Date()), "No scheduled events, check back soon!"],
-            ]
-            return no_events;
-         }
-}
-
-
 export function CurrentEvents(props) {
     var current_events = [];
     // Set current date without time part so that a comparison by day is possible without having to deal with time.
@@ -65,12 +64,17 @@ export function CurrentEvents(props) {
     var event_list = GetEvents();
     event_list.map((event) => {
         const event_date = new Date(event[0])
-            if (IsEventCurrent(event_date, current_date) == true) {
-                var pretty_date = MakeDateNiceToRead(Date(event[0]))
-                const new_event = [pretty_date, event[1], event[2]]
-                current_events.push(new_event);
-                }
+        if (IsEventCurrent(event_date, current_date) == true) {
+            var pretty_date = MakeDateNiceToRead(event_date)
+            const new_event = [pretty_date, event[1], event[2]];
+            current_events.push(new_event);
+        }
     })
+    // if there are no current events, add an entry to tell people
+    if (current_events.length < 1)
+        {
+            current_events.push([MakeDateNiceToRead(new Date()), 'No current events']);
+        }
+
     return (current_events)
 }
-

@@ -17,6 +17,6 @@ export function StringToDayOfTheWeek(date_string) {
 
 export function MakeDateNiceToRead(orginal_date) {
     var pretty_date = new Date(orginal_date);
-    pretty_date = pretty_date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})
+    pretty_date = pretty_date.toLocaleDateString('en-us', { weekday:"short", month:"short", day:"numeric"})
     return pretty_date;
     }
