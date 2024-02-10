@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'react-bootstrap/image';
 import TheKnotImage from "../images/theknot.jpg";
-import WeddingPackages from "../images/Packages2023.pdf";
+import WeddingPackages from "../images/Packages2024.pdf";
 import WalkwayImage from "../images/pavilion_walkway.jpg";
 import WeddingGallery from '../weddings/wedding_gallery';
 import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png';
