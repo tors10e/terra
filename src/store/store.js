@@ -12,7 +12,7 @@ import Gift_Card_Image from "../images/products/square_gift_card.jpg";
 
 
 const Home = () => {
-   ReactGA.pageview(window.location.pathname + window.location.search);
+   ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "Store" });
     return (
             <>
                 <Container>
