@@ -21,7 +21,7 @@ import mothers_day from '../images/public_events/Mothersday2024-square.jpg';
       yoga_paz
     ],
     ["May 12, 2024",
-      ["Mother's day brunch 1:30 PM - 4 PM with Chef Alex Stein. ", 
+      ["Mother's day brunch 1:30 PM - 4 PM with Chef Alex Stein. Adults $50 and kids $15", 
         <a href='https://checkout.square.site/merchant/K1DW0910BX83D/checkout/V2BUROP5ZQAOLAGTYNY2BPOK'>Click here to buy tickets!</a>
       ],
       mothers_day
