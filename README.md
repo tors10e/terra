@@ -7,6 +7,25 @@
 - Photos export settings 2000pix width 80% quality
 
 
+
+# Web Server Install
+## Update Server  
+'sudo apt update'
+'sudo apt upgrade'
+
+## Install and Setup Webserver
+- 'sudo apt install nginx'
+- Create directory for site - 'mkdir /home/www/terra'
+- Configure web server
+
+
+
+
+`sudo apt install npm`
+
+
+
+
 # React.js
 
 set env variable %PUBLIC_URL% to point a the public directory in the project.
@@ -25,8 +44,6 @@ Go to your project folder in the terminal, and paste these two commands:
 This will generate the JS so it needs to be running while developing.
 'npx babel --watch src --out-dir ./public/js/react --presets react-app/prod'
 
-## Server Install
-`sudo apt install npm`
 
 ## Install packages
 - Add React Modal 
