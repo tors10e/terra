@@ -31,15 +31,27 @@ import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
       ["Our first ever Guided Trail Hike! Come join us from 11:00-12:30pm. Learn about the history of the TIV property and how we care for the land today as you follow with us along the 1.5mi Springhouse Loop Trail.", 
         
       ],
-    guided_hike
-  ],  
+      guided_hike
+    ],  
     ["May 12, 2024",
       ["Mother's day brunch 1:30 PM - 4 PM with Chef Alex Stein. Adults $50 and kids $15 ", 
         <a href='https://checkout.square.site/merchant/K1DW0910BX83D/checkout/V2BUROP5ZQAOLAGTYNY2BPOK'>Click here to buy tickets!</a>
       ],
     mothers_day
     ],  
-    ];
+    ["May 24, 2024",
+      ["Kicking off our one-year anniversary this weekend with Pork Ur Fork BBQ 1230 -930 PM starting Friday and continuing through Sunday!"]
+    ],
+    ["May 25, 2024",
+      ["11am - 12:30pm Yoga & Wine Join us at Terra Incognita Vineyards for an All Levels Morning Yoga Flow at the highest vineyard in the state. \
+      Take in the breathtaking Blue Ridge mountains during our flow and after, enjoy a free glass of wine. Don’t drink? No worries—choose a refreshing non-alcoholic drink option.\
+      Signing up in advance is required Hosted with Clayton Yoga Studio"
+      ]
+    ],
+    ["May 26, 2024",
+      ["Pork Ur Fork BBQ will have their food truck out and will be serving the souths best BBQ all weekend!  Come grab a glass of wine and enjoy lunch or dinner. 1230-9PM"]
+    ],
+  ];
 
 
 
