@@ -6,7 +6,11 @@
 - slide show aspect ratio 16:9
 - Photos export settings 2000pix width 80% quality
 
-
+#Banners
+- 16:9
+- 2000x1125
+- jpg
+- 80% quality
 
 # Web Server Install
 ## Update Server  
