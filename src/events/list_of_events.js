@@ -3,6 +3,9 @@ import easter_hunt from '../images/public_events/2024_Easter_square.JPG';
 import clayton_yoga from '../images/public_events/20240427_yoga_poster.jpg';
 import mothers_day from '../images/public_events/Mothersday2024-square.jpg';
 import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
+import brian_horton from '../images/public_events/BrianHorton.jpg';
+import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.jpg';
+
 
 // Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
 // Example of an event without photo  ["March 3, 2023", "First day of the season we are back to being open!"]
@@ -28,8 +31,8 @@ import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
     clayton_yoga
     ],
     ["May 4, 2024",
-      ["Our first ever Guided Trail Hike! Come join us from 11:00-12:30pm. Learn about the history of the TIV property and how we care for the land today as you follow with us along the 1.5mi Springhouse Loop Trail.", 
-        
+      ["Our first ever Guided Trail Hike! Come join us from 11:00-12:30pm. Learn about the history of the TIV property and how we care for the land today as you \
+      follow with us along the 1.5mi Springhouse Loop Trail.", 
       ],
       guided_hike
     ],  
@@ -51,6 +54,14 @@ import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
     ["May 26, 2024",
       ["Pork Ur Fork BBQ will have their food truck out and will be serving the souths best BBQ all weekend!  Come grab a glass of wine and enjoy lunch or dinner. 1230-9PM"]
     ],
+    ["June 8, 2024",
+      ["Live music with Brian Horton from 3 to 7 PM!"], 
+      brian_horton
+    ],
+    ["June 22, 2024",
+      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! 12PM"], 
+      roadside_geology
+  ],
   ];
 
 
