@@ -1,1 +1,0 @@
-scp -r ./public/index.html torsten@terraincognitavineyard.com:/home/www/terraincognitavineyard.com
