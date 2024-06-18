@@ -59,7 +59,7 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       brian_horton
     ],
     ["June 22, 2024",
-      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! 12PM"], 
+      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! Presentation is at 1-2PM dollowed by a walk from 2-3PM"], 
       roadside_geology
   ],
   ];
