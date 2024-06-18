@@ -1,6 +1,6 @@
 import high_lonesome from '../images/public_events/lisa_philmer_high_lonesome.jpg';
 import easter_hunt from '../images/public_events/2024_Easter_square.JPG';
-import clayton_yoga from '../images/public_events/20240427_yoga_poster.jpg';
+import clayton_yoga from '../images/public_events/yoga_poster.jpg';
 import mothers_day from '../images/public_events/Mothersday2024-square.jpg';
 import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
 import brian_horton from '../images/public_events/BrianHorton.jpg';
@@ -59,9 +59,15 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       brian_horton
     ],
     ["June 22, 2024",
-      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! 12PM"], 
+      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! Presentation is at 1-2PM followed by a walk from 2-3PM"], 
       roadside_geology
-  ],
+    ],
+    ["Jun 29, 2024",
+      ["11am - 12:30pm Yoga & Wine Join us at Terra Incognita Vineyards for an All Levels Morning Yoga Flow at the highest vineyard in the state. \
+      Take in the breathtaking Blue Ridge mountains during our flow and after, enjoy a free glass of wine. Don’t drink? No worries—choose a refreshing non-alcoholic drink option.\
+      Signing up in advance is required Hosted with Clayton Yoga Studio"
+      ], clayton_yoga
+    ],
   ];
 
 
