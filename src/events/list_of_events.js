@@ -5,6 +5,7 @@ import mothers_day from '../images/public_events/Mothersday2024-square.jpg';
 import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
 import brian_horton from '../images/public_events/BrianHorton.jpg';
 import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.jpg';
+//import george_james from '../images/public_events/george_james.jpg';
 
 
 // Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
@@ -67,6 +68,30 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       Take in the breathtaking Blue Ridge mountains during our flow and after, enjoy a free glass of wine. Don’t drink? No worries—choose a refreshing non-alcoholic drink option.\
       Signing up in advance is required Hosted with Clayton Yoga Studio"
       ], clayton_yoga
+    ],
+    ["Jul 13, 2024",
+      ["Live music with Brian Horton from 3 to 7 PM!"], 
+      brian_horton
+    ],
+    ["Jul 20, 2024",
+      ["Habersham county animal shelter adoption day"]
+    ],
+    ["Jul 27, 2024",
+      ["10:00 Mushroom workshop with Wildkraft Kitchen, 11:30 Yoga in the vines, 3pm George James "], clayton_yoga
+    ],
+    ["Aug 3, 2024",
+      ["11:00 Guided hike."]
+    ],
+    ["Aug 10, 2024",
+      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! Presentation is at 1-2PM followed by a walk from 2-3PM followed by live music \
+        with Brian Horton at 3pm."], 
+      roadside_geology
+    ],
+    ["Aug 17, 2024",
+      ["10AM & 130PM Mushroom foray with Wildkraft Kitchen."]
+    ],
+    ["Aug 24, 2024",
+      ["3PM music with George James!"], // george_james
     ],
   ];
 
