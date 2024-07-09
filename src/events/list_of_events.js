@@ -77,18 +77,25 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       ["Habersham county animal shelter adoption day"]
     ],
     ["Jul 27, 2024",
-      ["10:00 Mushroom workshop with Wildkraft Kitchen, 11:30 Yoga in the vines, 3pm George James "], clayton_yoga
+      [<ul>
+        <li>10AM - Mushroom workshop with Wildkraft Kitchen  <a href='https://square.link/u/ox2TPGNT'> Click here to buy tickets!</a></li>
+        <li>1130AM -  Yoga in the vines with Clayton Yoga buy tickets at https://www.claytonyogastudio.com/events or at the door.</li> 
+        <li>3PM - Live music with George James</li>
+      </ul>], 
+      clayton_yoga
     ],
     ["Aug 3, 2024",
       ["11:00 Guided hike."]
     ],
     ["Aug 10, 2024",
-      ["Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! Presentation is at 1-2PM followed by a walk from 2-3PM followed by live music \
-        with Brian Horton at 3pm."], 
+      [<ul>
+        <li>1PM - Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! Presentation is at 1-2PM followed by a walk from 2-3PM</li>
+        <li>3PM - Live music with Brian Horton!</li>
+        </ul>], 
       roadside_geology
     ],
     ["Aug 17, 2024",
-      ["10AM & 130PM Mushroom foray with Wildkraft Kitchen."]
+      ["10AM & 130PM Mushroom foray with Wildkraft Kitchen.",  ]
     ],
     ["Aug 24, 2024",
       ["3PM music with George James!"], // george_james
