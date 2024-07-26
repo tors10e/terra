@@ -85,7 +85,7 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       clayton_yoga
     ],
     ["Aug 3, 2024",
-      ["11:00 Guided hike."]
+      ["11:00 Guided hike - Free no sign-up needed."]
     ],
     ["Aug 10, 2024",
       [<ul>
@@ -95,11 +95,26 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       roadside_geology
     ],
     ["Aug 17, 2024",
-      ["10AM & 130PM Mushroom foray with Wildkraft Kitchen.",  ]
+      ["10AM & 130PM Mushroom foray with Wildkraft Kitchen -TBD.",  ]
     ],
     ["Aug 24, 2024",
       ["3PM music with George James!"], // george_james
     ],
+    ["Aug 30, 2024",
+      ["3-9PM Pork your Fork food truck"], 
+    ],
+    ["Aug 31, 2024",
+      [<ul>
+        <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga</li>
+        <li>1230-9pm Pork your Fork bbq food truck</li>
+        <li>3-7pm Live music with Brian Horton</li>
+      </ul>
+      ],
+    ],
+    ["Sep 1, 2024",
+      ["1230PM- Until the food runs out! Pork your Fork BBQ food truck"], 
+    ],
+
   ];
 
 
