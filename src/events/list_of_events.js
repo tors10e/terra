@@ -95,7 +95,7 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       roadside_geology
     ],
     ["Aug 17, 2024",
-      ["10AM & 130PM Mushroom foray with Wildkraft Kitchen -TBD.",  ]
+      ["10AM - Mushroom workshop with ", <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a>, ". Click ", <a href='https://square.link/u/JrmkwjhD'>here</a>, " to buy tickets!" ]
     ],
     ["Aug 24, 2024",
       ["3PM music with George James!"], // george_james
@@ -107,15 +107,19 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       [<ul>
         <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga</li>
         <li>1230-9pm Pork your Fork bbq food truck</li>
-        <li>3-7pm Live music with Brian Horton</li>
       </ul>
       ],
+      clayton_yoga
     ],
     ["Sep 1, 2024",
-      ["1230PM- Until the food runs out! Pork your Fork BBQ food truck"], 
+      [<ul>
+        <li>1230PM- Until the food runs out! Pork your Fork BBQ food truck</li>
+        <li>3PM - Live music with Brian Horton!</li>
+      </ul>
     ],
-
-  ];
+    brian_horton
+  ]
+];
 
 
 
