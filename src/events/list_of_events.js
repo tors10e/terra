@@ -118,7 +118,10 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
       </ul>
     ],
     brian_horton
-  ]
+  ],
+  ["Sep 14, 2024",
+    ["10AM -1230PM Fall Foraging Walk with ", <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a>, ". Click ", <a href='https://checkout.square.site/buy/RIQLI7UYMQUXGEXSRBCPQ2FS'>here</a>, " to buy tickets!" ]
+  ],
 ];
 
 
