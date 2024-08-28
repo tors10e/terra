@@ -5,6 +5,7 @@ import mothers_day from '../images/public_events/Mothersday2024-square.jpg';
 import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
 import brian_horton from '../images/public_events/BrianHorton.jpg';
 import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.jpg';
+import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
 //import george_james from '../images/public_events/george_james.jpg';
 
 
@@ -120,9 +121,9 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
     brian_horton
   ],
   ["Sep 14, 2024",
-    ["10AM -1230PM Fall Foraging Walk with ", <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a>, ". Click ", <a href='https://checkout.square.site/buy/RIQLI7UYMQUXGEXSRBCPQ2FS'>here</a>, " to buy tickets!" ]
+    ["10AM -1230PM Fall Foraging Walk with ", <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a>, ". Click ", <a href='https://checkout.square.site/buy/RIQLI7UYMQUXGEXSRBCPQ2FS'>here</a>, " to buy tickets!" 
+
+    ],
+    forage_mushrooms
   ],
 ];
-
-
-
