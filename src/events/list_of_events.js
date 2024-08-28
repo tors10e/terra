@@ -105,7 +105,7 @@ import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.j
     ],
     ["Aug 31, 2024",
       [<ul>
-        <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga</li>
+        <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://cart.mindbodyonline.com/sites/120401/cart"> Sign Up Here</a></li>
         <li>1230-9pm Pork your Fork bbq food truck</li>
       </ul>
       ],
