@@ -142,4 +142,31 @@ import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
     ],
     clayton_yoga
   ],
+  ["Oct 5, 2024",
+    ["11:00 Guided nature walk - Free no sign-up needed."]
+  ],
+  ["Oct 6, 2024",
+    ["9:00 Grape picking, come join us to help with the harvest!"]
+  ],
+  ["Oct 12, 2024",
+    [<ul>
+      <li>3-7PM - Live music with Brian Horton!</li>
+    </ul>
+  ],
+  brian_horton
+],
+["Oct 19, 2024",
+  [<ul>
+       <li>3-7PM Live music with Larry Walker</li>
+    </ul>
+  ]
+],
+["Oct 26, 2024",
+  [<ul>
+    <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://www.mindbodyonline.com/explore/locations/clayton-yoga-barre"> Sign Up Here</a></li>
+    <li>3-7PM Live music with George James</li>
+  </ul>
+  ],
+  clayton_yoga
+],
 ];
