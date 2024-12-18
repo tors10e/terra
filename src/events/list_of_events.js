@@ -126,4 +126,8 @@ import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
     ],
     forage_mushrooms
   ],
+  ["Dec 21, 2024",
+    ["4PM - it's over Winter Solsctice party with fires and gluhwein at the pavilion!" 
+    ],
+  ],
 ];
