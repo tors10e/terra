@@ -12,12 +12,11 @@ function HomeAlerts() {
 
     if (current_events.length > 0 && event_date !=  "Invalid Date") {
         return (
-                <PrimaryAlert
-                    text={<a href="/events">{current_events[0][0]} - {current_events[0][1]}</a>}
-                />
+            <>   
+                <PrimaryAlert text={<a href="/events">{current_events[0][0]} - {current_events[0][1]}</a>}/>
+            </>
         );
     }
-
 };
 
 export default HomeAlerts;
