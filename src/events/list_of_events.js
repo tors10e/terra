@@ -120,14 +120,57 @@ import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
     ],
     brian_horton
   ],
+  ["Sep 7, 2024",
+    ["11AM - 1230PM Guided trail hike - Free no sign-up needed."]
+  ],
   ["Sep 14, 2024",
-    ["10AM -1230PM Fall Foraging Walk with ", <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a>, ". Click ", <a href='https://checkout.square.site/buy/RIQLI7UYMQUXGEXSRBCPQ2FS'>here</a>, " to buy tickets!" 
-
+    [<ul>
+        <li>10AM -1230PM Fall Foraging Walk with, <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a> buy tickets <a href='https://checkout.square.site/buy/RIQLI7UYMQUXGEXSRBCPQ2FS'>here</a></li>
+        <li>3-7PM Live music with Larry Walker</li>
+      </ul>
     ],
     forage_mushrooms
   ],
-  ["Dec 21, 2024",
-    ["4PM - it's over Winter Solsctice party with fires and gluhwein at the pavilion!" 
-    ],
+  ["Sep 21, 2024",
+    ["3-7PM Live music with Blake Gardner and Addriana Hunter"]
   ],
+  ["Sep 28, 2024",
+    [<ul>
+      <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://cart.mindbodyonline.com/sites/120401/cart"> Sign Up Here</a></li>
+      <li>3-7PM Live music with George James</li>
+    </ul>
+    ],
+    clayton_yoga
+  ],
+  ["Oct 5, 2024",
+    ["11:00 Guided nature walk - Free no sign-up needed."]
+  ],
+  ["Oct 6, 2024",
+    ["9:00 Grape picking, come join us to help with the harvest!"]
+  ],
+  ["Oct 12, 2024",
+    [<ul>
+      <li>3-7PM - Live music with Brian Horton!</li>
+    </ul>
+  ],
+  brian_horton
+],
+["Oct 19, 2024",
+  [<ul>
+       <li>3-7PM Live music with Larry Walker</li>
+    </ul>
+  ]
+],
+["Oct 26, 2024",
+  [<ul>
+    <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://www.mindbodyonline.com/explore/locations/clayton-yoga-barre"> Sign Up Here</a></li>
+    <li>3-7PM Live music with George James</li>
+  </ul>
+  ],
+  clayton_yoga
+],
+["Dec 21, 2024",
+  ["4PM - it's over Winter Solsctice party with fires and gluhwein at the pavilion!" 
+  ],
+],
 ];
