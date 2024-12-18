@@ -170,7 +170,11 @@ import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
   clayton_yoga
 ],
 ["Dec 21, 2024",
+<<<<<<< HEAD
   ["4PM+  Winter Solsctice party with fires and gluhwein at the pavilion!" 
+=======
+  ["4PM - it's over Winter Solsctice party with fires and gluhwein at the pavilion!" 
+>>>>>>> 340cc0985e4a76d4a7f7b7d45c6136171e0e2194
   ],
 ],
 ];
