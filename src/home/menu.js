@@ -3,7 +3,7 @@ import { Container, Col, Row, Image } from 'react-bootstrap';
 
 export function Menu(props) {
     return (
-        <div>
+<>
             <Row>
                 <Col>
                     <Image src={PavilionGlow} rounded />
@@ -26,7 +26,8 @@ export function Menu(props) {
                     <Image src={PavilionGlow} rounded />
                 </Col>
             </Row>
-        </div>
+</>
     );
 }
 
+export default menubar;
