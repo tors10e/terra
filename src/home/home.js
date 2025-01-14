@@ -12,8 +12,9 @@ import NightVines from "../images/night_vines_800.jpg";
 
 
 import ReactGA from "react-ga4";
-import { Container, Col, Row, Image } from 'react-bootstrap';
+import { Container, Col, Row, Image, Card } from 'react-bootstrap';
 import Menu from './menu';
+import {OverlayCard} from "../components/terra_card";
 
 
 const Home = () => {
@@ -23,29 +24,31 @@ const Home = () => {
                 <Row>
                     <Header/>
                 </Row>
-                <Row><Banner/></Row>
+                <Row>
+                    <Banner/>
+                </Row>
                 <Row>
                 <Col>
-                    <Image src={PavilionGlow} rounded />
+                    <OverlayCard card_image={PavilionGlow} card_title="WEDDINGS"/>
                 </Col>
                 <Col>
-                    <Image src={NightVines} rounded />
+                    <OverlayCard card_image={NightVines} card_title="OVERNIGHTING"/> 
                 </Col>
                 <Col>
-                    <Image src={DiningOut} rounded />    
+                    <OverlayCard card_image={DiningOut} card_title="EVENTS"/>
                 </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Image src={GreenGrapes} rounded />
-                </Col>
-                <Col>
-                    <Image src={SunsetRidge} rounded />
-                </Col>
-                <Col>
-                    <Image src={MountainFog} rounded />
-                </Col>
-            </Row>
+                </Row>
+                <Row>
+                    <Col>
+                        <OverlayCard card_image={GreenGrapes} card_title="WINERY"/>
+                    </Col>
+                    <Col>
+                        <OverlayCard card_image={SunsetRidge} card_title="TRAILS"/>
+                    </Col>
+                    <Col>
+                    <OverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"/>
+                    </Col>
+                </Row>
                 <Row>
                     <Footer/>
                 </Row>
