@@ -1,10 +1,10 @@
 import React from 'react';
-import banner_image from "../images/banners/aerial_roundhouse_2000.jpg";
+import banner_image from "../images/banners/UncorkYourSenseOfAdventure_2000x1290.jpg";
 
 
 function Banner(props) {
     return (
-        <img src={banner_image} alt="Aerial Sunset View" className="border border-light rounded"/>
+        <img src={banner_image} alt="Sunset View" className="border border-light rounded"/>
     )
 }
 
