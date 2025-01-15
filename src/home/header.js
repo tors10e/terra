@@ -5,12 +5,14 @@ import logo from "../images/logo_bw_text.png";
 
 function Header(props) {
     return (
-        <Row >
-            <Col></Col>
-            <Col>
-                <Image src={logo} class="m-4"/>
+        <Row>
+            <Col class="col-4"></Col>
+            <Col class="col-2" >
+                <div class="pb-2 pt-4">
+                    <Image src={logo} width="200px"/>
+                </div>
             </Col>
-            <Col></Col>
+            <Col class="col-4"></Col>
         </Row>
     );
 }
