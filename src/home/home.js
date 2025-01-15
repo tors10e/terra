@@ -6,7 +6,7 @@ import Header from "./header";
 import ReactGA from "react-ga4";
 import { Container, Col, Row, Image, Card } from 'react-bootstrap';
 import Menu from './menu';
-import {OverlayCard} from "../components/terra_card";
+import {OverlayCard} from "../components/card";
 
 
 const Home = () => {

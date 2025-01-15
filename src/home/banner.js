@@ -1,6 +1,6 @@
 import React from 'react';
 import banner_image from "../images/banners/UncorkYourSenseOfAdventure_2000x1290.jpg";
-import {OverlayCard} from "../components/terra_card";
+import {OverlayCard} from "../components/card";
 import { Container, Col, Row, Image, Card } from 'react-bootstrap';
 
 export function Banner(props) {

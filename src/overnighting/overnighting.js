@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-import {TerraCard} from '../components/terra_card';
+import {TerraCard} from '../components/card';
 import camping_summer from '../images/camping_summer.jpg';
 import alpenglow_apartment_interior from '../images/alpenglow_apartment_interior.jpg';
 import NorthernViewFromWRidge from '../images/NorthernViewFromWRidge.png';

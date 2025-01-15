@@ -30,4 +30,14 @@ import Card from 'react-bootstrap/Card';
 }
 
 
-export {TerraCard, OverlayCard};
+{/*This overlay card is clickable*/}
+function ClickableOverlayCard(props) {
+  return(
+    <a href={props.url}>
+      <OverlayCard card_title={props.card_title} card_text={props.card_text} card_image={props.card_image}/>
+    </a>
+  )
+}
+
+
+export {TerraCard, OverlayCard, ClickableOverlayCard};

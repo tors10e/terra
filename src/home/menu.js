@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Col, Row, Image } from 'react-bootstrap';
-import { OverlayCard } from '../components/terra_card';
+import { ClickableOverlayCard, OverlayCard } from '../components/card';
 
 import GreenGrapes from "../images/green_grapes_800x540.jpg";
 import SunsetRidge from "../images/sunset_ridge_800x541.jpg";
@@ -14,24 +14,24 @@ export function Menu(props) {
     <div>
                         <Row>
                             <Col>
-                                <OverlayCard card_image={PavilionGlow} card_title="WEDDINGS"/>
+                                <ClickableOverlayCard card_image={PavilionGlow} card_title="WEDDINGS" url="/weddings"/>
                             </Col>
                             <Col>
-                                <OverlayCard card_image={NightVines} card_title="OVERNIGHTING"/> 
+                                <ClickableOverlayCard card_image={NightVines} card_title="OVERNIGHTING" url="/overnighting"/> 
                             </Col>
                             <Col>
-                                <OverlayCard card_image={DiningOut} card_title="EVENTS"/>
+                                <ClickableOverlayCard card_image={DiningOut} card_title="EVENTS" url="/events"/>
                             </Col>
                         </Row>
                         <Row>
                             <Col>
-                                <OverlayCard card_image={GreenGrapes} card_title="WINERY"/>
+                                <ClickableOverlayCard card_image={GreenGrapes} card_title="WINERY" url="/winery"/>
                             </Col>
                             <Col>
-                                <OverlayCard card_image={SunsetRidge} card_title="TRAILS"/>
+                                <ClickableOverlayCard card_image={SunsetRidge} card_title="TRAILS" url="/trails"/>
                             </Col>
                             <Col>
-                                <OverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"/>
+                                <ClickableOverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"url="/photos"/>
                             </Col>
                         </Row>
                     </div>
