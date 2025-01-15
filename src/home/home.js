@@ -2,11 +2,12 @@ import React from 'react';
 import Banner from "./banner";
 import Footer from "./footer";
 import Header from "./header";
+import NavBar from "../components/navbar";
 
 import ReactGA from "react-ga4";
 import { Container, Col, Row, Image, Card } from 'react-bootstrap';
 import Menu from './menu';
-import {OverlayCard} from "../components/card";
+
 
 
 const Home = () => {
@@ -15,6 +16,9 @@ const Home = () => {
             <Container>
                 <Row>
                     <Header/>
+                </Row>
+                <Row>
+                    <NavBar/>
                 </Row>
                 <Row>
                     <Banner/>
