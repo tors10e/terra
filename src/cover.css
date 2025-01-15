@@ -8,10 +8,11 @@
 
  .footer-heading {
   text-decoration: underline;
+
  }
 
  .footer-subheading {
-  text-decoration: bold;
+    font-weight: bold;
  }
 
 .alert {

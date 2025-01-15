@@ -6,15 +6,15 @@ export function Footer(props) {
         <Row>
             <Col>
                     <h5 class="footer-heading">LOCATION:</h5>
-                    <p>1821 VANDIVER MTN RD</p>
-                    <p>CLARKSVILLE, GA 30523</p>
+                    <p>1821 Vandiver Mountain Road</p>
+                    <p>Clarksville, GA 30523</p>
 
-                    <p>Latitude: 34 43' 46.8588"</p>
-                    <p>Longitude: -83 29' 51.6228"</p>
+                    <p>Latitude: 34&deg; 43' 46.8588"</p>
+                    <p>Longitude: -83&deg; 29' 51.6228"</p>
             </Col>
             <Col>
                 <h5 class="footer-heading">HOURS:</h5>
-                <p class="font-weight-bold">MARCH - NOVEMBER</p>
+                <p class="footer-subheading">MARCH - NOVEMBER</p>
                 <p>Friday, Saturday, Sunday, Monday</p>
                 <p>12:30-9:00PM</p>
 
