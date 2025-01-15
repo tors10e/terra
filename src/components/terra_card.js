@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-
+{/* Default card with terra look and feel */}
  function TerraCard(props) {
   return (
     <Card style={{width: '36rem'}}>
@@ -15,6 +15,7 @@ import Card from 'react-bootstrap/Card';
   );
 }
 
+{/* This card is used for overlaying text on an image */}
  function OverlayCard(props) {
   return (
     <Card style={{width: '100%'}} className="bg-dark text-white">
@@ -28,5 +29,5 @@ import Card from 'react-bootstrap/Card';
   );
 }
 
-export default TerraCard;
+
 export {TerraCard, OverlayCard};

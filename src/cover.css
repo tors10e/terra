@@ -1,7 +1,12 @@
 /*
  * Globals
  */
+ 
 
+ body {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+ }
+ 
 .alert {
     text-align: center;
 }
@@ -31,6 +36,10 @@
 body {
   height: 100%;
   min-height: 100vh;
+  }
+
+div {
+
 }
 
 p {
@@ -364,6 +373,17 @@ img {
     text-align: left;
 }
 
+#banner {
+	  position: relative;
+  text-align: center;
+  color: white;
+}
 
-
+#banner-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
 

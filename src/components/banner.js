@@ -1,10 +1,14 @@
 import React from 'react';
 import banner_image from "../images/banners/UncorkYourSenseOfAdventure_2000x1290.jpg";
+import {OverlayCard} from "../components/terra_card";
+import { Container, Col, Row, Image, Card } from 'react-bootstrap';
 
-
-function Banner(props) {
+export function Banner(props) {
     return (
-        <img src={banner_image} alt="Sunset View" className="border border-light rounded"/>
+        <Container id="banner">
+            <div id="banner-text" class="top"><h1>UNCORK YOUR SENSE OF ADVENTURE.</h1></div>
+            <img src={banner_image} alt="Sunset View" className="border border-light rounded"/>
+        </Container>
     )
 }
 
