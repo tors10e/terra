@@ -14,11 +14,12 @@ const Home = () => {
     ReactGA.send({ hitType: "pageview", page: "/home", title: "Home" });
     return (
             <Container>
+
                 <Row>
                     <Header/>
                 </Row>
-                <Row>
-                    <NavBar/>
+                <Row class="navbar">
+                    <NavBar />
                 </Row>
                 <Row>
                     <Banner/>

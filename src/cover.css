@@ -52,6 +52,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
 .cover-container {
   max-width: 100%;
 }
@@ -92,6 +100,11 @@ body {
   color: #002550;
 }
 
+.cover-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .navbar-brand {
     color:darkslategrey;
