@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/tors10e/terra/issues"
   },
-  "homepage": "https://terraincognitavineyard.com",
+  "homepage": "set with export PUBLIC_URL=https://terraincognitavineyard.com",
   "watch": {
     "build": {
       "patterns": [

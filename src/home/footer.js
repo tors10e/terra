@@ -3,7 +3,7 @@ import { Container, Col, Row, Image } from 'react-bootstrap';
 
 export function Footer(props) {
     return (
-        <Row>
+        <Row id="footer">
             <Col>
                     <h5 class="footer-heading">LOCATION:</h5>
                     <p>1821 Vandiver Mountain Road</p>
