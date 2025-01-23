@@ -19,6 +19,9 @@
     "web-vitals": "^2.1.4"
   },
   "name": "terra",
+  "engines": {
+    "node": "22.x"
+  },
   "description": "- file type = .jpg\r - file size (max)  = 500 kb\r - resolution\r - slide show aspect ratio 16:9\r - Photos export settings 2000pix width 50% quality",
   "version": "1.0.0",
   "main": "index.js",
