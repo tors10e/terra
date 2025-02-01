@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import {TerraCard} from '../components/terra_card';
+import {TerraCard} from '../components/card';
 import Gift_Card_Image from "../images/products/square_gift_card.jpg";
 
 

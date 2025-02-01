@@ -16,16 +16,15 @@ ReactGA.initialize("G-GRRHPDLTTM");
 function App() {
   return (
       <Router>
-            <TerraNavbar />
-                    <Container className='d-flex w-100 h-100 mx-auto flex-column align-items-center'>
-            <Routes>
-              <Route exact path='/' exact element={<Home />} />
-              <Route path='/events' element={<Events />} />
-              <Route path='/weddings' element={<Weddings />} />
-              <Route path='/overnighting' element={<Overnighting />} />
-              <Route path='/store' element={<Store />} />
-            </Routes>
-           </Container>
+        <Container className='d-flex w-100 h-100 mx-auto flex-column align-items-center'>
+          <Routes>
+            <Route exact path='/' exact element={<Home />} />
+            <Route path='/events' element={<Events />} />
+            <Route path='/weddings' element={<Weddings />} />
+            <Route path='/overnighting' element={<Overnighting />} />
+            <Route path='/store' element={<Store />} />
+          </Routes>
+         </Container>
       </Router>
   );
 }
