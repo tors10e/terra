@@ -4,7 +4,7 @@ import trail_map from '../images/on_property_trails.jpg';
 
 const Trails = () => {
     return (
-        <div className="topic topic-even section-heading">
+        <div className="section-heading">
             <h2 id="trails">Trails</h2>
             <p>Get out and enjoy these beautiful mountains. We have a few trails that make for easy walking or spend
                 some
@@ -23,7 +23,7 @@ const Trails = () => {
                 explore
                 other nearby
                 hiking and mountain biking trails. Have a look at this list on
-                <a href="https://www.alltrails.com/lists/near-terra" target="_blank">AllTrails Near Terra</a> for
+                <a href="https://www.alltrails.com/lists/near-terra" target="_blank"> AllTrails Near Terra</a> for
                 better information
             </p>
                 <h4>
