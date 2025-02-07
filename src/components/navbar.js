@@ -14,8 +14,9 @@ function TerraNavbar(props) {
           <Nav className="m-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/#footer">Hours</Nav.Link>
-            <Nav.Link href="/weather">Current Weather</Nav.Link>
-            <Nav.Link href="https://www.google.com/maps/dir//Terra+Incognita+Vineyard,+1821+Vandiver+Mountain+Rd,+Clarkesville,+GA+30523/@34.7333066,-83.5026561,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8858c915d77b42fd:0x4c7a8c1b7677a54d!2m2!1d-83.5026561!2d34.7333066!3e0?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D">
+            <Nav.Link href="https://www.wunderground.com/dashboard/pws/KGALAKEM20" target="_blank">Current Weather</Nav.Link>
+            <Nav.Link href="https://www.google.com/maps/dir//Terra+Incognita+Vineyard,+1821+Vandiver+Mountain+Rd,+Clarkesville,+GA+30523/@34.7333066,-83.5026561,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8858c915d77b42fd:0x4c7a8c1b7677a54d!2m2!1d-83.5026561!2d34.7333066!3e0?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" 
+                target="_blank">
                 Directions</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/weddings">Weddings</Nav.Link>
