@@ -29,7 +29,6 @@
   border: .05rem solid #fff;
 }
 
- 
 /* set the font to serif */
 body {
   height: 100%;
@@ -262,8 +261,5 @@ img {
 
 #banner-text {
   position: absolute;
-  top: 10%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
+
 }
