@@ -24,6 +24,10 @@
 
 
 
+#Upgrade NodeJS to latest long term release
+- install nvm and make sure NodeJS is not already installed, if so delete it
+- nvm install lts
+
 
 `sudo apt install npm`
 
