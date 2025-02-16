@@ -29,7 +29,6 @@
   border: .05rem solid #fff;
 }
 
- 
 /* set the font to serif */
 body {
   height: 100%;
@@ -256,14 +255,17 @@ img {
 
 #banner {
 	  position: relative;
-  text-align: center;
-  color: white;
+    color: white;
 }
 
 #banner-text {
   position: absolute;
-  top: 10%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
+}
+
+.bg-image {
+  background-image: url(./images/banners/banner_1200x774.jpg);
+  min-height: 774px;
+  background-size: cover;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
 }
