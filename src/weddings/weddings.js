@@ -4,7 +4,7 @@ import Header from "./header";
 import NavBar from "../components/navbar";
 
 import ReactGA from "react-ga4";
-import { Container, Col, Row, Image, Card } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { WeddingMenu } from './wedding_menu';
 
 
@@ -27,7 +27,6 @@ const Weddings = () => {
                     <WeddingMenu/>
                 </Row>
                 <Row>
-               
                 </Row>
             </Container>
     );
