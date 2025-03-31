@@ -11,30 +11,15 @@ import NightVines from "../images/night_vines_800.jpg";
 
 export function Menu(props) {
     return (
-    <div>
-                        <Row>
-                            <Col>
-                                <ClickableOverlayCard card_image={PavilionGlow} card_title="WEDDINGS" url="/weddings"/>
-                            </Col>
-                            <Col>
-                                <ClickableOverlayCard card_image={NightVines} card_title="OVERNIGHTING" url="/overnighting"/> 
-                            </Col>
-                            <Col>
-                                <ClickableOverlayCard card_image={DiningOut} card_title="EVENTS" url="/events"/>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
-                                <ClickableOverlayCard card_image={GreenGrapes} card_title="WINERY" url="/winery"/>
-                            </Col>
-                            <Col>
-                                <ClickableOverlayCard card_image={SunsetRidge} card_title="TRAILS" url="/trails"/>
-                            </Col>
-                            <Col>
-                                <ClickableOverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"url="/photos"/>
-                            </Col>
-                        </Row>
-                    </div>
+    <div class="row">
+        <div class="col-sm"><ClickableOverlayCard card_image={PavilionGlow} card_title="WEDDINGS" url="/weddings"/></div>
+        <div class="col-sm"><ClickableOverlayCard card_image={NightVines} card_title="OVERNIGHTING" url="/overnighting"/> </div>
+        <div class="col-sm"><ClickableOverlayCard card_image={DiningOut} card_title="EVENTS" url="/events"/></div>
+        <div class="w-100"></div>
+        <div class="col-sm"><ClickableOverlayCard card_image={GreenGrapes} card_title="WINERY" url="/winery"/></div>
+        <div class="col-sm"><ClickableOverlayCard card_image={SunsetRidge} card_title="TRAILS" url="/trails"/></div>
+        <div class="col-sm"><ClickableOverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"url="/photos"/></div>
+    </div>
     );
 }
 
