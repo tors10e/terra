@@ -21,13 +21,13 @@ export function WeddingMenu(props) {
     return (
     <div>
         <Container>
-            <Row>
+            <Row className="grid-item-margin">
                 <Col id="centered-grid-content">
-                   <ListGroup>
+                   <ListGroup variant="flush">
                     <ListGroupItem>2024 Best of GA Regional winner Wedding Venues for the GBJ</ListGroupItem>
                     <ListGroupItem>2023 Best of Georgia Regional winner in the Wedding Venues for the GBJ</ListGroupItem>
-                    <ListGroupItem>Chosen Weddiing Rule's Atlanta's Top 10 Winery Wedding Venues in 2022!</ListGroupItem>
-                    <ListGroupItem>Chosen Weddiing Rule's Atlanta's Top 10 Winery Wedding Venues in 2021!</ListGroupItem>
+                    <ListGroupItem>Chosen Wedding Rule's Atlanta's Top 10 Winery Wedding Venues in 2022</ListGroupItem>
+                    <ListGroupItem>Chosen Wedding Rule's Atlanta's Top 10 Winery Wedding Venues in 2021</ListGroupItem>
                    </ListGroup>
                 </Col>
                 <Col>   <a id="myInput" target="_blank" rel="noopener"

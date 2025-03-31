@@ -63,7 +63,7 @@ body {
 }
 
 .grid-item-margin {
-  margin: auto;
+  margin-bottom: 16px;
 }
 
 .cover-container {
