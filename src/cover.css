@@ -58,6 +58,14 @@ body {
   align-items: center;
 }
 
+#centered-grid-content {
+  margin: auto;
+}
+
+.grid-item-margin {
+  margin: auto;
+}
+
 .cover-container {
   max-width: 100%;
 }
@@ -131,11 +139,6 @@ body {
 /*
  * Cover
  */
-
- .carousel-item {
-   .img-fluid.max-width: 100%;
-   height: auto;
- }
 
 .checkout-link {
     display: flex;
