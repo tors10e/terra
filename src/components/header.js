@@ -1,14 +1,20 @@
 import React from 'react';
-import Navbar from "../components/navbar";
-import Banner from "../components/banner";
+import {Col, Row, Image} from 'react-bootstrap';
+
+import logo from "../images/logo_bw_text.png";
 
 function Header(props) {
     return (
-        <header className="mb-auto">
-            <Navbar/>
-            <Banner/>
-        </header>
-    )
+        <Row>
+            <Col class="col-4"></Col>
+            <Col class="col-2" >
+                <div class="pb-2 pt-4">
+                    <Image src={logo} width="200px"/>
+                </div>
+            </Col>
+            <Col class="col-4"></Col>
+        </Row>
+    );
 }
 
 export default Header;
