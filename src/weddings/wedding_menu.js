@@ -7,15 +7,16 @@ import SunKiss from "../images/event_photos/SunKiss.jpg";
 import DJLights from "../images/event_photos/DjLights.jpg";
 import CeremonyRock from "../images/event_photos/ceremony_rock.jpg";
 import BrianEmilyVows from "../images/event_photos/brian_emily_vows_2000px.jpg";
-import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png';
+import Badge2021 from '../images/wedding-rule-badge-2021_213x213.png';
 import Badge2022 from '../images/wedding-rule-badge-2022 - high resolution.png';
 
 export function WeddingMenu(props) {
     return (
     <div>
         <Container>
-            <Row className="grid-item-margin">
-                <Col id="centered-grid-content">
+            <Row className="grid-item-margin" xs={1} md={3}>
+              
+            <Col id="centered-grid-content">
                    <ListGroup variant="flush">
                     <ListGroupItem>2024 Best of GA Regional winner Wedding Venues for the GBJ</ListGroupItem>
                     <ListGroupItem>2023 Best of Georgia Regional winner in the Wedding Venues for the GBJ</ListGroupItem>
@@ -25,11 +26,14 @@ export function WeddingMenu(props) {
                 </Col>
                 <Col>   <a id="myInput" target="_blank" rel="noopener"
                     href="https://www.weddingrule.com/winery-wedding-venues/georgia/atlanta">
-                    <img width="250px" height="250px" src={Badge2021}></img>
+                    <Image src={Badge2021}></Image>
                 </a>
-                <a id="myInput" target="_blank" rel="noopener"
+                </Col>
+                <Col><a id="myInput" target="_blank" rel="noopener"
                     href="https://www.weddingrule.com/winery-wedding-venues/georgia/atlanta">
-                    <img width="250px" height="250px" src={Badge2022}></img></a> </Col>
+                    <Image src={Badge2022}></Image></a> 
+                </Col>
+
             </Row>
             <Row>
                 <Col id="centered-grid-content">
