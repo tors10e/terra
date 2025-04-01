@@ -1,12 +1,11 @@
 import React from 'react';
 import Wedding_Banner from "./wedding_banner";
-import Header from "./header";
+import Header from '../components/header';
 import NavBar from "../components/navbar";
 
 import ReactGA from "react-ga4";
 import { Container, Row } from 'react-bootstrap';
 import { WeddingMenu } from './wedding_menu';
-
 
 
 

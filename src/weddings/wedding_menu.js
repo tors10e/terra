@@ -8,6 +8,7 @@ import DJLights from "../images/event_photos/DjLights.jpg";
 import CeremonyRock from "../images/event_photos/ceremony_rock.jpg";
 import BrianEmilyVows from "../images/event_photos/brian_emily_vows_2000px.jpg";
 import Badge2021 from '../images/wedding-rule-badge-2021 - high resolution.png';
+import Badge2022 from '../images/wedding-rule-badge-2022 - high resolution.png';
 
 export function WeddingMenu(props) {
     return (
@@ -28,7 +29,7 @@ export function WeddingMenu(props) {
                 </a>
                 <a id="myInput" target="_blank" rel="noopener"
                     href="https://www.weddingrule.com/winery-wedding-venues/georgia/atlanta">
-                    <img width="250px" height="250px" src="https://www.weddingrule.com/wp-content/uploads/2022/05/wedding-rule-badge-2022-1.png"></img></a> </Col>
+                    <img width="250px" height="250px" src={Badge2022}></img></a> </Col>
             </Row>
             <Row>
                 <Col id="centered-grid-content">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from "./banner";
 import Footer from "./footer";
-import Header from "./header";
+import Header from "../components/header";
 import NavBar from "../components/navbar";
 
 import ReactGA from "react-ga4";
