@@ -39,18 +39,18 @@ export function WeddingMenu(props) {
                 <Col id="centered-grid-content">
                     Our tranquil 120 acre mountain farm is completely surrounded by thousands of acres of the Chattahoochee National Forest and offers year-round mountain views of the highest peaks of Nantahalla National Forest.
                 </Col>
-                <Col><Image src={CeremonyRock} rounded></Image></Col>
+                <Col><Image className='vertical-align' src={CeremonyRock} rounded></Image></Col>
             </Row>
             <Row>
-                <Col> <Image src={SunKiss} rounded></Image> </Col>
+                <Col> <Image  className='vertical-align' src={SunKiss} rounded></Image> </Col>
                 <Col id="centered-grid-content">We are a welcoming venue that accommodates ceremonies for traditional and non-traditional weddings with a wide range of budgets that appeal to nearly any couple.</Col>
             </Row>
             <Row>
                 <Col id="centered-grid-content">We are here to help make your vision a reality! OUr 2,000 ft2 pavilion is a blank canvas that awaits your imagination. We have an extensive list of vendorsthat offer and array of services that you can choose from or bring you own!</Col>
-                <Col><Image src={DJLights} rounded></Image> </Col>
+                <Col><Image  className='vertical-align' src={DJLights} rounded></Image> </Col>
             </Row>
             <Row>
-                <Col> <Image src={BrianEmilyVows} rounded></Image> </Col>
+                <Col> <Image  className='vertical-align' src={BrianEmilyVows} rounded></Image> </Col>
                 <Col id="centered-grid-content">With a limited amount of weddings per year, we eliminate the production line feeling, ensuring an exclusive event and treasured memory for you and your spouse.</Col>   
             </Row>
         </Container>
