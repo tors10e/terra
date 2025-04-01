@@ -14,11 +14,11 @@ export function Footer(props) {
             </Col>
             <Col>
                 <h5 class="footer-heading">HOURS:</h5>
-                <p class="footer-subheading">MARCH - NOVEMBER</p>
+                <p class="footer-subheading">APRIL - NOVEMBER</p>
                 <p>Friday, Saturday, Sunday, Monday</p>
                 <p>12:30-9:00PM</p>
 
-                <p class="footer-subheading">DECEMBER-FEBRUARY</p>
+                <p class="footer-subheading">DECEMBER-MARCH</p>
                 <p>Saturday, Sunday</p>
                 <p>12:30-7:00PM</p>
             </Col>
