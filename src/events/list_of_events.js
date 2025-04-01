@@ -5,8 +5,6 @@ import mothers_day from '../images/public_events/Mothersday2024-square.jpg';
 import guided_hike from '../images/public_events/20240504_guided_hike.jpg';
 import brian_horton from '../images/public_events/BrianHorton.jpg';
 import roadside_geology from '../images/public_events/RoadsideGeologyOfGeorgia.jpg';
-import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
-//import george_james from '../images/public_events/george_james.jpg';
 
 
 // Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
@@ -70,107 +68,11 @@ import forage_mushrooms from '../images/public_events/forage_mushrooms.jpg';
       Signing up in advance is required Hosted with Clayton Yoga Studio"
       ], clayton_yoga
     ],
-    ["Jul 13, 2024",
-      ["Live music with Brian Horton from 3 to 7 PM!"], 
-      brian_horton
+    ["Jul 5, 2024",
+      ["Extended hours to 10pm to allow people to see the Lake Rabun fireworks from above! We are also host the Fork Your Pork food truck!"
+      ]
     ],
-    ["Jul 20, 2024",
-      ["Habersham county animal shelter adoption day"]
-    ],
-    ["Jul 27, 2024",
-      [<ul>
-        <li>10AM - Mushroom workshop with Wildkraft Kitchen  <a href='https://square.link/u/ox2TPGNT'> Click here to buy tickets!</a></li>
-        <li>1130AM -  Yoga in the vines with Clayton Yoga buy tickets at https://www.claytonyogastudio.com/events or at the door.</li> 
-        <li>3PM - Live music with George James</li>
-      </ul>], 
-      clayton_yoga
-    ],
-    ["Aug 3, 2024",
-      ["11:00 Guided hike - Free no sign-up needed."]
-    ],
-    ["Aug 10, 2024",
-      [<ul>
-        <li>1PM - Come up for the Georgia Geology seminar with Bill Witherspoon, co-author of Roadside Geology of Georgia! Presentation is at 1-2PM followed by a walk from 2-3PM</li>
-        <li>3PM - Live music with Brian Horton!</li>
-        </ul>], 
-      roadside_geology
-    ],
-    ["Aug 17, 2024",
-      ["10AM - Mushroom workshop with ", <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a>, ". Click ", <a href='https://square.link/u/JrmkwjhD'>here</a>, " to buy tickets!" ]
-    ],
-    ["Aug 24, 2024",
-      ["3PM music with George James!"], // george_james
-    ],
-    ["Aug 30, 2024",
-      ["3-9PM Pork your Fork food truck"], 
-    ],
-    ["Aug 31, 2024",
-      [<ul>
-        <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://cart.mindbodyonline.com/sites/120401/cart"> Sign Up Here</a></li>
-        <li>1230-9pm Pork your Fork bbq food truck</li>
-      </ul>
-      ],
-      clayton_yoga
-    ],
-    ["Sep 1, 2024",
-      [<ul>
-        <li>1230PM- Until the food runs out! Pork your Fork BBQ food truck</li>
-        <li>3PM - Live music with Brian Horton!</li>
-      </ul>
-    ],
-    brian_horton
-  ],
-  ["Sep 7, 2024",
-    ["11AM - 1230PM Guided trail hike - Free no sign-up needed."]
-  ],
-  ["Sep 14, 2024",
-    [<ul>
-        <li>10AM -1230PM Fall Foraging Walk with, <a href='https://www.wildcraftkitchenga.com/events'>Wildcraft Kitchen</a> buy tickets <a href='https://checkout.square.site/buy/RIQLI7UYMQUXGEXSRBCPQ2FS'>here</a></li>
-        <li>3-7PM Live music with Larry Walker</li>
-      </ul>
-    ],
-    forage_mushrooms
-  ],
-  ["Sep 21, 2024",
-    ["3-7PM Live music with Blake Gardner and Addriana Hunter"]
-  ],
-  ["Sep 28, 2024",
-    [<ul>
-      <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://cart.mindbodyonline.com/sites/120401/cart"> Sign Up Here</a></li>
-      <li>3-7PM Live music with George James</li>
-    </ul>
-    ],
-    clayton_yoga
-  ],
-  ["Oct 5, 2024",
-    ["11:00 Guided nature walk - Free no sign-up needed."]
-  ],
-  ["Oct 6, 2024",
-    ["9:00 Grape picking, come join us to help with the harvest!"]
-  ],
-  ["Oct 12, 2024",
-    [<ul>
-      <li>3-7PM - Live music with Brian Horton!</li>
-    </ul>
-  ],
-  brian_horton
-],
-["Oct 19, 2024",
-  [<ul>
-       <li>3-7PM Live music with Larry Walker</li>
-    </ul>
-  ]
-],
-["Oct 26, 2024",
-  [<ul>
-    <li>11AM-1230PM Vino & Vinyasa yoga with Clayton Yoga <a target="_blank" href="https://www.mindbodyonline.com/explore/locations/clayton-yoga-barre"> Sign Up Here</a></li>
-    <li>3-7PM Live music with George James</li>
-  </ul>
-  ],
-  clayton_yoga
-],
-["Dec 21, 2024",
-  ["4PM+  Winter Solsctice party with fires and gluhwein at the pavilion!" 
-  ],
-],
-];
+  ];
+
+
+

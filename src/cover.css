@@ -57,6 +57,14 @@ body {
   align-items: center;
 }
 
+#centered-grid-content {
+  margin: auto;
+}
+
+.grid-item-margin {
+  margin-bottom: 16px;
+}
+
 .cover-container {
   max-width: 100%;
 }
@@ -130,11 +138,6 @@ body {
 /*
  * Cover
  */
-
- .carousel-item {
-   .img-fluid.max-width: 100%;
-   height: auto;
- }
 
 .checkout-link {
     display: flex;
