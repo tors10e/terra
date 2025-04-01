@@ -46,7 +46,7 @@ export function WeddingMenu(props) {
                 <Col id="centered-grid-content">We are a welcoming venue that accommodates ceremonies for traditional and non-traditional weddings with a wide range of budgets that appeal to nearly any couple.</Col>
             </Row>
             <Row>
-                <Col id="centered-grid-content">We are here to help make your vision a reality! OUr 2,000 ft2 pavilion is a blank canvas that awaits your imagination. We have an extensive list of vendorsthat offer and array of services that you can choose from or bring you own!</Col>
+                <Col id="centered-grid-content">We are here to help make your vision a reality! Our 2,000 ft2 pavilion is a blank canvas that awaits your imagination. We have an extensive list of vendorsthat offer and array of services that you can choose from or bring you own!</Col>
                 <Col><Image  className='vertical-align' src={DJLights} rounded></Image> </Col>
             </Row>
             <Row>
