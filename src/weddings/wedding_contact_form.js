@@ -1,49 +1,104 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import React, { useState } from 'react';
+import { Button, Form, Container, Row, Col } from 'react-bootstrap';
 
-function ContactForm() {
+const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const [status, setStatus] = useState('');
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('Sending...');
+
+    // Here, you would integrate the email sending logic.
+    try {
+      // Simulate an email send with a timeout
+      await sendEmail(formData);
+      setStatus('Email Sent!');
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      setStatus('Error sending email. Please try again later.');
+    }
+  };
+
+  // Mock function to simulate email sending
+  const sendEmail = (data) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (data.name && data.email && data.message) {
+          resolve();
+        } else {
+          reject(new Error('Missing data'));
+        }
+      }, 2000);
+    });
+  };
+
   return (
-    <Form>
-        <Form.Group className="mb-3" controlId="formFirstName">
-        <Form.Label>First Name</Form.Label>
-        <Form.Control type="name_first" placeholder="First Name *" />
-            <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-            </Form.Text>
-      </Form.Group>
+    <Container className="mt-5">
+      <Row>
+        <Col md={{ span: 6, offset: 3 }}>
+          <h2>Contact Us</h2>
+          <Form onSubmit={handleSubmit}>
+            <Form.Group controlId="formName">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter your name"
+                name="name"
+                value={formData.name}
+                onChange={handleInputChange}
+                required
+              />
+            </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formLastName">
-        <Form.Label>Last Name</Form.Label>
-        <Form.Control type="name_last" placeholder="Last Name *" />
-            <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-            </Form.Text>
-      </Form.Group>
+            <Form.Group controlId="formEmail">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Enter your email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                required
+              />
+            </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formPhone">
-        <Form.Label>Phone Number</Form.Label>
-        <Form.Control type="phone" placeholder="Phone Number" />
-            <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-            </Form.Text>
-      </Form.Group>
+            <Form.Group controlId="formMessage">
+              <Form.Label>Message</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={4}
+                placeholder="Your message"
+                name="message"
+                value={formData.message}
+                onChange={handleInputChange}
+                required
+              />
+            </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-            <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-            </Form.Text>
-      </Form.Group>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
 
-       <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+          {status && <p className="mt-3">{status}</p>}
+        </Col>
+      </Row>
+    </Container>
   );
-}
-
-
-
+};
 
 export default ContactForm;
