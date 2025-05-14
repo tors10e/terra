@@ -18,7 +18,7 @@ export function Menu(props) {
         <div class="w-100"></div>
         <div class="col-sm"><ClickableOverlayCard card_image={GreenGrapes} card_title="WINERY" url="/winery"/></div>
         <div class="col-sm"><ClickableOverlayCard card_image={SunsetRidge} card_title="TRAILS" url="/trails"/></div>
-        <div class="col-sm"><ClickableOverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"url="/photos"/></div>
+        <div class="col-sm"><ClickableOverlayCard card_image={MountainFog} card_title="PHOTO GALLERY"url="/gallery"/></div>
     </div>
     );
 }
