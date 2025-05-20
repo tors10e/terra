@@ -79,3 +79,6 @@ alter role torsten CREATEDB;
 # Keeping THings Running
 - See outdate dependencies:
 - npm outdated or npm update [package]
+
+Windows needs  to allow scripts to run or it will yell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
