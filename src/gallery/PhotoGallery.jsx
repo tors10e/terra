@@ -4,52 +4,7 @@ import { ColumnsPhotoAlbum } from "react-photo-album";
 import "./index.css";
 
 const photos = [
-  {
-    "src": "/images/079A0579.jpg",
-    "width": 2400,
-    "height": 1600
-  },
  
-  {
-    "src": "/images/079A0593.jpg",
-    "width": 2400,
-    "height": 1600
-  },
-  {
-    "src": "/images/079A0615.jpg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0625.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0625.jpg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0718.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0739.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A1015.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A1185.jpg",
-    "width": 800,
-    "height": 600
-  },
   {
     "src": "/images/079A1642.jpeg",
     "width": 800,
