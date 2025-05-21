@@ -1,6 +1,5 @@
 import './App.css';
 import React, {useEffect } from 'react';
-import TerraNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route}
   from 'react-router-dom';
 import Home from './home/home';
@@ -10,6 +9,7 @@ import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
 import Trails from './trails/trails';
 import Container from 'react-bootstrap/Container';
+import Gallery from './gallery/PhotoGallery';
 
 import ReactGA from "react-ga4";
 ReactGA.initialize("G-GRRHPDLTTM");
@@ -25,6 +25,7 @@ function App() {
             <Route path='/overnighting' element={<Overnighting />} />
             <Route path='/store' element={<Store />} />
             <Route path='/trails' element={<Trails />} />
+            <Route path='/gallery' element={<Gallery />} />
           </Routes>
          </Container>
       </Router>
