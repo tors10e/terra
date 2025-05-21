@@ -6,12 +6,12 @@ import "./index.css";
 const photos = [
  
   {
-    "src": "/images/079A1642.jpeg",
+    "src": "/images/079A1642.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/079A1646.jpeg",
+    "src": "/images/079A1646.jpg",
     "width": 800,
     "height": 600
   },
@@ -25,13 +25,9 @@ const photos = [
     "width": 800,
     "height": 600
   },
+
   {
-    "src": "/images/079A2008.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A4801.jpeg",
+    "src": "/images/079A4801.jpg",
     "width": 800,
     "height": 600
   },
@@ -41,17 +37,17 @@ const photos = [
     "height": 600
   },
   {
-    "src": "/images/079A9106.jpeg",
+    "src": "/images/079A9106.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/079A9134.jpeg",
+    "src": "/images/079A9134.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/079A9571.jpeg",
+    "src": "/images/079A9571.jpg",
     "width": 800,
     "height": 600
   },
@@ -66,42 +62,38 @@ const photos = [
     "height": 600
   },
   {
-    "src": "/images/079A9604.jpeg",
+    "src": "/images/079A9604.jpg",
+    "width": 800,
+    "height": 600
+  },
+
+  {
+    "src": "/images/079A9888.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/079A9614.jpg",
+    "src": "/images/IMG_0006.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/079A9888.jpeg",
+    "src": "/images/IMG_0072.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/IMG_0006.jpeg",
+    "src": "/images/IMG_0665.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/IMG_0072.jpeg",
+    "src": "/images/IMG_4061.jpg",
     "width": 800,
     "height": 600
   },
   {
-    "src": "/images/IMG_0665.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/IMG_4061.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/IMG_9925.jpeg",
+    "src": "/images/IMG_9925.jpg",
     "width": 800,
     "height": 600
   }
