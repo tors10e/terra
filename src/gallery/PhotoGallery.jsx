@@ -1,47 +1,19 @@
 import React from "react";
 import PhotoAlbum from "react-photo-album";
-import { RowsPhotoAlbum } from "react-photo-album";
+import { ColumnsPhotoAlbum } from "react-photo-album";
+import "./index.css";
 
 const photos = [
   {
-    "src": "/images/079A0579.jpeg",
-    "width": 800,
-    "height": 600
+    "src": "/images/079A0579.jpg",
+    "width": 2400,
+    "height": 1600
   },
+ 
   {
-    "src": "/images/079A0581.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0583.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0584.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0593.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0599.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0600.jpeg",
-    "width": 800,
-    "height": 600
-  },
-  {
-    "src": "/images/079A0610.jpg",
-    "width": 800,
-    "height": 600
+    "src": "/images/079A0593.jpg",
+    "width": 2400,
+    "height": 1600
   },
   {
     "src": "/images/079A0615.jpg",
@@ -183,8 +155,8 @@ const photos = [
 function PhotoGallery() {
   return (
     <div>
-      <h1>My Photo Album</h1>
-      <RowsPhotoAlbum photos={photos} />
+      <h1>Scenes from Terra</h1>
+      <ColumnsPhotoAlbum photos={photos} />
     </div>
   );
 }

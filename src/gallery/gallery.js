@@ -11,7 +11,7 @@ const photos = [
 function PhotoGallery() {
     return (
       <div>
-        <h1>My Photo Album</h1>
+        <h1>Scenes from Terra</h1>
         <RowsPhotoAlbum photos={photos} />
       </div>
     );
