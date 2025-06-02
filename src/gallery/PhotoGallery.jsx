@@ -1,19 +1,15 @@
 import React from "react";
-import PhotoAlbum from "react-photo-album";
+import PhotoAlbum, { RowsPhotoAlbum } from "react-photo-album";
 import { ColumnsPhotoAlbum } from "react-photo-album";
 import "./index.css";
 
 const photos = [
  
   {
-    "src": "/images/079A1642.jpg",
-    "width": 800,
-    "height": 600
+    "src": "/images/079A1642.jpg"
   },
   {
-    "src": "/images/079A1646.jpg",
-    "width": 800,
-    "height": 600
+    "src": "/images/079A1646.jpg"
   },
   {
     "src": "/images/079A1976.jpg",
