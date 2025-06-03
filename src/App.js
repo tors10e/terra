@@ -9,7 +9,7 @@ import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
 import Trails from './trails/trails';
 import Container from 'react-bootstrap/Container';
-import { PhotoGallery } from './gallery/PhotoGalleryTest';
+import { PhotoGallery } from './gallery/PhotoGallery';
 
 
 
