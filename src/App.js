@@ -9,10 +9,9 @@ import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
 import Trails from './trails/trails';
 import Container from 'react-bootstrap/Container';
-import Gallery from './gallery/PhotoGallery';
+import { PhotoGallery } from './gallery/PhotoGallery';
 
-import ReactGA from "react-ga4";
-ReactGA.initialize("G-GRRHPDLTTM");
+
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
             <Route path='/overnighting' element={<Overnighting />} />
             <Route path='/store' element={<Store />} />
             <Route path='/trails' element={<Trails />} />
-            <Route path='/gallery' element={<Gallery />} />
+            <Route path='/gallery' element={<PhotoGallery/>} />
           </Routes>
          </Container>
       </Router>
