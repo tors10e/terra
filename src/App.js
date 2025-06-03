@@ -9,7 +9,7 @@ import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
 import Trails from './trails/trails';
 import Container from 'react-bootstrap/Container';
-import { RowsPhotoAlbum, ColumnsPhotoAlbum, MasonryPhotoAlbum } from './gallery/PhotoGalleryTest';
+import { PhotoGallery } from './gallery/PhotoGalleryTest';
 
 
 
@@ -24,7 +24,7 @@ function App() {
             <Route path='/overnighting' element={<Overnighting />} />
             <Route path='/store' element={<Store />} />
             <Route path='/trails' element={<Trails />} />
-            <Route path='/gallery' element={<ColumnsPhotoAlbum/>} />
+            <Route path='/gallery' element={<PhotoGallery/>} />
           </Routes>
          </Container>
       </Router>
