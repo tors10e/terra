@@ -2,6 +2,11 @@ import './App.css';
 import React, {useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route}
   from 'react-router-dom';
+
+import ReactGA from 'react-ga4';
+const TRACKING_ID = 'G-GRRHPDLTTM'; 
+ReactGA.initialize(TRACKING_ID);
+
 import Home from './home/home';
 import Events from './events/events';
 import Weddings from './weddings/weddings';
