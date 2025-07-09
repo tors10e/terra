@@ -13,6 +13,7 @@ import Weddings from './weddings/weddings';
 import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
 import Trails from './trails/trails';
+import Winery from './winery/winery';
 import Container from 'react-bootstrap/Container';
 import { PhotoGallery } from './gallery/PhotoGallery';
 
@@ -30,6 +31,7 @@ function App() {
             <Route path='/store' element={<Store />} />
             <Route path='/trails' element={<Trails />} />
             <Route path='/gallery' element={<PhotoGallery/>} />
+            <Route path='/winery' element={<Winery />} />
           </Routes>
          </Container>
       </Router>
