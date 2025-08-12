@@ -3,6 +3,7 @@ import easter_hunt from '../images/event_posters/2025_EasterHunt.jpg';
 import mothers_day from '../images/event_posters/Mothersday2025-poster-2.jpg';
 import yoga from '../images/event_posters/yoga_poster.jpg';
 import horton from '../images/event_posters/BrianHorton.jpg';
+import forestry_flier from "../images/event_posters/forestry_presentation.jpg";
 import { ListGroup } from 'react-bootstrap';
 
 // Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
@@ -55,43 +56,43 @@ export const events = [
       <ListGroup.Item>3-6 PM Vineyard and Brew Candle Making Workshop <a target="_blank" href='https://square.link/u/KxKrceJD'> Click here to buy tickets</a></ListGroup.Item>
     </ListGroup>], yoga
   ],
-  ["August 2, 2025",
+  ["August 16, 2025",
     [<ListGroup>
-      <ListGroup.Item>11 AM Woods hike and forestry presentation with Mike Oliver</ListGroup.Item>
+      <ListGroup.Item>10 AM Woods hike and forestry presentation with Mike Oliver</ListGroup.Item>
     </ListGroup>
-    ],
+    ],forestry_flier
   ],
-    ["August 9, 2025",
-      [<ListGroup>
-        <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
-      </ListGroup>
-      ], horton
-    ],
-        ["August 30, 2025",
-      [<ListGroup>
+  ["August 9, 2025",
+    [<ListGroup>
+      <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
+    </ListGroup>
+    ], horton
+  ],
+  ["August 30, 2025",
+    [<ListGroup>
       <ListGroup.Item>11 AM - 1230 PM Yoga with Spencer Turk <a target="_blank" href='https://square.link/u/iizkOFtT'>Click here to buy tickets</a></ListGroup.Item>
-      </ListGroup>
-      ], yoga
-    ],
-        ["August 31, 2025",
-      [<ListGroup>
-        <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
-      </ListGroup>
-      ], horton
-    ],
-      ["September 6, 2025",
+    </ListGroup>
+    ], yoga
+  ],
+  ["August 31, 2025",
+    [<ListGroup>
+      <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
+    </ListGroup>
+    ], horton
+  ],
+  ["September 6, 2025",
     [<ListGroup>
       <ListGroup.Item>11 AM Guided woods hike</ListGroup.Item>
     </ListGroup>
     ],
   ],
-    ["September 27, 2025",
+  ["September 27, 2025",
     [<ListGroup>
       <ListGroup.Item>11 AM Yoga with Spencer Turk <a target="_blank" href='https://square.link/u/iizkOFtT'>Click here to buy tickets</a></ListGroup.Item>
       <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
     </ListGroup>], yoga
   ],
-  ];
+];
 
 
 
