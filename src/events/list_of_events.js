@@ -88,7 +88,7 @@ export const events = [
   ],
   ["September 27, 2025",
     [<ListGroup>
-      <ListGroup.Item>11 AM Yoga with Spencer Turk <a target="_blank" href='https://square.link/u/iizkOFtT'>Click here to buy tickets</a></ListGroup.Item>
+      <ListGroup.Item>11 AM Yoga with Spencer Turk <a target="_blank" href='https://square.link/u/vyt6UYJf'>Click here to buy tickets</a></ListGroup.Item>
       <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
     </ListGroup>], yoga
   ],
