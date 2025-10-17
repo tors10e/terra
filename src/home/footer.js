@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row, Image } from 'react-bootstrap';
+import { Button, Container, Col, Row, Image } from 'react-bootstrap';
 
 export function Footer(props) {
     return (
@@ -26,6 +26,11 @@ export function Footer(props) {
                 <h5 class="footer-heading">CONTACT:</h5>
                 <p>info@terraincognitavineyard.com</p>
                 <p>(828) 482-7382</p>
+
+                <Button 
+                    href="/wedding-pricing" variant="dark" size='lg'> 
+                    For Wedding Information, Inquire Here
+                </Button>
             </Col>
         </Row>
     );
