@@ -10,9 +10,11 @@ ReactGA.initialize(TRACKING_ID);
 import Home from './home/home';
 import Events from './events/events';
 import Weddings from './weddings/weddings';
+import WeddingPricing from './weddings/wedding_pricing';
 import Overnighting from './overnighting/overnighting';
 import Store from './store/store';
 import Trails from './trails/trails';
+import Winery from './winery/winery';
 import Container from 'react-bootstrap/Container';
 import { PhotoGallery } from './gallery/PhotoGallery';
 
@@ -26,10 +28,12 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route path='/events' element={<Events />} />
             <Route path='/weddings' element={<Weddings />} />
+            <Route path='/wedding-pricing' element={<WeddingPricing />} />
             <Route path='/overnighting' element={<Overnighting />} />
             <Route path='/store' element={<Store />} />
             <Route path='/trails' element={<Trails />} />
             <Route path='/gallery' element={<PhotoGallery/>} />
+            <Route path='/winery' element={<Winery />} />
           </Routes>
          </Container>
       </Router>
