@@ -25,8 +25,8 @@ const Weddings = () => {
                 </Row>
                 <Row></Row>
                 <Row>
-                    <Col> <Image src={WeddingPricingPamphlet}/> </Col>
-                    <Col><WeddingsIframeComponent/></Col>
+                    <Col xs={{ span: 12, order: 1 }} sm={{span: 6}}> <Image src={WeddingPricingPamphlet}/> </Col>
+                    <Col xs={{ span: 12, order: 2 }} sm={{span: 6}}><WeddingsIframeComponent/></Col>
                 </Row>
             </Container>
     );
