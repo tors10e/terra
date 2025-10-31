@@ -92,7 +92,40 @@ export const events = [
       <ListGroup.Item>3-7 PM Live music with Brian Horton</ListGroup.Item>
     </ListGroup>], yoga
   ],
+    ["November 1, 2025",
+    [<ListGroup>
+      <ListGroup.Item>11 AM Guided hike</ListGroup.Item>
+      <ListGroup.Item>3 PM Candle making class at the Roundhouse Tasting Room</ListGroup.Item>
+      <ListGroup.Item>3-7 PM Live music with George James</ListGroup.Item>
+    </ListGroup>]
+  ],
+    ["November 7, 2025",
+    [<ListGroup>
+      <ListGroup.Item><a href="https://artstour.org">Northeast Georgia Arts Tour</a></ListGroup.Item>
+    </ListGroup>]
+  ],
+      ["November 8, 2025",
+    [<ListGroup>
+      <ListGroup.Item><a href="https://artstour.org">Northeast Georgia Arts Tour</a></ListGroup.Item>
+    </ListGroup>]
+  ],
+      ["November 9, 2025",
+    [<ListGroup>
+      <ListGroup.Item><a href="https://artstour.org">Northeast Georgia Arts Tour</a></ListGroup.Item>
+    </ListGroup>]
+  ],
+        ["November 29, 2025",
+    [<ListGroup>
+    <ListGroup.Item>11 AM Yoga with Spencer Turk <a target="_blank" href='https://square.link/u/cIOgJ1v4'>Click here to buy tickets</a></ListGroup.Item>
+    </ListGroup>]
+  ],
+  ["December 6, 2025",
+    [<ListGroup>
+      <ListGroup.Item>11 AM Guided hike</ListGroup.Item>
+    </ListGroup>]
+  ],
 ];
+
 
 
 
