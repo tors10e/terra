@@ -4,6 +4,7 @@ import mothers_day from '../images/event_posters/Mothersday2025-poster-2.jpg';
 import yoga from '../images/event_posters/yoga_poster.jpg';
 import horton from '../images/event_posters/BrianHorton.jpg';
 import forestry_flier from "../images/event_posters/forestry_presentation.jpg";
+import solstice_party from '../images/event_posters/2025_solstice_party.png';
 import { ListGroup } from 'react-bootstrap';
 
 // Example of an event with photo  ["March 3, 2023", "First day of the season we are back to being open!", pavilion_photo]
@@ -123,6 +124,14 @@ export const events = [
     [<ListGroup>
       <ListGroup.Item>11 AM Guided hike</ListGroup.Item>
     </ListGroup>]
+  ],
+  ,
+  ["December 20, 2025",
+    [<ListGroup>
+      <ListGroup.Item>Join us for our Annual Solstice Party. This is a chance to hang out by the fire and watch the Yule Log burn while drinking Gluhwein and having some
+        light food and snacks. Children are welcome to join in the fun! 5-8PM
+      </ListGroup.Item>
+    </ListGroup>], solstice_party
   ],
 ];
 
