@@ -27,6 +27,7 @@ function TerraNavbar(props) {
             <Nav.Link href="/overnighting">Overnighting</Nav.Link>
             <Nav.Link href="/trails">Trails</Nav.Link>
             <Nav.Link href="/store">Store</Nav.Link>
+            <Nav.Link href="/database">Database</Nav.Link>
             <Nav.Link href="/#footer">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
