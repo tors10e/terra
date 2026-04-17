@@ -84,6 +84,8 @@ const ProductManagement = () => {
         const method = originalName ? "PUT" : "POST";
         const url = originalName ? `${API_BASE}/${originalName}` : API_BASE;
 
+        console.log("Submitting:", { method, url, formData });
+
         try {
             const response = await fetch(url, {
                 method,
@@ -91,11 +93,16 @@ const ProductManagement = () => {
                 body: JSON.stringify(formData)
             });
             if (response.ok) {
+                alert("Product saved successfully!");
                 fetchProducts();
                 handleClose();
+            } else {
+                const errorData = await response.text();
+                alert("Error saving product: " + response.status + " " + errorData);
             }
         } catch (error) {
             console.error("Error saving product:", error);
+            alert("Network error: " + error.message);
         }
     };
 
